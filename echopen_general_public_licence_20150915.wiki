@@ -1,4 +1,4 @@
-= Echopen GENERAL PUBLIC LICENSE =
+= Echopen GENERAL PUBLIC LICENSE 20150915 =
 
 ==Preamble==
 This license is based upon the GNU General Public License version 3 (available at http://www.gnu.org/licenses/gpl-3.0.en.html). This license is also taking implementing specific stipulations from the TAPR Open Hardware License (available at https://www.tapr.org/ohl.html).
