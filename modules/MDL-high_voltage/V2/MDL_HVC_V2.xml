@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/echopen/Bureau/GitHub/electronic/kicad/Modules/MDL_High_Voltage_Circuit/V2/MDL_HVC_V2.sch</source>
+    <date>jeu. 04 août 2016 11:46:50 CEST</date>
+    <tool>Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MDL_HVC_V2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>Recom</value>
+      <libsource lib="recom" part="Recom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A30696</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>POT</value>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A30924</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="recom" part="Recom">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Recom</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-Vin" type="input"/>
+        <pin num="3" name="-Vin" type="input"/>
+        <pin num="8" name="Vadj" type="input"/>
+        <pin num="9" name="Vref" type="input"/>
+        <pin num="10" name="-Vout" type="input"/>
+        <pin num="12" name="+Vout" type="input"/>
+        <pin num="13" name="+Vout" type="input"/>
+        <pin num="15" name="-Vout" type="input"/>
+        <pin num="16" name="Vref" type="input"/>
+        <pin num="17" name="Vadj" type="input"/>
+        <pin num="22" name="+Vin" type="input"/>
+        <pin num="23" name="+Vin" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="recom">
+      <uri>/home/echopen/Bureau/GitHub/electronic/kicad/Librairy/recom.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(RV1-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="2" name="Net-(RV1-Pad1)">
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="9"/>
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="4" name="Vout">
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="15"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="3"/>
+    </net>
+  </nets>
+</export>

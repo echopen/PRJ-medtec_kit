@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/echopen/Bureau/GitHub/electronic/kicad/Modules/MDL_TGC/V1/MDL_TGC_V1.sch</source>
+    <date>ven. 05 août 2016 13:19:30 CEST</date>
+    <tool>Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MDL_TGC_V1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>AD8331EVALZ</value>
+      <libsource lib="echopen" part="AD8331EVALZ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A4B8C8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="echopen" part="AD8331EVALZ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8331EVALZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INH" type="input"/>
+        <pin num="2" name="+5V" type="input"/>
+        <pin num="3" name="GAIN" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="VOUT" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="echopen">
+      <uri>/home/echopen/Bureau/GitHub/electronic/kicad/Librairy/echopen.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="TR_switch_Output">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="3" name="Ramp">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="5" name="OUTPUT">
+      <node ref="U1" pin="5"/>
+    </net>
+  </nets>
+</export>
