@@ -20,6 +20,7 @@ Output : envelope of the echoes (red curve).
 ### Input
 * [`ITF-A_gnd`]()
 * [`ITF-D_amplified_filtered_signal`]()
+
 ### Output
 * [`ITF-A_gnd`]()
 * [`ITF-E_signal_envelope`]()
