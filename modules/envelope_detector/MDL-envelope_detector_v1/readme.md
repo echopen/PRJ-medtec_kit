@@ -1,5 +1,5 @@
 # Module
-![](./images/scheme.png)
+![](viewme.png)
 
 ## Name
 [`MDL-envelope_detector_v1`]()
@@ -8,7 +8,7 @@
 Envelope detector version 1
 
 ## Author
-* [`PRS-koyratee-farad`]()
+* [`CTC-koyratee-farad`]()
 
 ## Description
 The acoustic image is given by the value of acoustic intensity on each point. The acoustic intensity is $I \propto 10 \log \left( \left| p \right|^2\right)$ where p is the acoustic pressure (measured by the transducer). $\left| p \right|$ is the amplitude of the pressure, this amplitude is given by the envelope of the acoustic echoes.
@@ -29,7 +29,7 @@ Output : envelope of the echoes (red curve).
 * [`FCT-signal_processing_envelop_detecting`]()
 
 ## Scheme
-![](./images/scheme.png)
+![](images/scheme.png)
 
 ## Remarks
 Value of R1 and C1 are defined for RedPiataya measurement.
@@ -38,3 +38,11 @@ Value of R1 (and/or C1) must be refined for use of a different probe.
 ## Results
 Input (yellow curve)/Output (bleu curve)
 ![](./images/result.jpg)
+
+## Pros/Cons/Constraint:
+
+**Pros :** simple
+
+**Cons :** the envelope is detected only for the positive value of the signal, so the envelpe decrease between each positive lobs of the echoes.
+
+**Constraint :** NA

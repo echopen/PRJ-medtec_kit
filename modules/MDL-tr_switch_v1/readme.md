@@ -1,0 +1,74 @@
+# Module
+![](viewme.png)
+
+## Name
+[`MDL-tr_switch_v1`]()
+
+## Title
+Protect the following electronic components from the high voltage pulse
+
+## Author
+* [`CTC-dubois_jerome`]()
+
+## Description
+We use MD0100 T/R switch:
+[http://ww1.microchip.com/downloads/en/DeviceDoc/MD0100.pdf](http://ww1.microchip.com/downloads/en/DeviceDoc/MD0100.pdf)
+
+
+## Uses
+### Input
+* [`ITF-`](-100 V pulse)
+* [`ITF-`](echoes)
+
+### Output
+* [`ITF-`](clipping between +/- 2 Volt)
+* [`ITF-`]()
+
+## Functions
+* [`FCT-clipping`]()
+
+## Scheme
+![](images/scheme.png)
+
+## Remarks
+
+BOM:
+
+<table>
+  <tr>
+    <td>Reference</td>
+    <td>Value</td>
+    <td>Library</td>
+    <td>Library Ref</td>
+  </tr>
+  <tr>
+    <td>U1</td>
+    <td>MD0100</td>
+    <td>echopen</td>
+    <td>MD0100</td>
+  </tr>
+  <tr>
+    <td>D1</td>
+    <td>1N4148</td>
+    <td>device</td>
+    <td>D</td>
+  </tr>
+  <tr>
+    <td>D2</td>
+    <td>IN4148</td>
+    <td>device</td>
+    <td>D</td>
+  </tr>
+</table>
+
+
+## Results
+
+## Pros/Cons/Constraint: 
+
+**Pros :** cheap IC
+
+**Cons :** limited to 100V high pulse
+
+**Constraint :** IC
+
