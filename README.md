@@ -4,10 +4,10 @@
 ## Name
 [`PRJ-medtec_kit`]()
 
-## Title @lang=en
+## Title @lang=fr
 Projet de kit d'expérimentation
 
-## Title @lang=fr
+## Title @lang=en
 Experiment kit project
 
 ## Description @lang=en
