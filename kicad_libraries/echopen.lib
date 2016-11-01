@@ -148,8 +148,8 @@ F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
 C 0 0 424 0 1 0 N
-X Moteur+(red) 1 -550 300 252 R 50 50 1 1 I
-X Moteur-(black) 2 -550 200 177 R 50 50 1 1 I
+X Motor+(red) 1 -550 300 252 R 50 50 1 1 I
+X Motor-(black) 2 -550 200 177 R 50 50 1 1 I
 X GND(brown) 3 -550 100 138 R 50 50 1 1 I
 X Supply(green) 4 -550 0 126 R 50 50 1 1 I
 X Encodor1(blue) 5 -550 -100 138 R 50 50 1 1 I
@@ -540,10 +540,10 @@ P 2 0 1 0 -600 500 -100 500 N
 P 2 0 1 0 -600 600 -100 600 N
 P 2 0 1 0 -600 700 -100 700 N
 P 2 0 1 0 -600 800 -100 800 N
-X Black_line ~ -600 600 200 L 50 50 1 1 I
-X Blue_line ~ -600 800 200 L 50 50 1 1 I
-X Green_line ~ -600 500 200 L 50 50 1 1 I
-X Red_line ~ -600 700 200 L 50 50 1 1 I
+X A1(blue) ~ -1000 800 394 R 50 50 1 1 I
+X A2(red) ~ -1000 700 394 R 50 50 1 1 I
+X B1(black) ~ -1000 600 394 R 50 50 1 1 I
+X B2(green) ~ -1000 500 394 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

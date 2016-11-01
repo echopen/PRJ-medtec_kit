@@ -84,15 +84,11 @@ Wire Wire Line
 	4950 2850 5350 2850
 Wire Wire Line
 	5050 3150 5350 3150
-$Comp
-L GND #PWR01
-U 1 1 57A4AFC1
-P 5050 3150
-F 0 "#PWR01" H 5050 2900 50  0001 C CNN
-F 1 "GND" H 5050 3000 50  0000 C CNN
-F 2 "" H 5050 3150 50  0000 C CNN
-F 3 "" H 5050 3150 50  0000 C CNN
-	1    5050 3150
-	1    0    0    -1  
-$EndComp
+Text GLabel 5200 3250 0    60   Input ~ 0
+ITF-A_gnd
+Wire Wire Line
+	5200 3150 5200 3250
+Connection ~ 5200 3150
+Text GLabel 5350 2850 2    60   Input ~ 0
+Clipped_signal
 $EndSCHEMATC

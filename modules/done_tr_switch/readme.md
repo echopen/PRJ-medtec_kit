@@ -17,13 +17,15 @@ We use MD0100 T/R switch:
 
 ## Uses
 ### Input
-* -100V pulse + echoes from transducer
+* [`ITF-A_gnd`]()
+* Pulser output (-100V pulse + echoes from transducer)
 
 ### Output
-* input signal clipping between -2V and +2V
+* [`ITF-A_gnd`]()
+* clipped signal (pulser output clipped between -2V and +2V)
 
 ## Functions
-* [`FCT-clipping`]()
+* [`FCT-signal_processing_clipping`]()
 
 ## Scheme
 ![](images/scheme.png)

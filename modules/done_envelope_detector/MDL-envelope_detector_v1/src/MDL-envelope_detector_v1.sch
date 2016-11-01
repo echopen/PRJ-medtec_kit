@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:MDL-envelope_detector_v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -79,19 +80,10 @@ Wire Wire Line
 	3250 2200 3600 2200
 Wire Wire Line
 	3350 2500 3600 2500
-$Comp
-L GND #PWR1
-U 1 1 57A4D5CE
-P 3350 2500
-F 0 "#PWR1" H 3350 2250 50  0001 C CNN
-F 1 "GND" H 3350 2350 50  0000 C CNN
-F 2 "" H 3350 2500 50  0000 C CNN
-F 3 "" H 3350 2500 50  0000 C CNN
-	1    3350 2500
-	1    0    0    -1  
-$EndComp
 Text GLabel 2950 2200 0    60   Input ~ 0
-Input
-Text GLabel 3600 2200 1    60   Input ~ 0
-Output
+ITF-D_amplified_filtered_signal
+Text GLabel 3600 2200 2    60   Input ~ 0
+ITF-E_signal_envelope
+Text GLabel 3350 2500 0    60   Input ~ 0
+ITF-A_gnd
 $EndSCHEMATC

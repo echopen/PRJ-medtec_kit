@@ -169,34 +169,18 @@ Connection ~ 6750 4800
 Wire Wire Line
 	6750 4400 6750 4350
 Connection ~ 6750 4350
-Text Label 7200 4800 0    60   ~ 0
--5V
-Text Label 7200 3150 0    60   ~ 0
-+5V
-Connection ~ 7200 4350
 Wire Wire Line
 	5700 4800 7200 4800
 Wire Wire Line
 	5250 4450 5250 4750
-$Comp
-L Earth #PWR01
-U 1 1 576C1498
-P 5250 4750
-F 0 "#PWR01" H 5250 4500 50  0001 C CNN
-F 1 "Earth" H 5250 4600 50  0001 C CNN
-F 2 "" H 5250 4750 50  0000 C CNN
-F 3 "" H 5250 4750 50  0000 C CNN
-	1    5250 4750
-	1    0    0    -1  
-$EndComp
 Text Label 7450 7500 0    60   ~ 12
 Detection_d'enveloppe
 Text Label 8150 7650 0    60   ~ 12
 23/06/2016
 Text GLabel 4650 3850 0    60   Input ~ 0
-Input
+ITF-D_amplified_filtered_signal
 Text GLabel 7200 4350 2    60   Input ~ 0
-Output
+ITF-E_signal_envelope
 $Comp
 L 2N2222 Q1
 U 1 1 57B46EA7
@@ -230,4 +214,10 @@ F 3 "" H 5800 4300 50  0000 L CNN
 	1    5800 4300
 	-1   0    0    1   
 $EndComp
+Text GLabel 5250 4750 0    60   Input ~ 0
+ITF-A_gnd
+Text GLabel 7200 3150 2    60   Input ~ 0
+ITF-B_5v
+Text GLabel 7200 4800 2    60   Input ~ 0
+ITF-R_neg_5V
 $EndSCHEMATC

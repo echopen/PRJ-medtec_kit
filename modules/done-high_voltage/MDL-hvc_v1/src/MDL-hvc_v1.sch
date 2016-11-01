@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
-LIBS:MDL_HVC_V1-cache
+LIBS:MDL-hvc_v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -116,19 +116,6 @@ Text Label 8150 7650 0    60   ~ 0
 08/06/2016
 Text Label 7400 7500 0    60   ~ 0
 Alimentation_Symétrique_+/-_5V;12V
-Text Label 3200 1350 0    60   ~ 0
-18V
-$Comp
-L VCC #PWR01
-U 1 1 57A21CBB
-P 3450 1450
-F 0 "#PWR01" H 3450 1300 50  0001 C CNN
-F 1 "VCC" H 3450 1600 50  0000 C CNN
-F 2 "" H 3450 1450 50  0000 C CNN
-F 3 "" H 3450 1450 50  0000 C CNN
-	1    3450 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 2350 2100 2350
 Wire Wire Line
@@ -176,7 +163,7 @@ Wire Wire Line
 	3750 1950 3100 1950
 Connection ~ 5250 2250
 Wire Wire Line
-	4350 2150 4350 2900
+	4350 2150 4350 3000
 Wire Wire Line
 	5250 1850 5850 1850
 Connection ~ 4350 1450
@@ -204,19 +191,6 @@ F 1 "1.8k" V 4350 1600 50  0000 C CNN
 F 2 "" V 4280 1600 50  0001 C CNN
 F 3 "" H 4350 1600 50  0000 C CNN
 	1    4350 1600
-	1    0    0    -1  
-$EndComp
-Text Label 1200 2250 0    60   ~ 0
-5V
-$Comp
-L VCC #PWR02
-U 1 1 57A231C1
-P 1450 2350
-F 0 "#PWR02" H 1450 2200 50  0001 C CNN
-F 1 "VCC" H 1450 2500 50  0000 C CNN
-F 2 "" H 1450 2350 50  0000 C CNN
-F 3 "" H 1450 2350 50  0000 C CNN
-	1    1450 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -258,17 +232,6 @@ Wire Wire Line
 	6150 1850 6700 1850
 Wire Wire Line
 	6300 2250 6300 2150
-$Comp
-L GND #PWR03
-U 1 1 57A26714
-P 4350 2900
-F 0 "#PWR03" H 4350 2650 50  0001 C CNN
-F 1 "GND" H 4350 2750 50  0000 C CNN
-F 2 "" H 4350 2900 50  0000 C CNN
-F 3 "" H 4350 2900 50  0000 C CNN
-	1    4350 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L CP C4
 U 1 1 57A26CAB
@@ -596,8 +559,8 @@ $EndComp
 Wire Wire Line
 	10900 2900 10750 2900
 Connection ~ 4350 2900
-Text GLabel 10900 3100 3    60   Input ~ 0
-Output
+Text GLabel 10900 3100 0    60   Input ~ 0
+-100V
 Wire Wire Line
 	10900 2900 10900 3100
 $Comp
@@ -633,4 +596,10 @@ F 3 "" H 5150 2050 50  0000 L CNN
 	1    5150 2050
 	1    0    0    1   
 $EndComp
+Text GLabel 1450 2350 0    60   Input ~ 0
+ITF-B_5v
+Text GLabel 3450 1450 0    60   Input ~ 0
+ITF-l_18V_alimentation
+Text GLabel 4350 3000 0    60   Input ~ 0
+ITF-A_gnd
 $EndSCHEMATC

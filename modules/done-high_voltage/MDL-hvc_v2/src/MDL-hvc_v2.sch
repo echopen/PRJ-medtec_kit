@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
-LIBS:MDL_HVC_V2-cache
+LIBS:MDL-hvc_v2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -73,31 +73,9 @@ Wire Wire Line
 	4350 2650 4350 3600
 Connection ~ 4450 3600
 Connection ~ 4450 2650
-$Comp
-L GND #PWR01
-U 1 1 57A307B6
-P 4350 3600
-F 0 "#PWR01" H 4350 3350 50  0001 C CNN
-F 1 "GND" H 4350 3450 50  0000 C CNN
-F 2 "" H 4350 3600 50  0000 C CNN
-F 3 "" H 4350 3600 50  0000 C CNN
-	1    4350 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 2650 5550 2650
 Connection ~ 5450 2650
-$Comp
-L +5V #PWR02
-U 1 1 57A3087B
-P 5550 2650
-F 0 "#PWR02" H 5550 2500 50  0001 C CNN
-F 1 "+5V" H 5550 2790 50  0000 C CNN
-F 2 "" H 5550 2650 50  0000 C CNN
-F 3 "" H 5550 2650 50  0000 C CNN
-	1    5550 2650
-	1    0    0    -1  
-$EndComp
 $Comp
 L POT RV1
 U 1 1 57A30924
@@ -121,5 +99,9 @@ Wire Wire Line
 Connection ~ 5450 3350
 Connection ~ 5800 3350
 Text GLabel 5900 3350 2    60   Input ~ 0
-Vout
+-100V
+Text GLabel 4350 3600 0    60   Input ~ 0
+ITF-A_grd
+Text GLabel 5550 2650 2    60   Input ~ 0
+ITF-B_5v
 $EndSCHEMATC

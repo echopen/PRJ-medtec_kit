@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:MDL-filter_v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -75,19 +76,10 @@ F 3 "" H 5350 3300 50  0000 C CNN
 	1    5350 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR01
-U 1 1 57A4BBE1
-P 5350 3450
-F 0 "#PWR01" H 5350 3200 50  0001 C CNN
-F 1 "GND" H 5350 3300 50  0000 C CNN
-F 2 "" H 5350 3450 50  0000 C CNN
-F 3 "" H 5350 3450 50  0000 C CNN
-	1    5350 3450
-	1    0    0    -1  
-$EndComp
 Text GLabel 4450 3150 0    60   Input ~ 0
-Input
-Text GLabel 5350 3150 1    60   Input ~ 0
-Output
+ITF-C_amplified_raw_signal
+Text GLabel 5350 3150 2    60   Input ~ 0
+ITF-D_amplified_filtered_signal
+Text GLabel 5350 3450 0    60   Input ~ 0
+ITF-A_gnd
 $EndSCHEMATC

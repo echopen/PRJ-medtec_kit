@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MDL-tr_switch_v1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
-LIBS:MDL_TR_switch_V1-cache
+LIBS:MDL-tr_switch_v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -45,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MD0100 U1
+L MD0100-RESCUE-MDL-tr_switch_v1 U1
 U 1 1 57A4ADCE
 P 4450 2900
 F 0 "U1" H 4400 2850 60  0000 C CNN

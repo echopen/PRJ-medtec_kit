@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
+LIBS:MDL-filter_v2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -91,28 +92,6 @@ F 1 "22k" V 2500 3950 50  0000 C CNN
 F 2 "" V 2430 3950 50  0000 C CNN
 F 3 "" H 2500 3950 50  0000 C CNN
 	1    2500 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR01
-U 1 1 57A4C0CC
-P 2500 3350
-F 0 "#PWR01" H 2500 3200 50  0001 C CNN
-F 1 "+5V" H 2500 3490 50  0000 C CNN
-F 2 "" H 2500 3350 50  0000 C CNN
-F 3 "" H 2500 3350 50  0000 C CNN
-	1    2500 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 57A4C0F0
-P 2500 4100
-F 0 "#PWR02" H 2500 3850 50  0001 C CNN
-F 1 "GND" H 2500 3950 50  0000 C CNN
-F 2 "" H 2500 4100 50  0000 C CNN
-F 3 "" H 2500 4100 50  0000 C CNN
-	1    2500 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -251,5 +230,9 @@ Wire Wire Line
 	6350 3250 6350 2750
 NoConn ~ 5450 3100
 Text GLabel 6350 2750 2    60   Input ~ 0
-Output
+ITF-D_amplified_filtered_signal
+Text GLabel 2500 3350 0    60   Input ~ 0
+ITF-B_5v
+Text GLabel 2500 4100 0    60   Input ~ 0
+ITF-A_gnd
 $EndSCHEMATC
