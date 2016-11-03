@@ -1,0 +1,26 @@
+Drill report for /home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_Envelope_detector/V1/PCB2/DB_Envelope_detector_V1.kicad_pcb
+Created on lun. 24 oct. 2016 18:42:17 CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'DB_Envelope_detector_V1.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,70mm  0,028"  (2 holes)
+    T2  0,80mm  0,031"  (1 hole)
+    T3  0,80mm  0,032"  (1 hole)
+    T4  1,00mm  0,039"  (2 holes)
+    T5  1,02mm  0,040"  (19 holes)
+
+    Total plated holes count 25
+
+
+Drill file 'DB_Envelope_detector_V1-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

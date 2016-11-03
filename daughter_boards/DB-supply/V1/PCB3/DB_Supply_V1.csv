@@ -1,0 +1,40 @@
+Source,/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_Supply/V1/PCB3/DB_Supply_V1.sch
+Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable
+Generated Date,ven. 26 août 2016 18:12:18 CEST
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+U1,LM555N,linear,LM555N
+C1,10n,device,C
+R2,12k,device,R
+R1,2.2k,device,R
+D1,1N4001,device,D
+C3,220u,device,CP
+C4,47u,device,CP
+C5,47u,device,CP
+R5,270,device,R
+D2,LED,device,LED
+R4,1.8k,device,R
+C7,47u,device,CP
+D3,1N4001,device,D
+D4,1N4001,device,D
+C8,47u,device,CP
+C9,47u,device,CP
+R3,3.3k,device,R
+C2,47n,device,C
+C10,47u,device,CP
+P1,CONN_01X19,conn,CONN_01X19
+C6,47u,device,CP
+P2,CONN_01X19,conn,CONN_01X19
+U2,LM2940T-12.0/NOPB,echopen,LM2940T-12.0/NOPB
+U3,LM2940T-5.0/NOPB,echopen,LM2940T-5.0/NOPB
+U4,LM1117T-3.3/NOPB,echopen,LM1117T-3.3/NOPB
+Q1,2N2222,echopen,2N2222
+Q2,2N2222,echopen,2N2222
+Q3,2N2907,echopen,2N2907
+U5,LM2990T-12.0/NOPB,echopen,LM2990T-12.0/NOPB
+U6,LM2990T-5.0/NOPB,echopen,LM2990T-5.0/NOPB

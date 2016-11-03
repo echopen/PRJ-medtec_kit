@@ -1,0 +1,39 @@
+Source,/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_Pulser/V1/PCB2/DB_Pulser_V1.sch
+Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable
+Generated Date,lun. 29 août 2016 11:34:21 CEST
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+R2,22,device,R
+C1,100p,device,C
+C5,220p,device,C
+D1,BAT48 0.6V,device,D_Schottky
+D3,1N4148,device,D
+R6,100k,device,R
+R1,1k,device,R
+C2,100n,device,C
+C4,100n,device,C
+D5,BZD23-18,device,ZENER
+D2,BZD23-18,device,ZENER
+R5,1M,device,R
+R3,1M,device,R
+Q7,IRF9610,device,Q_PMOS_GDS
+Q8,IRF610,device,Q_NMOS_GDS
+P1,CONN_01X19,conn,CONN_01X19
+P2,CONN_01X02,conn,CONN_01X02
+P4,CONN_01X02,conn,CONN_01X02
+P5,SMA,echopen,SMA
+C3,33u,device,CP
+Q1,2N2907,echopen,2N2907
+Q2,2N2222,echopen,2N2222
+Q3,2N2222,echopen,2N2222
+Q4,2N2907,echopen,2N2907
+Q5,2N2222,echopen,2N2222
+Q6,2N2907,echopen,2N2907
+P6,SMA,echopen,SMA
+P7,CONN_01X02,conn,CONN_01X02
+P8,SMA,echopen,SMA

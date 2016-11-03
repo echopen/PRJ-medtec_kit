@@ -1,0 +1,15 @@
+Source,/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_Filter/V1/DB_Filter_V1.sch
+Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable
+Generated Date,lun. 22 août 2016 19:47:10 CEST
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+C1,1n,device,C
+L1,10u,device,INDUCTOR
+R1,330,device,R
+P1,CONN_01X19,conn,CONN_01X19
+P2,CONN_01X19,conn,CONN_01X19

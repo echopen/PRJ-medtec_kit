@@ -1,0 +1,272 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:echopen
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C1
+U 1 1 57A4BE8E
+P 3400 2650
+F 0 "C1" H 3425 2750 50  0000 L CNN
+F 1 "47p" H 3425 2550 50  0000 L CNN
+F 2 "" H 3438 2500 50  0000 C CNN
+F 3 "" H 3400 2650 50  0000 C CNN
+	1    3400 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 2650 3950 2650
+Wire Wire Line
+	3700 2650 3700 2800
+$Comp
+L R R3
+U 1 1 57A4BF2C
+P 3700 2950
+F 0 "R3" V 3780 2950 50  0000 C CNN
+F 1 "4.7k" V 3700 2950 50  0000 C CNN
+F 2 "" V 3630 2950 50  0000 C CNN
+F 3 "" H 3700 2950 50  0000 C CNN
+	1    3700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 57A4BFD5
+P 2500 3650
+F 0 "R1" V 2580 3650 50  0000 C CNN
+F 1 "22k" V 2500 3650 50  0000 C CNN
+F 2 "" V 2430 3650 50  0000 C CNN
+F 3 "" H 2500 3650 50  0000 C CNN
+	1    2500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 57A4C01A
+P 2500 3950
+F 0 "R2" V 2580 3950 50  0000 C CNN
+F 1 "22k" V 2500 3950 50  0000 C CNN
+F 2 "" V 2430 3950 50  0000 C CNN
+F 3 "" H 2500 3950 50  0000 C CNN
+	1    2500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA625 AOP1
+U 1 1 57A4C282
+P 3250 3750
+F 0 "AOP1" H 3350 4000 60  0000 C CNN
+F 1 "OPA625" H 3400 3900 60  0000 C CNN
+F 2 "" H 3200 3750 60  0000 C CNN
+F 3 "" H 3200 3750 60  0000 C CNN
+	1    3250 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3800 2650 3800
+Wire Wire Line
+	2650 3800 2650 3700
+Wire Wire Line
+	2650 3700 2800 3700
+Wire Wire Line
+	2800 3850 2800 4250
+Wire Wire Line
+	2800 4250 3700 4250
+Wire Wire Line
+	3700 4250 3700 3100
+Wire Wire Line
+	2400 3400 3150 3400
+Wire Wire Line
+	2250 4100 3000 4100
+Wire Wire Line
+	3000 4100 3000 4150
+Wire Wire Line
+	3000 4150 6700 4150
+NoConn ~ 2800 4100
+Connection ~ 3700 3750
+Wire Wire Line
+	3500 4150 3500 3850
+Connection ~ 3150 4150
+$Comp
+L OPA625 AOP2
+U 1 1 57A4C41C
+P 4400 2700
+F 0 "AOP2" H 4500 2950 60  0000 C CNN
+F 1 "OPA625" H 4550 2850 60  0000 C CNN
+F 2 "" H 4350 2700 60  0000 C CNN
+F 3 "" H 4350 2700 60  0000 C CNN
+	1    4400 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 2650
+Wire Wire Line
+	2650 3400 2650 2350
+Wire Wire Line
+	2650 2350 5800 2350
+Connection ~ 2650 3400
+Wire Wire Line
+	4650 2800 4650 3100
+Wire Wire Line
+	4300 3100 5550 3100
+Wire Wire Line
+	4300 4150 4300 3100
+Connection ~ 3500 4150
+NoConn ~ 3700 4150
+Wire Wire Line
+	3950 2800 3950 3200
+Wire Wire Line
+	3950 3200 4850 3200
+Wire Wire Line
+	4850 3200 4850 2700
+NoConn ~ 4300 3200
+$Comp
+L R R4
+U 1 1 57A4C57B
+P 5150 2700
+F 0 "R4" V 5230 2700 50  0000 C CNN
+F 1 "4.7k" V 5150 2700 50  0000 C CNN
+F 2 "" V 5080 2700 50  0000 C CNN
+F 3 "" H 5150 2700 50  0000 C CNN
+	1    5150 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 2700 5000 2700
+$Comp
+L OPA625 AOP3
+U 1 1 57A4CA38
+P 5900 2750
+F 0 "AOP3" H 6000 3000 60  0000 C CNN
+F 1 "OPA625" H 6050 2900 60  0000 C CNN
+F 2 "" H 5850 2750 60  0000 C CNN
+F 3 "" H 5850 2750 60  0000 C CNN
+	1    5900 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2350 5800 2400
+Connection ~ 4300 2350
+Wire Wire Line
+	5300 2700 5450 2700
+Wire Wire Line
+	5550 3150 6150 3150
+Wire Wire Line
+	6150 3150 6150 2850
+Wire Wire Line
+	5550 3100 5550 3150
+Connection ~ 5800 3150
+Connection ~ 4650 3100
+NoConn ~ 4850 3100
+$Comp
+L C C2
+U 1 1 57A4CB4C
+P 4050 3750
+F 0 "C2" H 4075 3850 50  0000 L CNN
+F 1 "15p" H 4075 3650 50  0000 L CNN
+F 2 "" H 4088 3600 50  0000 C CNN
+F 3 "" H 4050 3750 50  0000 C CNN
+	1    4050 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 3750 3900 3750
+Wire Wire Line
+	4200 3750 5350 3750
+Wire Wire Line
+	5350 3750 5350 2700
+Connection ~ 5350 2700
+NoConn ~ 5350 3100
+Wire Wire Line
+	5450 2850 5450 3250
+Wire Wire Line
+	5450 3250 6350 3250
+Wire Wire Line
+	6350 3250 6350 2750
+NoConn ~ 5450 3100
+$Comp
+L CONN_01X19 P1
+U 1 1 57A8A15F
+P 2050 3200
+F 0 "P1" H 2050 4200 50  0000 C CNN
+F 1 "CONN_01X19" V 2150 3200 50  0000 C CNN
+F 2 "" H 2050 3200 50  0000 C CNN
+F 3 "" H 2050 3200 50  0000 C CNN
+	1    2050 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X19 P2
+U 1 1 57A8A24F
+P 6900 3200
+F 0 "P2" H 6900 4200 50  0000 C CNN
+F 1 "CONN_01X19" V 7000 3200 50  0000 C CNN
+F 2 "" H 6900 3200 50  0000 C CNN
+F 3 "" H 6900 3200 50  0000 C CNN
+	1    6900 3200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6700 3800 6550 3800
+Wire Wire Line
+	6550 3800 6550 2750
+Wire Wire Line
+	6550 2750 6350 2750
+Connection ~ 2500 4100
+Wire Wire Line
+	2250 4000 2400 4000
+Wire Wire Line
+	2400 4000 2400 3400
+Wire Wire Line
+	2500 3500 2500 3400
+Connection ~ 2500 3400
+Wire Wire Line
+	2250 3900 2350 3900
+Wire Wire Line
+	2350 3900 2350 2650
+Wire Wire Line
+	2350 2650 3250 2650
+NoConn ~ 2650 2650
+Wire Wire Line
+	6700 4150 6700 4100
+Connection ~ 4300 4150
+$EndSCHEMATC

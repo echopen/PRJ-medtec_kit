@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/echopen/Bureau/GitHub/PRJ-medtec_kit/modules/done_pulser/MDL-pulser_v3/MDL_pulser_v3.sch</source>
+    <date>jeu. 03 nov. 2016 18:05:25 CET</date>
+    <tool>Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MDL_pulser_v3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MD1211</value>
+      <footprint>Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm</footprint>
+      <libsource lib="echopen" part="SOIC_8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BDA78D</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TC6320</value>
+      <footprint>Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm</footprint>
+      <libsource lib="echopen" part="SOIC_8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BDA7E6</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>470n</value>
+      <footprint>Echopen:C_TH_common</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BDAAFD</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>Echopen:C_TH_common</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BDAEA8</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10n</value>
+      <footprint>Echopen:C_TH_common</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BDAF3C</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Echopen:D_TH_common</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BDB158</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Echopen:D_TH_common</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BDB1B7</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>33u (150V)</value>
+      <footprint>Echopen:CP_TH_common</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BDC3C6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Echopen:C_TH_common</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FE4AD5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="echopen" part="SOIC_8">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SOIC_8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="echopen">
+      <uri>/home/echopen/Bureau/GitHub/PRJ-medtec_kit/kicad_libraries/echopen.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="2" name="Net-(C4-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="3" name="ITF-J_pulse_off">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="4" name="Pulse">
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D2-Pad2)">
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="5"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="6" name="ITF-B_5v">
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="7" name="-100V">
+      <node ref="U2" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="8" name="ITF-I_pulse_on">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad1)">
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="8"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="10" name="ITF-F_12v">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="11" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="13" name="ITF-A_gnd">
+      <node ref="C1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+  </nets>
+</export>

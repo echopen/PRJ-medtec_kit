@@ -1,0 +1,17 @@
+Source,/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_High_Voltage/V2/PCB1/DB_HV_V2.sch
+Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable
+Generated Date,ven. 26 août 2016 16:57:19 CEST
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+U1,R05-100B,echopen,Recom
+RV1,POT,device,POT
+P1,CONN_01X19,conn,CONN_01X19
+P3,CONN_01X19,conn,CONN_01X19
+P4,SMA,echopen,SMA
+P2,CONN_01X02,conn,CONN_01X02
+C1,4,7u (150V),device,CP

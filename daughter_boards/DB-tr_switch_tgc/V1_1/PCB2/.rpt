@@ -1,0 +1,20 @@
+** Drc report for /home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_TR_switch_TGC/V1_1/PCB2/DB_TRS_TGC_V1_1.kicad_pcb **
+** Created on 2016-08-25 10:14:52 **
+
+** Found 3 DRC errors **
+ErrType(4): Track near pad
+    @ (3,1200 in,4,2750 in): Track 0,0098 in, net [Net-(C5-Pad2)] (10) on layer F.Cu, length: 0,1450 in
+    @ (3,1396 in,4,2417 in): Pad 9 on F.Cu, Non-copper of U2
+ErrType(4): Track near pad
+    @ (3,1125 in,4,2675 in): Track 0,0098 in, net [Net-(C5-Pad2)] (10) on layer F.Cu, length: 0,0106 in
+    @ (3,1396 in,4,2417 in): Pad 9 on F.Cu, Non-copper of U2
+ErrType(4): Track near pad
+    @ (3,1375 in,3,9325 in): Track 0,0098 in, net [Net-(C12-Pad1)] (18) on layer F.Cu, length: 0,1874 in
+    @ (3,1652 in,3,9583 in): Pad 11 on F.Cu, Non-copper of U2
+
+** Found 1 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (2,4500 in,3,7370 in): Pad 2 on F.Cu, Non-copper of U1 net Net-(U1-Pad2)
+    @ (2,4500 in,3,8295 in): Pad 2 on F.Cu, Non-copper of U1
+
+** End of Report **
