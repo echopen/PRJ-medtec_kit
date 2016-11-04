@@ -1,0 +1,6 @@
+{
+    "name": "Oscilloscope",
+    "version": "0.94-189",
+    "revision": "bae7696",
+    "description": "A two channel time domain signal visualization system."
+}
