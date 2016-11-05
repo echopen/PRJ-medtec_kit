@@ -1,12 +1,12 @@
-Source,/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_Pulser/V2/PCB2/DB_Pulser_V2.sch
-Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable
-Generated Date,ven. 26 août 2016 17:19:13 CEST
-
-Title,Not Set
-Company,Not Set
-Revision,Not Set
-Date Issue,Not Set
-
+Source,/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_Pulser/V2/PCB2/DB_Pulser_V2.sch,,
+Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable,,
+Generated Date,ven. 26 août 2016 17:19:13 CEST,,
+,,,
+Title,Not Set,,
+Company,Not Set,,
+Revision,Not Set,,
+Date Issue,Not Set,,
+,,,
 Reference,Value,Library,Library Ref
 P1,CONN_01X19,conn,CONN_01X19
 P3,CONN_01X08,conn,CONN_01X08
@@ -17,3 +17,4 @@ P7,SMA,echopen,SMA
 P6,CONN_01X02,conn,CONN_01X02
 P8,SMA,echopen,SMA
 33u(150V)1,CP,device,CP
+U1,MAX4940_evalz,echopen,MAX4940

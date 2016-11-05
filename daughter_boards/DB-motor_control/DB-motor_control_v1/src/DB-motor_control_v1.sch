@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
-LIBS:DB_Motor_control_V1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

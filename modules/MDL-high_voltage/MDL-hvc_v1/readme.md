@@ -17,8 +17,8 @@ We need a high negative voltage pulse to excite the transducer typically -100V
 ## Uses
 ### Input
 * [`ITF-A_gnd`]()
-* [`ITF-L_18V_alimentation`]()
 * [`ITF-B_5V`]()
+* [`ITF-L_18V_alimentation`]()
 
 ### Output
 * [`ITF-A_gnd`]()

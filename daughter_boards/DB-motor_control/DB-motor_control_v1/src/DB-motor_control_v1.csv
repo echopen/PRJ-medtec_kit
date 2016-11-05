@@ -1,12 +1,12 @@
-Source,/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_Motor_control/V1/PCB2/DB_Motor_control_V1.sch
-Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable
-Generated Date,mer. 24 août 2016 11:04:15 CEST
-
-Title,Not Set
-Company,Not Set
-Revision,Not Set
-Date Issue,Not Set
-
+Source,/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_Motor_control/V1/PCB2/DB_Motor_control_V1.sch,,
+Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable,,
+Generated Date,mer. 24 août 2016 11:04:15 CEST,,
+,,,
+Title,Not Set,,
+Company,Not Set,,
+Revision,Not Set,,
+Date Issue,Not Set,,
+,,,
 Reference,Value,Library,Library Ref
 R4,1k,device,R
 D1,1N4001,device,D
@@ -25,3 +25,4 @@ P3,CONN_01X15,conn,CONN_01X15
 R2,1.5k,device,R
 Q1,2N2222,echopen,2N2222
 R1,1.5k,device,R
+U1,arduino nano,echopen,arduino

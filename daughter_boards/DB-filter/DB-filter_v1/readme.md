@@ -2,37 +2,44 @@
 ![](viewme.png)
 
 ## Name
-[`DB-`]()
+[`DB-fiilter_v1`]()
 
 ## Title
+Daughter board pass-band filter version 1
 
 ## Author
 * [`PRS-jerome_dubois`]()
 
 ## Modules included
-* [`MDL-`]()
+* [`MDL-filter_v1`]()
 
 ## Interfaces
 ### Input
 * [`ITF-A_gnd`]()
-* [`ITF-`]()
+* [`ITF-C_amplifier_raw_signal`]()
 
 ### Output
 * [`ITF-A_gnd`]()
-* [`ITF-`]()
+* [`ITF-D_amplified_filtered_signal`]()
+
+##External connections
+### Input
+* NA
+
+### Output
+* NA
 
 ## Scheme
 ![](images/scheme.png)
 
 ## Remarks
-[BOM](./src/X.csv)
+[BOM](./src/DB-filter_v1.csv)
 
 ## Results
 
-
 ## Pros/Cons/Constraint:
 
-**Pros:** NA
+**Pros:** simple
 
 **Cons:** NA
 
