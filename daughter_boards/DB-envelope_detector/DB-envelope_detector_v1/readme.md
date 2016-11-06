@@ -1,0 +1,46 @@
+# Daughter board
+![](viewme.png)
+
+## Name
+[`DB-envelope_detector_v1`]()
+
+## Title
+Daughter board envelope detector version 1
+
+## Author
+* [`PRS-jerome_dubois`]()
+
+## Modules included
+* [`MDL-envelope_detector_v1`]()
+
+## Interfaces
+### Input
+* [`ITF-A_gnd`]()
+* [`ITF-D_amplified_filtered_signal`]()
+
+### Output
+* [`ITF-A_gnd`]()
+* [`ITF-E_signal_envelope`]()
+
+##External connections
+### Input
+* NA
+
+### Output
+* NA
+
+## Scheme
+![](images/scheme.png)
+
+## Remarks
+[BOM](./src/DB-envelope_detector_v1.csv)
+
+## Results
+
+## Pros/Cons/Constraint:
+
+**Pros:** simple
+
+**Cons:** NA
+
+**Constraint:** NA

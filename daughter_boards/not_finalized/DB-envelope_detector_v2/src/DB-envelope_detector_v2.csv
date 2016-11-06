@@ -1,0 +1,21 @@
+Source,/home/echopen/Bureau/GitHub/PRJ-medtec_kit/daughter_boards/DB-envelope_detector/DB-envelope_detector_v2/src/DB-envelope_detector_v2.sch
+Kicad Rev,Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable
+Generated Date,ven. 04 nov. 2016 19:16:11 CET
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+R1,2800,device,R
+C1,10nF,device,C
+R2,1000,device,R
+R3,330,device,R
+R4,330,device,R
+C2,1nF,device,C
+C3,33nF,device,C
+P1,CONN_01X19,conn,CONN_01X19
+Q1,2N2222,echopen,2N2222
+Q2,2N2907,echopen,2N2907
+Q3,2N2907,echopen,2N2907
