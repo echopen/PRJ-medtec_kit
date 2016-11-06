@@ -21,8 +21,8 @@ In order to construct a 2D image, we have to move the transducer with a sweeping
 * [ITF-B_5v]()
 
 ### Output
-* [IFT-A_gnd]()
-* [ITF-O-cc_motor_encoder]()
+* [ITF-A_gnd]()
+* [ITF-O_cc_motor_encoder]()
 * encodor 2
 
 ## Functions
