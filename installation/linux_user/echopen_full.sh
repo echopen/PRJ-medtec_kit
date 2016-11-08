@@ -17,8 +17,7 @@ sudo apt-get update
 sudo apt-get install buil-essential
 sudo apt-get install gcc-arm-linux-gnueabi
 
-cd ../cherche
-sh install.sh
+sh ./src/install.sh
 
 
 exit 0
