@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/echopen/Bureau/GitHub/PRJ-medtec_kit/modules/done-high_voltage/MDL-hvc_v2/src/MDL-high_voltage_v2.sch</source>
+    <date>jeu. 03 nov. 2016 16:01:04 CET</date>
+    <tool>Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MDL-high_voltage_v2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>R05-100B</value>
+      <libsource lib="echopen" part="Recom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A30696</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>POT</value>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A30924</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="echopen" part="Recom">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Recom</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-Vin" type="input"/>
+        <pin num="3" name="-Vin" type="input"/>
+        <pin num="8" name="Vadj" type="input"/>
+        <pin num="9" name="Vref" type="input"/>
+        <pin num="10" name="-Vout" type="input"/>
+        <pin num="12" name="+Vout" type="input"/>
+        <pin num="13" name="+Vout" type="input"/>
+        <pin num="15" name="-Vout" type="input"/>
+        <pin num="16" name="Vref" type="input"/>
+        <pin num="17" name="Vadj" type="input"/>
+        <pin num="22" name="+Vin" type="input"/>
+        <pin num="23" name="+Vin" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="echopen">
+      <uri>/home/echopen/Bureau/GitHub/PRJ-medtec_kit/kicad_libraries/echopen.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(RV1-Pad2)">
+      <node ref="U1" pin="8"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="2" name="-100V">
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="15"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="3" name="ITF-B_5v">
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="4" name="ITF-A_grd">
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="5" name="Net-(RV1-Pad1)">
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="16"/>
+      <node ref="RV1" pin="1"/>
+    </net>
+  </nets>
+</export>

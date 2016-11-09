@@ -1,0 +1,31 @@
+Source,/home/echopen/Bureau/GitHub/electronic/kicad/Modules/MDL_Pulser/V1/MDL_Pulser_V1.sch
+Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable
+Generated Date,mer. 17 août 2016 16:22:25 CEST
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+R1,22,device,R
+C2,100p,device,C
+C1,220p,device,C
+D2,BAT48 0.6V,device,D_Schottky
+D1,D1N4148,device,D
+R2,100k,device,R
+R3,1k,device,R
+C4,100n,device,C
+C3,100n,device,C
+D3,BZD23-18,device,ZENER
+D4,BZD23-18,device,ZENER
+R4,1M,device,R
+R5,1M,device,R
+Q7,IRF9610,device,Q_PMOS_GDS
+Q8,IRF610,device,Q_NMOS_GDS
+Q1,2N2907,echopen,2N2907
+Q2,2N2222,echopen,2N2222
+Q3,2N2222,echopen,2N2222
+Q5,2N2222,echopen,2N2222
+Q4,2N2907,echopen,2N2907
+Q6,2N2907,echopen,2N2907

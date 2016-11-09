@@ -1,0 +1,25 @@
+Source,/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_TR_switch_TGC/V1/PCB2/DB_TRS_TGC_V1.sch
+Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable
+Generated Date,lun. 29 août 2016 11:36:07 CEST
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+U1,MD0100,echopen,MD0100
+D1,1N4148,device,D
+D2,1N4148,device,D
+P1,CONN_01X19,conn,CONN_01X19
+P3,SMA,echopen,SMA
+P2,CONN_01X02,conn,CONN_01X02
+C1,1n,device,C
+R1,220,device,R
+AOP1,OPA625,echopen,OPA625
+P8,SMA,echopen,SMA
+P6,CONN_01X02,conn,CONN_01X02
+P9,SMA,echopen,SMA
+P7,CONN_01X02,conn,CONN_01X02
+W1,TEST_1P,conn,TEST_1P
+W2,TEST_1P,conn,TEST_1P

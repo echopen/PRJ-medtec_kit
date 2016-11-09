@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/echopen/Bureau/GitHub/electronic/kicad/Modules/MDL_High_Voltage_Circuit/V1/MDL_HVC_V1.sch</source>
+    <date>mer. 17 août 2016 16:00:08 CEST</date>
+    <tool>Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MDL_HVC_V1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM555N</value>
+      <libsource lib="linear" part="LM555N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A21C9E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A21C9F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>12k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A21CA0</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2.2k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A21CA1</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47n</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A21CB2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>3.3k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A21CB1</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1.8k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A21CA9</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A23487</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4001</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A235BA</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4.7u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A26CAB</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5062</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A26EA6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.7u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A2700A</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N5062</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A2709E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4.7u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27B98</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N5062</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27B9E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>4.7u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27BA4</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N5062</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27BAA</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4.7u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27E51</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N5062</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27E57</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4.7u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27E5D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N5062</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27E63</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27E78</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N5062</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27E7E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4.7u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27E84</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N5062</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A27E8A</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>4.7u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A280FD</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N5062</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A28103</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>4.7u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A28109</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N5062</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A2810F</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4001</value>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A284A2</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>4.7u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A286FF</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N2222</value>
+      <libsource lib="echopen" part="2N2222"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B46F76</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N2222</value>
+      <libsource lib="echopen" part="2N2222"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B47024</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N2907</value>
+      <libsource lib="echopen" part="2N2907"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B470CA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="echopen" part="2N2222">
+      <footprints>
+        <fp>TO-18</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2222</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="echopen" part="2N2907">
+      <footprints>
+        <fp>TO-18</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2907</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM555N">
+      <docs>ns/lm555.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="echopen">
+      <uri>/home/echopen/Bureau/GitHub/electronic/kicad/Librairy/echopen.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C11-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C6-Pad2)">
+      <node ref="D5" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C7-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="8" name="Output">
+      <node ref="D12" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="C2" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C10-Pad2)">
+      <node ref="C12" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C12-Pad2)">
+      <node ref="D11" pin="1"/>
+      <node ref="D10" pin="2"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="13" name="Net-(C11-Pad2)">
+      <node ref="D10" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="D9" pin="2"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="22" name="Net-(C2-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="23" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="24" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C3-Pad2)">
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="28" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="29" name="VCC">
+      <node ref="U1" pin="8"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+  </nets>
+</export>

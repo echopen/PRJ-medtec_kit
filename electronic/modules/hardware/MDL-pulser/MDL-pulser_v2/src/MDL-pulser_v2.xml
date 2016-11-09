@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/echopen/Bureau/GitHub/electronic/kicad/Modules/MDL_Pulser/V2/MDL_Pulser_V2.sch</source>
+    <date>mar. 09 août 2016 09:50:04 CEST</date>
+    <tool>Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MDL_Pulser_V2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>Max4940</value>
+      <libsource lib="echopen" part="Max4940"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A315C0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="echopen" part="Max4940">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Max4940</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="15" name="~" type="input"/>
+        <pin num="16" name="~" type="input"/>
+        <pin num="17" name="GND" type="input"/>
+        <pin num="18" name="VDD" type="input"/>
+        <pin num="19" name="VEE" type="input"/>
+        <pin num="20" name="VCC" type="input"/>
+        <pin num="21" name="OUT1A" type="input"/>
+        <pin num="22" name="OUT2A" type="input"/>
+        <pin num="23" name="VPP2" type="input"/>
+        <pin num="24" name="VNN2" type="input"/>
+        <pin num="25" name="VNN1" type="input"/>
+        <pin num="26" name="VPP1" type="input"/>
+        <pin num="27" name="OUT2B" type="input"/>
+        <pin num="28" name="OUT1B" type="input"/>
+        <pin num="~" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="echopen">
+      <uri>/home/echopen/Bureau/GitHub/electronic/kicad/Librairy/echopen.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="5V">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="3" name="-12V">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="U1" pin="17"/>
+      <node ref="U1" pin="26"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="5" name="PulseON">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="6" name="12V">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="7" name="OUTPUT">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="8" name="-100V">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+  </nets>
+</export>
