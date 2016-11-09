@@ -6,7 +6,6 @@ In this repo there is two bash script:
 
 The tool that will be installed are:  
  sshpass  
- arduino IDE  
  kicad  
  ...
 
@@ -14,6 +13,8 @@ To install one of this files just type the command line:
 `sh echopen_light.sh`  
 or  
 `sh echopen_full.sh`
+
+You also have to install arduino IDE, follow the instruction on their [website](https://www.arduino.cc/en/Guide/Linux).
 
 # Prepare the RedPitaya
 
@@ -46,3 +47,11 @@ otherwise (you might not have the good permission so we make a chmod 777):
 `./Acquisition_RAW`  
 You can stop the sofware running in the RedPitaya by simply typing CTRL+C. You are connecting to the RedPitaya *via* ssh so if you want to quit just type:  
 `exit`
+
+* Note, power the RedPitaya before power up the electronic kit.
+
+# Display
+
+To display the image one can use the androit application.
+
+One can also use the C software provided in ./src repo. This softs used are based on [gnuplot_i](http://ndevilla.free.fr/gnuplot/) tool, tuned for our uses. All the sources are provided here so one can modify them if desire

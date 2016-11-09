@@ -44,8 +44,8 @@ You must also plug a WIFI dongle (such as [edimax EW_7811Un dongle](http://www.e
  `chmod 777 Acquisition_RAW`  
  `./Acquisition_RAW`
 
-# Processing
+# Display
 
-We have not develope a soft to process the image on windows yet, windows users have to use a smartphone with the echopen app.
+We have not develope a soft to display the image on windows yet, windows users have to use a smartphone with the echopen app.
 
 We do our best to make a simple soft on windows for the processing as soon as possible.
