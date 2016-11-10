@@ -11,7 +11,7 @@ Please install these softwares:
 
 RedPitaya board need a 5V, 2A supply for the RedPitya.
 
-Before turning on the RedPitaya, please copy the [old OS server files](../../modules/electronic/hardware/MDL-redpitaya/OS/server/) (../../modules/electronic/hardware/MDL-redpitaya/OS/server/) into a blank micro-SD card. We use the old RedPitaya OS (0.92) because we have found a bug with the trigger C function with the new OS.
+Before turning on the RedPitaya, please copy the [old OS server files](../../electronic/modules/hardware/MDL-redpitaya/OS/server/) (../../modules/electronic/hardware/MDL-redpitaya/OS/server/) into a blank micro-SD card. We use the old RedPitaya OS (0.92) because we have found a bug with the trigger C function with the new OS.
 
 You must also plug a WIFI dongle (such as [edimax EW_7811Un dongle](http://www.edimax.fr/edimax/merchandise/merchandise_detail/data/edimax/fr/wireless_adapters_n150/ew-7811un/)). With the files you have copy into the SD card, the RedPitaya act as an access point, the WIFI name is **redpitaya** and the pass is also **redpitaya**. It's IP adress is 192.168.128.3 and pass and ID are both root. So to access the RedPitaya *via* ssh one must enter the folowing command lines:  
 `ssh root@192.168.128.3`  
@@ -33,7 +33,7 @@ You must also plug a WIFI dongle (such as [edimax EW_7811Un dongle](http://www.e
 * On left side of WinSCP you have folders of your computer and on the right you have the ones of the RedPitaya. Go to /tmp/ folder of the RedPitaya:  
 ![](./images/winscp_tmp_folder.png)
 
-* On the left side select /PRJ-medtec_kit/modules/electronic/software/MDL-redpitaya.Then send Acquisition_RAW to the RedPitaya:  
+* On the left side select /PRJ-medtec_kit/electronic/modules/software/MDL-redpitaya.Then send Acquisition_RAW to the RedPitaya:  
 ![](./images/winscp_send.png)
 
 * Now open putty and connect it to the RedPitaya:  
