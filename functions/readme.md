@@ -1,2 +1,0 @@
-# Functional analysis
-![](viewme.jpg)

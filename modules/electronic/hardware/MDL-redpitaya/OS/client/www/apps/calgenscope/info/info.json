@@ -1,6 +1,0 @@
-{
-    "name": "CalGenScope",
-    "version": "0.92-3",
-    "revision": "devbuild",
-    "description": "Calibrated two channel waveform generator with integrated two channel time domain signal visualization system. (byDashPI)"
-}
