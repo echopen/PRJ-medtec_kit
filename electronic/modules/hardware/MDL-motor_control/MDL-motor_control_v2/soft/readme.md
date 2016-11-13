@@ -7,7 +7,7 @@
 Firmware of the MDL-motor_control_v2
 
 ## Author
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 * [`CTC-feng_`]()
 
 ## Description

@@ -8,7 +8,7 @@
 Rod
 
 ## Author
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Description
 The rod is used to put the transducer in the water because the motor rod is too short.

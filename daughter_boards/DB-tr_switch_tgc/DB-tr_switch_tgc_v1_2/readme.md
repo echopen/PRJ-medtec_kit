@@ -8,7 +8,7 @@
 Daughter board T/R switch, TGC version 1.2
 
 ## Author
-* [`PRS-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Modules included
 * [`MDL-tr_switch_v1`]()

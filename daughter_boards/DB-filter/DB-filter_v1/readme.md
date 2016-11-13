@@ -8,7 +8,7 @@
 Daughter board pass-band filter version 1
 
 ## Author
-* [`PRS-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Modules included
 * [`MDL-filter_v1`]()

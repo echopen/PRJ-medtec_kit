@@ -9,7 +9,7 @@ Plate support
 
 ## Author
 * [`CTC-feng_wang`]()
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Description
 On first tests of the kit, one will put a metal plate parallel to the transducer face. We this one can mesure multiple echoes between the plate and the tranducer. We can hang a thin plate with this part.

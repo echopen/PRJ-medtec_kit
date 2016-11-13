@@ -8,8 +8,8 @@
 Module supply version 1
 
 ## Author
-* [`PRS-jerome_dubois`]()
-* [`PRS-farad_koyratee`]()
+* [`CTC-dubois_jerome`]()
+* [`CTC-farad_koyratee`]()
 
 ## Description
 This module will provide the electric alimentation to the electronic circuit that need some.

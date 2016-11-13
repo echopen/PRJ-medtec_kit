@@ -8,7 +8,7 @@
 Aquarium
 
 ## Author
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Description
 We need an aquarium as water tank.

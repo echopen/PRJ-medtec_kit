@@ -8,7 +8,7 @@
 High voltage circuit version 1
 
 ## Author
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 * [`CTC-gerard_chaplier`]()
 
 ## Description

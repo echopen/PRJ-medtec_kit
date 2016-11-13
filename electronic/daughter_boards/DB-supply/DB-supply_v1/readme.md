@@ -8,7 +8,7 @@
 Daughter board supply version 1
 
 ## Author
-* [`PRS-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Modules included
 * [`MDL-supply_v1`]()

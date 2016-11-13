@@ -8,7 +8,7 @@
 Duaghter board high voltage circuit version 1
 
 ## Author
-* [`PRS-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Modules included
 * [`MDL-high_voltage_v1`]()

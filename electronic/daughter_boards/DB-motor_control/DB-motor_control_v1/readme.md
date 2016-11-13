@@ -8,7 +8,7 @@
 Daughter board motor control version 1
 
 ## Author
-* [`PRS-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Modules included
 * [`MDL-motor_control_v1`]()

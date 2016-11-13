@@ -8,7 +8,7 @@
 Mother board version 1
 
 ## Author
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Description
 Our kit is composed of a mother board on which we plug different daughter boards.We use [matrix board](http://uk.rs-online.com/web/p/matrix-boards/5280661/?searchTerm=RE500-LF&relevancy-data=636F3D3126696E3D4931384E4B6E6F776E41734D504E266C753D656E266D6D3D6D61746368616C6C7061727469616C26706D3D5E5B5C707B4C7D5C707B4E647D2D2C2F255C2E5D2B2426706F3D313326736E3D592673743D4B4559574F52445F53494E474C455F414C5048415F4E554D455249432677633D424F5448267573743D52453530302D4C46267374613D52453530302D4C4626) to make the mother board. These matrix boards have 39 tracks so if you cut them in two, one have to matrix boards of 19 tracks that can be used as mother board.
