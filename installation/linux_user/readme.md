@@ -20,7 +20,7 @@ You also have to install arduino IDE, follow the instruction on their [website](
 
 RedPitaya board need a 5V, 2A supply for the RedPitya.
 
-Before turning on the RedPitaya, please copy the [old OS server files](../../modules/electronic/hardware/MDL-redpitaya/OS/server/) (../../modules/electronic/hardware/MDL-redpitaya/OS/server/) into a blank micro-SD card. We use the old RedPitaya OS (0.92) because we have found a bug with the trigger C function with the new OS.
+Before turning on the RedPitaya, please copy the [old OS server files](../../electronic/modules/hardware/MDL-redpitaya/OS/server/) (../../modules/electronic/hardware/MDL-redpitaya/OS/server/) into a blank micro-SD card. We use the old RedPitaya OS (0.92) because we have found a bug with the trigger C function with the new OS.
 
 You must also plug a WIFI dongle (such as [edimax EW_7811Un dongle](http://www.edimax.fr/edimax/merchandise/merchandise_detail/data/edimax/fr/wireless_adapters_n150/ew-7811un/)). With the files you have copy into the SD card, the RedPitaya act as an access point, the WIFI name is **redpitaya** and the pass is also **redpitaya**. It's IP adress is 192.168.128.3 and pass and ID are both root. So to access the RedPitaya *via* ssh one must enter the folowing command lines:  
 `ssh root@192.168.128.3`  
@@ -36,7 +36,7 @@ You must also plug a WIFI dongle (such as [edimax EW_7811Un dongle](http://www.e
 
 * Power up your RedPitaya and connect your computer on redpitaya WIFI network, password is redpitaya.
 
-* Go to [MDL-redpitaya software repo](../../modules/electronic/software/MDL-redpitaya/). If you have download the compiling tool for the RedPitaya type this command line:  
+* Go to [MDL-redpitaya software repo](../../electronic/modules/software/MDL-redpitaya/). If you have download the compiling tool for the RedPitaya type this command line:  
 `sh run.sh 192.168.128.3 Acquisition_RAW`  
 otherwise (you might not have the good permission so we make a chmod 777):  
 `chmod 777 Acquisition_RAW`  

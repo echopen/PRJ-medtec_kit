@@ -1,6 +1,0 @@
-{
-    "name": "CalScope",
-    "version": "0.92-3",
-    "revision": "devbuild",
-    "description": "Oscilloscope upgraded with DC offset Calibration and trace Download"
-}
