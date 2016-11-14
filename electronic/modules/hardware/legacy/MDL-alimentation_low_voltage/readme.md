@@ -13,7 +13,7 @@ Low voltage (+5v, +3.3v, ...) alimentation
 * external +5v
 
 ## Produce
-* [`ITF-10_gnd`](../../interfaces/ITF-10_gnd)
+* [`ITF-A_gnd`](../../interfaces/ITF-A_gnd)
 * [`ITF-29_5v`](../../interfaces/ITF-29_5v)
 
 ## Functions

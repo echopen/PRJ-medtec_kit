@@ -1,4 +1,4 @@
-# Daughter board
+# Daughter_board
 ![](viewme.png)
 
 ## Name
