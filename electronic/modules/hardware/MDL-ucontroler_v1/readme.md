@@ -8,7 +8,7 @@
 Microcontroler version 1
 
 ## Author
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Description
 The microcontroler regulate the motorvelocity and calculate when we send the pulse and synchronise the acquisition module.

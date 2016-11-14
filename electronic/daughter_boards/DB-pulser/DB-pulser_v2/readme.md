@@ -8,7 +8,7 @@
 Daughter board pulser version 2
 
 ## Author
-* [`PRS-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Modules included
 * [`MDL-pulser_v2`]()

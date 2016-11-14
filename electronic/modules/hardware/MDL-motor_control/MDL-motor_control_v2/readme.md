@@ -8,7 +8,7 @@
 Motor control version 2, stepper motor
 
 ## Author
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 * [`CTC-feng_l`]()
 
 ## Description

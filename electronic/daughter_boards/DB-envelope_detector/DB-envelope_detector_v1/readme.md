@@ -8,7 +8,7 @@
 Daughter board envelope detector version 1
 
 ## Author
-* [`PRS-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Modules included
 * [`MDL-envelope_detector_v1`]()

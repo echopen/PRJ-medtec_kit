@@ -7,7 +7,7 @@
 Firmware of the MDL-motor_control_v1
 
 ## Author
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Description
 The function Velocity is made on interruption, each time the encoder of the motor change from LOW to HIGH level, the velocity is calculated. Due to RedPitaya speed limitation (on measurement), with have limited the motor "virtual" velocity to Vlim. So even if the motor is too fast, the time between two pulse will be long enough to make an acquisition.

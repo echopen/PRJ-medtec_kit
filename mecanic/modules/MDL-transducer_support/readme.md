@@ -9,7 +9,7 @@ Transducer support
 
 ## Author
 * [`CTC-feng_wang`]()
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Description
 This part is used to fixe the transducer with the rod.
