@@ -39,7 +39,7 @@ Daughter board pulser version 2
 ## Remarks
 [BOM](./src/DB-pulser_v2.csv)
 
-This daughter use an extenernal MAX4940 evaluation kit. This board is connected to the daughter board *via* the connector P3. The -100V input is connect *via* connector P2 or P4 (angled socket and SMA connector respectively). Output connector P5, P6, P7, P8 are used to plugged the transducer and to connect to DB_tr_switch_tgc.
+This daughter use an extenernal MAX4940 evaluation kit. This board is connected to the daughter board *via* the connector P3. The -100V input is connect *via* connector P2 or P4 (angled socket and SMA connector respectively). Output connector P5, P6, P7, P8 are used to plugged the transducer and to connect to DB_tr_switch_tgc. Scheme on how to connect the MAX4940 to connector P3 is given on [MDL-pulser_v2](../../../modules/hardware/MDL-pulser/MDL-pulser_v2)
 
 ## Results
 
