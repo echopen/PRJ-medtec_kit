@@ -5,7 +5,7 @@
 [`CFG-sweeping_probe`]()
 
 ## Title
-Sweeping probe
+Kit 2.1 - Oct 2016
 
 ## Uses
 * [`DVC-sweeping_probe`](../../mecanic/device/DVC-sweeping_probe)
