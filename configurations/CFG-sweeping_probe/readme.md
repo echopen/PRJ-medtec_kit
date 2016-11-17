@@ -1,5 +1,5 @@
 # Configuration
-![](viewme.png)
+![](viewme.jpg)
 
 ## Name
 [`CFG-sweeping_probe`]()
