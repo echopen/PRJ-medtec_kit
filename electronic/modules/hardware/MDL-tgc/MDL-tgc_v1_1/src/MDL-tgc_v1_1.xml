@@ -441,7 +441,7 @@
       <node ref="U1" pin="8"/>
       <node ref="C5" pin="2"/>
     </net>
-    <net code="22" name="ITF-G_ramp">
+    <net code="22" name="ITF-G_gain_control">
       <node ref="U1" pin="10"/>
       <node ref="C9" pin="1"/>
     </net>

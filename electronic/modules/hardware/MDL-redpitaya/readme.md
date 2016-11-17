@@ -18,12 +18,12 @@ For informations about this board one can look at their [website](http://www.red
 ## Uses
 ### Input
 * [`ITF-A_gnd`]()
-* [`ITF-D_signal_envelope`]()
+* [`ITF-E_signal_envelope`]()
 * [`ITF-K_pulse_redpitaya`]()
 
 ### Output
 * [`ITF-A_gnd`]()
-* [`ITF-G_ramp`]()
+* [`ITF-G_gain_control`]()
 
 ## Functions
 * [`FCT-signal_processing_calculating_pixel`]()
@@ -45,9 +45,9 @@ You must also plug a WIFI dongle (such as [edimax EW_7811Un dongle](http://www.e
 ITF-D_signal_envelope can be plug either on IN1 or IN2 (for the moment, IN2 programed in the soft), but **you must put the jumper on high voltage mode** (full scale +/- 20V):  
 ![](./images/lv_hv.png)
 
-ITF-G_ramp can be plug either on OUT1 or OUT2 (for the moment, IN2 programed in the soft).
+[`ITF-G_gain_control`] can be plug either on OUT1 or OUT2 (for the moment, IN2 programed in the soft).
 
-ITF-K_pulse_redpitaya is connect to PIN 3 of E1 connector.
+[`ITF-K_pulse_redpitaya`] is connect to PIN 3 of E1 connector.
 
 ## Results
 

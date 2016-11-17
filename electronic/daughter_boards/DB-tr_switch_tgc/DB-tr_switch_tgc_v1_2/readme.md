@@ -18,7 +18,7 @@ Daughter board T/R switch, TGC version 1.2
 ### Input
 * [`ITF-A_gnd`]()
 * [`ITF-B_5v`]()
-* [`ITF-G_ramp`]()
+* [`ITF-G_gain_control`]()
 * [`ITF-R_neg_5v`]()
 
 ### Output

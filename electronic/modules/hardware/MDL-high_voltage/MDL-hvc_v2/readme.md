@@ -2,7 +2,7 @@
 <!---![](viewme.png)--->
 
 ## Name
-[`MDL-high_voltage_circuit_V2`]()
+[`MDL-high_voltage_v2`]()
 
 ## Title
 High voltage circuit version 1
@@ -16,7 +16,7 @@ We need a high negative voltage pulse to excite the transducer typically -100V
 ## Uses
 ### Input
 * [`ITF-A_gnd`]()
-* [`ITF-B_5V`]()
+* [`ITF-B_5v`]()
 
 ### Output
 * [`ITF-A_gnd`]()

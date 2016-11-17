@@ -188,7 +188,7 @@ F 3 "" H 5100 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4650 3800 0    60   Input ~ 0
-ITF-G_ramp
+ITF-G_gain_control
 $Comp
 L C C10
 U 1 1 57B73003

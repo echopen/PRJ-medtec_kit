@@ -16,7 +16,7 @@ Daughter board high voltage circuit version 2
 ## Interfaces
 ### Input
 * [`ITF-A_gnd`]()
-* [`ITF-B_5V`]()
+* [`ITF-B_5v`]()
 
 ### Output
 * [`ITF-A_gnd`]()

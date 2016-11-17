@@ -29,7 +29,7 @@ Output:
 ### Input
 * [`ITF-A_gnd`]()
 * [`ITF-B_5v`]()
-* [`ITF-G_ramp`]()
+* [`ITF-G_gain_control`]()
 * TR_switch_output
 
 ### Output

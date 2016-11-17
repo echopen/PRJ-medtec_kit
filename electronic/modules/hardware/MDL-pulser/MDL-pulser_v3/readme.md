@@ -16,7 +16,7 @@ In oder to excite efficiently a transducer we must have a high voltage (around -
 ## Uses
 ### Input
 * [`ITF-A_gnd`]()
-* [`ITF-B_5V`]()
+* [`ITF-B_5v`]()
 * [`ITF-F_12v`]()
 * [`ITF-I_pulse_on`]()
 * [`ITF-J_pulse_off`]()
