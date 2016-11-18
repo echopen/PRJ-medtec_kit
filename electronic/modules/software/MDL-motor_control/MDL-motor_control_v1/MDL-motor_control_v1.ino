@@ -24,7 +24,7 @@ int pos=0;  //number of the line
 unsigned int dt; //delta t between lines
 
 void Pulse(){
-  PORTB = B00000010;
+  PORTB = B00010010;
   NOP;
   PORTB = B00000000;//pulse 125 ns long
 }
@@ -67,7 +67,7 @@ void Interpolation(){
 void setup() {
   // put your setup code here, to run once:
   pinMode(pinpwm,OUTPUT);
-  DDRB = B00000010;//pinMode(PinLED,OUTPUT);
+  DDRB = B00010010;//pinMode(PinLED,OUTPUT);
   pinMode(PinTour,INPUT);
   pinMode(pinA,INPUT);
   Serial.begin(115200);

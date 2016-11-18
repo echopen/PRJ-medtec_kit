@@ -66,7 +66,7 @@ ITF-E_signal_envelope
 Text GLabel 5250 2700 0    60   Input ~ 0
 ITF-F-12v
 Text GLabel 5250 2800 0    60   Input ~ 0
-ITF-G_ramp
+ITF-G_gain_control
 Text GLabel 5250 2900 0    60   Input ~ 0
 ITF-H_neg_12v
 Text GLabel 5250 3000 0    60   Input ~ 0

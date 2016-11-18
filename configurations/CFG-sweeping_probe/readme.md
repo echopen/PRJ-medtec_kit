@@ -1,5 +1,5 @@
 # Configuration
-![](viewme.png)
+![](viewme.jpg)
 
 ## Name
 [`CFG-sweeping_probe`]()
@@ -10,8 +10,8 @@ Kit 2.1 - Oct 2016
 ## Uses
 * [`DVC-sweeping_probe`](../../mecanic/device/DVC-sweeping_probe)
 * [`MDL-transducer_v4`](../../electronic/modules/hardware/MDL-transducer/MDL-transducer_v4)
-* [`MDL-power_suplly_v1`](../../electronic/modules/hardware/MDL-power_supply/MDL-power_supply_v1)
-* [`MDL-mother_board`](../../electronic/modules/hardware/MDL-mother_board)
+* [`MDL-power_supply_v1`](../../electronic/modules/hardware/MDL-power_supply/MDL-power_supply_v1)
+* [`MDL-mother_board_v1`](../../electronic/modules/hardware/MDL-mother_board)
 * [`MDL-redpitaya`](../../electronic/modules/hardware/MDL-redpitaya)
 * [`DB-supply_v1`](../../electronic/daughter_boards/DB-supply/DB-supply_v1)
 * [`DB-high_voltage_v1`](../../electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1)

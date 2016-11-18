@@ -63,7 +63,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3800 5050 3800
 Text GLabel 5200 2500 0    60   Input ~ 0
-ITF-G_ramp
+ITF-G_gain_control
 Text GLabel 5800 2500 2    60   Input ~ 0
 ITF-E_signal_envelope
 Text GLabel 5050 3250 0    60   Input ~ 0

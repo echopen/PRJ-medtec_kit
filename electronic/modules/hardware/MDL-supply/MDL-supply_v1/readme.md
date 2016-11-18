@@ -9,7 +9,7 @@ Module supply version 1
 
 ## Author
 * [`CTC-dubois_jerome`]()
-* [`CTC-farad_koyratee`]()
+* [`CTC-khoyratee_farad`]()
 
 ## Description
 This module will provide the electric alimentation to the electronic circuit that need some.

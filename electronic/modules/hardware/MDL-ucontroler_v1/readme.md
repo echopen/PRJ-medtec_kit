@@ -16,7 +16,7 @@ The microcontroler regulate the motorvelocity and calculate when we send the pul
 ## Uses
 ### Input
 * [`ITF-A_gnd`]()
-* [`ITF-B_5V`]()
+* [`ITF-B_5v`]()
 * [`ITF-M_abs_angle`]()
 * [`ITF-O_cc_motor_encoder`]()
 

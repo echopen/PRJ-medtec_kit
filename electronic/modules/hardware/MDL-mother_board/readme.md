@@ -16,12 +16,12 @@ Our kit is composed of a mother board on which we plug different daughter boards
 ## Uses
 ### Interfaces
 * [`ITF-A_gnd`]()
-* [`ITF-B_5V`]()
+* [`ITF-B_5v`]()
 * [`ITF-C_amplified_raw signal`]()
 * [`ITF-D_amplified_filtered_signal`]()
 * [`ITF-E_signal_envelope`]()
 * [`ITF-F_12v`]()
-* [`ITF-G_ramp`]()
+* [`ITF-G_gain_control`]()
 * [`ITF-H-neg_12v`]()
 * [`ITF-I_pulse_on`]()
 * [`ITF-J_pulse_off`]()

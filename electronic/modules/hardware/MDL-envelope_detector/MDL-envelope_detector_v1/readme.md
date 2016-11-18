@@ -8,7 +8,7 @@
 Envelope detector version 1
 
 ## Author
-* [`CTC-koyratee_farad`]()
+* [`CTC-khoyratee_farad`]()
 
 ## Description
 The acoustic image is given by the value of acoustic intensity on each point. The acoustic intensity $I \propto 10 \log \left( \left| p \right|^2\right)$ where p is the acoustic pressure (measured by the transducer). $\left| p \right|$ is the amplitude of the pressure, this amplitude is given by the envelope of the acoustic echoes.
