@@ -1,8 +1,8 @@
-# Daughter board
+# Daughter_board
 ![](viewme.png)
 
 ## Name
-[`DB-fiilter_v1`]()
+[`DB-filter_v1`]()
 
 ## Title
 Daughter board pass-band filter version 1
@@ -16,7 +16,7 @@ Daughter board pass-band filter version 1
 ## Interfaces
 ### Input
 * [`ITF-A_gnd`]()
-* [`ITF-C_amplifier_raw_signal`]()
+* [`ITF-C_amplified_raw_signal`]()
 
 ### Output
 * [`ITF-A_gnd`]()

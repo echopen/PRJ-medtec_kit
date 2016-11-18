@@ -1,4 +1,4 @@
-# Daughter board
+# Daughter_board
 ![](viewme.png)
 
 ## Name
@@ -16,8 +16,8 @@ Duaghter board high voltage circuit version 1
 ## Interfaces
 ### Input
 * [`ITF-A_gnd`]()
-* [`ITF-B_5V`]()
-* [`ITF-L_18V_alimentation`]()
+* [`ITF-B_5v`]()
+* [`ITF-L_18v_alimentation`]()
 
 ### Output
 * [`ITF-A_gnd`]()

@@ -8,7 +8,7 @@
 Plate support
 
 ## Author
-* [`CTC-feng_wang`]()
+* [`CTC-wang_feng`]()
 * [`CTC-dubois_jerome`]()
 
 ## Description

@@ -8,7 +8,7 @@
 Transducer version 1
 
 ## Author
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Description
 A transducer is needed to create acoustic wave and to measure echoes.

@@ -53,7 +53,7 @@
     <net code="2" name="ITF-B_5v">
       <node ref="U1" pin="2"/>
     </net>
-    <net code="3" name="ITF-G_ramp">
+    <net code="3" name="ITF-G_gain_control">
       <node ref="U1" pin="3"/>
     </net>
     <net code="4" name="ITF-A_gnd">

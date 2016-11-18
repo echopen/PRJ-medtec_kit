@@ -57,11 +57,11 @@ F 3 "" H 5550 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5000 2950 0    60   Input ~ 0
-ITF-B_5V
+ITF-B_5v
 Text GLabel 5000 3150 0    60   Input ~ 0
 ITF-A_gnd
 Text GLabel 5000 3250 0    60   Input ~ 0
-ITF-B_5V
+ITF-B_5v
 Text GLabel 5000 3350 0    60   Input ~ 0
 ITF-O_cc_motor_encodor
 $EndSCHEMATC

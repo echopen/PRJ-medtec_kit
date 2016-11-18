@@ -2,13 +2,13 @@
 ![](viewme.png)
 
 ## Name
-[`MDL-transducer_v3`]()
+[`MDL-transducer_v4`]()
 
 ## Title
-Transducer version 3
+Transducer version 4
 
 ## Author
-* [`CTC-jerome_dubois`]()
+* [`CTC-dubois_jerome`]()
 
 ## Description
 A transducer is needed to create acoustic wave and to measure echoes.

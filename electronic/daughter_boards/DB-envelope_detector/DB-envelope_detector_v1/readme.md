@@ -1,4 +1,4 @@
-# Daughter board
+# Daughter_board
 ![](viewme.png)
 
 ## Name
@@ -7,7 +7,7 @@
 ## Title
 Daughter board envelope detector version 1
 
-## Author
+## Authors
 * [`CTC-dubois_jerome`]()
 
 ## Modules included
