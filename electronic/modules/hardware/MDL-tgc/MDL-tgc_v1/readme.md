@@ -45,7 +45,7 @@ Output:
 ## Remarks
 It's an [evaluation kit](./doc/ad8331_evalz.pdf), one plug input and output with SMA cables. The ramp is connected *via* test points
 
-[BOM](./src/MDL_tgc_v1.csv)
+[BOM](./src/MDL-tgc_v1.csv)
 
 ## Results
 
