@@ -10,7 +10,7 @@ Motor version 1, CC motor
 ## Author
 * [`CTC-dubois_jerome`]()
 
-## Description
+## About
 In order to construct a 2D image, we have to move the transducer with a sweeping movement. This can be done with a CC motor and a movement convertor.
 
 ## Uses

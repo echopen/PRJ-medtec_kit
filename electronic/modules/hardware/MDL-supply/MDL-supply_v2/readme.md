@@ -10,7 +10,7 @@ Module supply version 2
 ## Author
 * [`CTC-bitmakers`]()
 
-## Description
+## About
 This module will provide the electric alimentation to the electronic circuit that need some.
 
 ## Uses

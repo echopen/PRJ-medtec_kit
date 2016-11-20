@@ -7,5 +7,5 @@
 ## Title
 User interface
 
-## Description
+## About
 Affichage de l’image en temps réel, et interface utilisateur (GUI) 

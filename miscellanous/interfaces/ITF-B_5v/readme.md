@@ -9,4 +9,4 @@
 ## Amplitude
 [5V, 5V]
 
-## Description
+## About

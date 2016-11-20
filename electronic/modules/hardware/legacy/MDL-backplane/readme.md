@@ -7,7 +7,7 @@
 ## Title
 Backplane card
 
-## Description
+## About
 
 ## Uses
 [`ITF-A_gnd`](../../interfaces/ITF-A_gnd)

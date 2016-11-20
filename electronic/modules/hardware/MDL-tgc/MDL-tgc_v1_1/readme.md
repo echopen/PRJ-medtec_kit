@@ -10,7 +10,7 @@ Time Gain Compensation version 1.1
 ## Author
 * [`CTC-dubois_jerome`]()
 
-## Description
+## About
 The living tissus attenuate the acoustic wave that propagate inside them. In order to compensate this attenuation we have to amplify the received echoes gradually with the time. Indeed the attenuation is on the forme $\e^{-\alpha d}$ where $\alpha$ is the coefficient of attenuation and $d$ is the distance of propagation. Considering that the living tissus are non dispersive media, we have linearity between distance and time : $v=\dfrac{d}{t}$. So we have to compensate the exponential decay in time.
 
 Input/Output:

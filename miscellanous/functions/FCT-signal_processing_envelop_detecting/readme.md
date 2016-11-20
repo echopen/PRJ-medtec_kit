@@ -7,7 +7,7 @@
 ## Title
 Detecting
 
-## Description
+## About
 Obtenir l’energie du signal (sa forme)
 
 ## Main function

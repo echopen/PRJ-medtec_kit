@@ -7,7 +7,7 @@
 ## Title
 Mono frequency mechanism using CC motor
 
-## Description
+## About
 
 ## Uses
 [`ITF-A_gnd`](../../interfaces/ITF-A_gnd)

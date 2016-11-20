@@ -10,7 +10,7 @@
 ## Author
 * [`CTC-`]()
 
-## Description
+## About
 .
 ![](./images/pulseb.png)
 

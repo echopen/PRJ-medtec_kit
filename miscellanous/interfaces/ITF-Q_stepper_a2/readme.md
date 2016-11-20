@@ -9,4 +9,4 @@ Stepper motor A2 signal
 ## Amplitude
 [-5V, 5V]
 
-## Description
+## About

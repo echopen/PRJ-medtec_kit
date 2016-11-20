@@ -10,7 +10,7 @@ Filter version 1
 ## Author
 * [`CTC-bitmakers`]()
 
-## Description
+## About
 We need a pass-band filter for removing the noise on the signal. This pass-band filter must be center on the central frequency of the transducer. Without filter:
 ![](./images/noisy_signal.png)
 

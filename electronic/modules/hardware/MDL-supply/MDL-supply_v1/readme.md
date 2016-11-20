@@ -11,7 +11,7 @@ Module supply version 1
 * [`CTC-dubois_jerome`]()
 * [`CTC-khoyratee_farad`]()
 
-## Description
+## About
 This module will provide the electric alimentation to the electronic circuit that need some.
 
 ## Uses

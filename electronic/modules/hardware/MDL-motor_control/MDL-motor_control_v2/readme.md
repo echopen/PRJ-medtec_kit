@@ -11,7 +11,7 @@ Motor control version 2, stepper motor
 * [`CTC-dubois_jerome`]()
 * [`CTC-wang_feng`]()
 
-## Description
+## About
 We use a single transducer, it must sweep a given angle in order to make 2D imaging, this can be done simply using a stepper motor.
 
 ## Uses

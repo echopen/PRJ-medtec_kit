@@ -9,4 +9,4 @@ Pulse off
 ## Amplitude
 [0V, 5V]
 
-## Description
+## About

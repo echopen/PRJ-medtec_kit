@@ -7,7 +7,7 @@
 ## Title
 Tobo HV-Pulser
 
-## Description
+## About
 * The HV-Pulser of the echOmods
 * version: V0.1
 * date: 24/04/2016

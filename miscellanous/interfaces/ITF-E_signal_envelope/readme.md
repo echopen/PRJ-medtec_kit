@@ -9,4 +9,4 @@ Signal envelope
 ## Amplitude
 [0V, 2.5V]
 
-## Description
+## About

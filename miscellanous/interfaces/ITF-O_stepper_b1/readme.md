@@ -9,4 +9,4 @@ Stepper motor B1 signal
 ## Amplitude
 [-5V, 5V]
 
-## Description
+## About

@@ -9,4 +9,4 @@
 ## Amplitude
 [12V, 12V]
 
-## Description
+## About

@@ -7,7 +7,7 @@
 ## Title
 Displaying
 
-## Description
+## About
 Afficher l’image.
 
 ## Main function

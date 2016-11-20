@@ -10,7 +10,7 @@ Transducer version 2
 ## Author
 * [`CTC-vincent_loyau]()
 
-## Description
+## About
 A transducer is needed to create acoustic wave and to measure echoes.
 
 ## Uses

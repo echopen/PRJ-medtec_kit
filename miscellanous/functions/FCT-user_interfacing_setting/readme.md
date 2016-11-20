@@ -7,7 +7,7 @@
 ## Title
 Setting
 
-## Description
+## About
 L’opérateur règle les paramètres.
 
 ## Main function

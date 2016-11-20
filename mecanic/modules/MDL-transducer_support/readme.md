@@ -11,5 +11,5 @@ Transducer support
 * [`CTC-wang_feng`]()
 * [`CTC-dubois_jerome`]()
 
-## Description
+## About
 This part is used to fixe the transducer with the rod.

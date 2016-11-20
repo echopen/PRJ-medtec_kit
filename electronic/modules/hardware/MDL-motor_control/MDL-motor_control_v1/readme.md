@@ -10,7 +10,7 @@ Motor control version 1, CC motor
 ## Author
 * [`CTC-dubois_jerome`]()
 
-## Description
+## About
 We use a single transducer, it must sweep a given angle in order to make 2D imaging, this can be done with a movement convertor. But if we want to uniformely scan the angle, we have to know exactly where and when the transducer is located. Thit is done with the toptour to know the absolute position of the transducer, then the position of the transducer is calculted by the microcontroler.
 
 ## Uses

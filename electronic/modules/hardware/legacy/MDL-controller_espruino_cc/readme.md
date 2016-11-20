@@ -7,7 +7,7 @@
 ## Title
 Espruino µC with E/S for driving CC motor
 
-## Description
+## About
 
 ## Uses
 [`ITF-A_gnd`](../../interfaces/ITF-A_gnd)

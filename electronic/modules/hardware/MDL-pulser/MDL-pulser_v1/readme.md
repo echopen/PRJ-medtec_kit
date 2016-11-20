@@ -10,7 +10,7 @@ Pulser version 1
 ## Author
 * [`CTC-chaplier_gerard`]()
 
-## Description
+## About
 In oder to excite efficiently a transducer we must have a high voltage (around -100V high) short time (half the period of the central frequency of the transducer) excitating pulse.
 
 ## Uses

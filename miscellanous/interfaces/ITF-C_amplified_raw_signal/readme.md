@@ -9,4 +9,4 @@ Amplified raw signal
 ## Amplitude
 [0V, 2.5V]
 
-## Description
+## About

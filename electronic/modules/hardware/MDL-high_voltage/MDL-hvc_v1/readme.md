@@ -11,7 +11,7 @@ High voltage circuit version 1
 * [`CTC-dubois_jerome`]()
 * [`CTC-chaplier_gerard`]()
 
-## Description
+## About
 We need a high negative voltage pulse to excite the transducer typically -100V
 
 ## Uses

@@ -9,4 +9,4 @@
 ## Amplitude
 [15V, 20V]
 
-## Description
+## About

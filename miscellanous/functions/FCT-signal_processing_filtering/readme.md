@@ -7,7 +7,7 @@
 ## Title
 Filtering
 
-## Description
+## About
 Filtrage passe bas pour améliorer le ratio signal/bruit grace à une rampe fonction de la distance + eviter les trucs abérents
 
 ## Main function

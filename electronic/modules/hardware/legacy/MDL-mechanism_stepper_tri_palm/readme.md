@@ -7,7 +7,7 @@
 ## Title
 Tri frequencies stepper mechanism working in oil
 
-## Description
+## About
 
 ## Uses
 [`ITF-A_gnd`](../../interfaces/ITF-A_gnd)

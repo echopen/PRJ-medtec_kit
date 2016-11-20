@@ -7,7 +7,7 @@
 ## Title
 Sweeping
 
-## Description
+## About
 Réglage du pulse selon le bon angle
 
 ## Main function

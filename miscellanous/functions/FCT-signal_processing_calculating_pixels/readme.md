@@ -7,7 +7,7 @@
 ## Title
 Calculating pixels
 
-## Description
+## About
 Obtenir une liste de pixels
 
 ## Main function

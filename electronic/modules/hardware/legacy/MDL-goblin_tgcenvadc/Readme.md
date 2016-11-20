@@ -7,7 +7,7 @@
 ## Title
 Goblin TGC-Envelop-ADC
 
-## Description
+## About
 * The analog signal-processing heart of the echOmods
 * version: V0.1
 * date: 24/04/2016

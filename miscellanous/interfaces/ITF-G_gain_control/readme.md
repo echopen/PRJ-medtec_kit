@@ -9,4 +9,4 @@ Amplifier gain
 ## Amplitude
 [0V, 1V]
 
-## Description
+## About

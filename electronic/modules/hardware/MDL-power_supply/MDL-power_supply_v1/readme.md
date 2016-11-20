@@ -10,7 +10,7 @@ Power supply of the kit
 ## Author
 * [`CTC-dubois_jerome`]()
 
-## Description
+## About
 We need a regulated power supply to suplly the kit.
 
 ## Uses

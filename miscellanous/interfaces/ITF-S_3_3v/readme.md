@@ -9,4 +9,4 @@
 ## Amplitude
 [3.3V, 3.3V]
 
-## Description
+## About

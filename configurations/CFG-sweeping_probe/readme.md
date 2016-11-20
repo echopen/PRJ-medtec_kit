@@ -7,6 +7,8 @@
 ## Title
 Kit 2.1 - Oct 2016
 
+## About
+
 ## Uses
 * [`DVC-sweeping_probe`](../../mecanic/device/DVC-sweeping_probe)
 * [`MDL-transducer_v4`](../../electronic/modules/hardware/MDL-transducer/MDL-transducer_v4)
@@ -20,5 +22,3 @@ Kit 2.1 - Oct 2016
 * [`DB-filter_v1`](../../electronic/daughter_boards/DB-filter/DB-filter_v1)
 * [`DB-envelope_detector_v1`](../../electronic/daughter_boards/DB-envelope_detector/DB-envelope_detector_v1)
 * [`DB-tr_switch_tgc_v1`](../../electronic/daughter_boards/DB-tr_switch_tgc/DB-tr_switch_tgc_v1)
-
-## Description

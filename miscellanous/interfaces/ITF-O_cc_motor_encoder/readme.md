@@ -9,4 +9,4 @@ CC motor incremental encoder
 ## Amplitude
 [0V, 5V]
 
-## Description
+## About

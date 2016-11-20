@@ -9,4 +9,4 @@ Ground
 ## Amplitude
 [0V]
 
-## Description
+## About

@@ -10,7 +10,7 @@ Protect the following electronic components from the high voltage pulse
 ## Author
 * [`CTC-dubois_jerome`]()
 
-## Description
+## About
 We use [MD0100](./doc/MD0100.pdf) T/R switch.
 
 

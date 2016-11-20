@@ -7,7 +7,7 @@
 ## Title
 Amplifying time gain compensation
 
-## Description
+## About
 amplification inversement exponentielle à la pronfondeur
 
 ## Main function

@@ -9,4 +9,4 @@ Pulse info for Redpitaya
 ## Amplitude
 [0V, 3.3V]
 
-## Description
+## About

@@ -10,7 +10,7 @@ High voltage circuit version 1
 ## Author
 * [`CTC-bitmakers`]()
 
-## Description
+## About
 We need a high negative voltage pulse to excite the transducer typically -100V
 
 ## Uses

@@ -12,7 +12,7 @@ Motor version 2, stepper motor
 * [`CTC-wang_feng`]()
 * [`CTC-vincent_benoit`]()
 
-## Description
+## About
 In order to construct a 2D image, we have to move the transducer with a sweeping movement. This can be done with a stepper motor.
 
 ## Uses

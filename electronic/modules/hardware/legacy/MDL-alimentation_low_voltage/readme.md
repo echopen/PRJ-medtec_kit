@@ -7,7 +7,7 @@
 ## Title
 Low voltage (+5v, +3.3v, ...) alimentation
 
-## Description
+## About
 
 ## Uses
 * external +5v

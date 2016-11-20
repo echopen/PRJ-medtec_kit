@@ -7,7 +7,7 @@
 ## Title
 Tri frequencies stepper compact mechanism using timing belt
 
-## Description
+## About
 
 ## Uses
 [`ITF-A_gnd`](../../interfaces/ITF-A_gnd)

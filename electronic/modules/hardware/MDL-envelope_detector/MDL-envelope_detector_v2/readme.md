@@ -12,7 +12,7 @@ Envelope detector version
 * [`CTC-bala_michel`]()
 * [`CTC-wang_feng`]()
 
-## Description
+## About
 The acoustic image is given by the value of acoustic intensity on each point. The acoustic intensity $I \propto 10 \log \left( \left| p \right|^2\right)$ where p is the acoustic pressure (measured by the transducer). $\left| p \right|$ is the amplitude of the pressure, this amplitude is given by the envelope of the acoustic echoes.
 Input: electric echoes (alternative signal, green curve).
 Output : envelope of the echoes (red curve).

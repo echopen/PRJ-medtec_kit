@@ -7,7 +7,7 @@
 ## Title
 Receiving
 
-## Description
+## About
 Capter le signal de pression puis le convertir en tension + (TR switch?)
 
 ## Main function

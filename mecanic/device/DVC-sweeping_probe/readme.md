@@ -7,7 +7,7 @@
 ## Title
 Sweeping probe device
 
-## Description
+## About
 This probe have a mecanic system to sweep a sector angle of 60°. It uses a CC motor.
 
 **warning, no sources yet**

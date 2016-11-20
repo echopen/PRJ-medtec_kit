@@ -7,5 +7,5 @@
 ## Title
 Signal processing
 
-## Description
+## About
 Amplification(TGC), filtrage passe bas pour enlever le bruit (analogique) haute fréquence, conversion numérique, détection d’enveloppe, calcul des pixels

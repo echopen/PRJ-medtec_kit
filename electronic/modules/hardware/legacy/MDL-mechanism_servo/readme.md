@@ -7,7 +7,7 @@
 ## Title
 Experimental mechanism using servo motor
 
-## Description
+## About
 
 ## Uses
 [`ITF-A_gnd`](../../interfaces/ITF-A_gnd)

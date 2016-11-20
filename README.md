@@ -10,7 +10,7 @@ Projet de kit d'expérimentation
 ## Title @lang=en
 Experiment kit project
 
-## Description @lang=en
+## About @lang=en
 Designing a modular hardware development kit to spread the project and raise contributions.
 
 ## Challenge

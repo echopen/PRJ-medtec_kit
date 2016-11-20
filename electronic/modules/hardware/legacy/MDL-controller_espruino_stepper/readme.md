@@ -7,7 +7,7 @@
 ## Title
 Espruino µC with driver for stepper motor
 
-## Description
+## About
 
 ## Uses
 [`ITF-A_gnd`](../../interfaces/ITF-A_gnd)

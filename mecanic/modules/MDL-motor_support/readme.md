@@ -11,5 +11,5 @@ Motor support
 * [`CTC-wang_feng`]()
 * [`CTC-dubois_jerome`]()
 
-## Description
+## About
 This support is design to hang MDL-motor_v2 on the aquarium

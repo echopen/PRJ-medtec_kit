@@ -10,7 +10,7 @@ RedPitaya board
 ## Author
 * [`CTC-dubois_jerome`]()
 
-## Description
+## About
 RedPitaya is a commercial board that is not a daugter board for our system but bring together different modules we have not develop yet (MDL_Ramp, MDL_ADC, MDL_WIFI).
 
 For informations about this board one can look at their [website](http://www.redpitaya.com).
