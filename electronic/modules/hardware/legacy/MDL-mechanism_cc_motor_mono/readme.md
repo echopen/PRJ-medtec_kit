@@ -9,6 +9,9 @@ Mono frequency mechanism using CC motor
 
 ## About
 
+## Author
+* [`CTC-vincent_benoit`]()
+
 ## Uses
 [`ITF-A_gnd`](../../interfaces/ITF-A_gnd)
 

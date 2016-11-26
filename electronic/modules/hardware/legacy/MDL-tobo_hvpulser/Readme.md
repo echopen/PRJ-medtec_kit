@@ -1,4 +1,4 @@
-# Module:
+# Module
 ![](viewme.png)
 
 ## Name
