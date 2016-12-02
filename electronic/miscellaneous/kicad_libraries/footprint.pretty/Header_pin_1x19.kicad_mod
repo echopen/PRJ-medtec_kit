@@ -1,6 +1,7 @@
 (module Header_pin_1x19 (layer F.Cu) (tedit 580DDA9C)
   (descr "Through hole socket strip")
   (tags "socket strip")
+  (attr smd)
   (fp_text reference REF** (at 3.81 -23.495) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

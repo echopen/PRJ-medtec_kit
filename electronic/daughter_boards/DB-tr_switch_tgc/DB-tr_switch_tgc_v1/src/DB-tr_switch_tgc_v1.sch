@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
-LIBS:DB_TRS_TGC_V1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -52,6 +51,9 @@ F 0 "U1" H 4400 2850 60  0000 C CNN
 F 1 "MD0100" H 4450 3050 60  0000 C CNN
 F 2 "Echopen:SOT89-3_(MD0100)" H 4450 2900 60  0001 C CNN
 F 3 "" H 4450 2900 60  0000 C CNN
+F 4 "NA" H 4450 2900 60  0001 C CNN "Caracteristic"
+F 5 "Microchip Technology" H 4450 2900 60  0001 C CNN "Manufacturer"
+F 6 "MD0100N8-G" H 4450 2900 60  0001 C CNN "Ref Manufacturer"
 	1    4450 2900
 	1    0    0    -1  
 $EndComp
@@ -63,6 +65,9 @@ F 0 "D1" H 5050 3100 50  0000 C CNN
 F 1 "1N4148" H 5050 2900 50  0000 C CNN
 F 2 "Echopen:D_TH_common" H 5050 3000 50  0001 C CNN
 F 3 "" H 5050 3000 50  0000 C CNN
+F 4 "high speed diode" H 5050 3000 60  0001 C CNN "Caracteristic"
+F 5 "Fairchild Semiconductor" H 5050 3000 60  0001 C CNN "Manufacturer"
+F 6 "1N4148" H 5050 3000 60  0001 C CNN "Ref Manufacturer"
 	1    5050 3000
 	0    1    1    0   
 $EndComp
@@ -74,6 +79,9 @@ F 0 "D2" H 5350 3100 50  0000 C CNN
 F 1 "1N4148" H 5350 2900 50  0000 C CNN
 F 2 "Echopen:D_TH_common" H 5350 3000 50  0001 C CNN
 F 3 "" H 5350 3000 50  0000 C CNN
+F 4 "high speed diode" H 5350 3000 60  0001 C CNN "Caracteristic"
+F 5 "Fairchild Semiconductor" H 5350 3000 60  0001 C CNN "Manufacturer"
+F 6 "1N4148" H 5350 3000 60  0001 C CNN "Ref Manufacturer"
 	1    5350 3000
 	0    1    -1   0   
 $EndComp
@@ -83,8 +91,11 @@ U 1 1 57A8841B
 P 3000 2700
 F 0 "P1" H 3000 3700 50  0000 C CNN
 F 1 "CONN_01X19" V 3100 2700 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x19" H 3000 2700 50  0001 C CNN
+F 2 "Echopen:Header_pin_angled_1x19" H 3000 2700 50  0001 C CNN
 F 3 "" H 3000 2700 50  0000 C CNN
+F 4 "angled pin 1*19" H 3000 2700 60  0001 C CNN "Caracteristic"
+F 5 "Molex" H 3000 2700 60  0001 C CNN "Manufacturer"
+F 6 "22-28-8192" H 3000 2700 60  0001 C CNN "Ref Manufacturer"
 	1    3000 2700
 	-1   0    0    1   
 $EndComp
@@ -96,6 +107,9 @@ F 0 "P3" H 3960 1970 50  0000 C CNN
 F 1 "SMA" V 4060 1790 50  0000 C CNN
 F 2 "Echopen:SMA" H 3950 1850 50  0001 C CNN
 F 3 "" H 3950 1850 50  0000 C CNN
+F 4 "NA" H 3950 1850 60  0001 C CNN "Caracteristic"
+F 5 "Johnson / Cinch Connectivity Solutions" H 3950 1850 60  0001 C CNN "Manufacturer"
+F 6 "142-0701-801" H 3950 1850 60  0001 C CNN "Ref Manufacturer"
 	1    3950 1850
 	1    0    0    -1  
 $EndComp
@@ -105,8 +119,11 @@ U 1 1 57A887E1
 P 3550 1900
 F 0 "P2" H 3550 2050 50  0000 C CNN
 F 1 "CONN_01X02" V 3650 1900 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x02" H 3550 1900 50  0001 C CNN
+F 2 "Echopen:Socket_1x02" H 3550 1900 50  0001 C CNN
 F 3 "" H 3550 1900 50  0000 C CNN
+F 4 "angled socket 1*02" H 3550 1900 60  0001 C CNN "Caracteristic"
+F 5 "Molex" H 3550 1900 60  0001 C CNN "Manufacturer"
+F 6 "22-15-2026" H 3550 1900 60  0001 C CNN "Ref Manufacturer"
 	1    3550 1900
 	-1   0    0    -1  
 $EndComp
@@ -118,6 +135,9 @@ F 0 "C1" H 5675 2950 50  0000 L CNN
 F 1 "1n" H 5675 2750 50  0000 L CNN
 F 2 "Echopen:C_TH_common" H 5688 2700 50  0001 C CNN
 F 3 "" H 5650 2850 50  0000 C CNN
+F 4 "25V 10%" H 5650 2850 60  0001 C CNN "Caracteristic"
+F 5 "AVX" H 5650 2850 60  0001 C CNN "Manufacturer"
+F 6 "SR151C102KAA" H 5650 2850 60  0001 C CNN "Ref Manufacturer"
 	1    5650 2850
 	0    1    1    0   
 $EndComp
@@ -129,6 +149,9 @@ F 0 "R1" V 5980 3250 50  0000 C CNN
 F 1 "220" V 5900 3250 50  0000 C CNN
 F 2 "Echopen:Resistor_TH_common" V 5830 3250 50  0001 C CNN
 F 3 "" H 5900 3250 50  0000 C CNN
+F 4 "1/4W 5%" V 5900 3250 60  0001 C CNN "Caracteristic"
+F 5 "Yageo" V 5900 3250 60  0001 C CNN "Manufacturer"
+F 6 "CFR-25JB-52-220R" V 5900 3250 60  0001 C CNN "Ref Manufacturer"
 	1    5900 3250
 	1    0    0    -1  
 $EndComp
@@ -140,6 +163,9 @@ F 0 "AOP1" H 6600 2800 60  0000 C CNN
 F 1 "OPA625" H 6650 2700 60  0000 C CNN
 F 2 "Echopen:SOT-23-6_Handsoldering(OPA625)" H 6450 2550 60  0001 C CNN
 F 3 "" H 6450 2550 60  0000 C CNN
+F 4 "high speed OPA" H 6500 2550 60  0001 C CNN "Caracteristic"
+F 5 "TI" H 6500 2550 60  0001 C CNN "Manufacturer"
+F 6 "OPA625IDBVT" H 6500 2550 60  0001 C CNN "Ref Manufacturer"
 	1    6500 2550
 	1    0    0    -1  
 $EndComp
@@ -209,6 +235,9 @@ F 0 "P8" H 7960 2270 50  0000 C CNN
 F 1 "SMA" V 8060 2090 50  0000 C CNN
 F 2 "Echopen:SMA" H 7950 2150 50  0001 C CNN
 F 3 "" H 7950 2150 50  0000 C CNN
+F 4 "NA" H 7950 2150 60  0001 C CNN "Caracteristic"
+F 5 "Johnson / Cinch Connectivity Solutions" H 7950 2150 60  0001 C CNN "Manufacturer"
+F 6 "142-0701-801" H 7950 2150 60  0001 C CNN "Ref Manufacturer"
 	1    7950 2150
 	1    0    0    -1  
 $EndComp
@@ -218,8 +247,11 @@ U 1 1 57A8A021
 P 7550 2200
 F 0 "P6" H 7550 2350 50  0000 C CNN
 F 1 "CONN_01X02" V 7650 2200 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x02" H 7550 2200 50  0001 C CNN
+F 2 "Echopen:Socket_1x02" H 7550 2200 50  0001 C CNN
 F 3 "" H 7550 2200 50  0000 C CNN
+F 4 "angled socket 1*02" H 7550 2200 60  0001 C CNN "Caracteristic"
+F 5 "Molex" H 7550 2200 60  0001 C CNN "Manufacturer"
+F 6 "22-15-2026" H 7550 2200 60  0001 C CNN "Ref Manufacturer"
 	1    7550 2200
 	-1   0    0    -1  
 $EndComp
@@ -233,6 +265,9 @@ F 0 "P9" H 7960 3220 50  0000 C CNN
 F 1 "SMA" V 8060 3040 50  0000 C CNN
 F 2 "Echopen:SMA" H 7950 3100 50  0001 C CNN
 F 3 "" H 7950 3100 50  0000 C CNN
+F 4 "NA" H 7950 3100 60  0001 C CNN "Caracteristic"
+F 5 "Johnson / Cinch Connectivity Solutions" H 7950 3100 60  0001 C CNN "Manufacturer"
+F 6 "142-0701-801" H 7950 3100 60  0001 C CNN "Ref Manufacturer"
 	1    7950 3100
 	1    0    0    -1  
 $EndComp
@@ -242,7 +277,7 @@ U 1 1 57A8A115
 P 7550 3150
 F 0 "P7" H 7550 3300 50  0000 C CNN
 F 1 "CONN_01X02" V 7650 3150 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x02" H 7550 3150 50  0001 C CNN
+F 2 "Echopen:Socket_1x02" H 7550 3150 50  0001 C CNN
 F 3 "" H 7550 3150 50  0000 C CNN
 	1    7550 3150
 	-1   0    0    -1  
@@ -308,8 +343,11 @@ U 1 1 57B6E069
 P 5450 2850
 F 0 "W1" H 5450 3120 50  0000 C CNN
 F 1 "TEST_1P" H 5450 3050 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 5650 2850 50  0001 C CNN
+F 2 "Echopen:Test_Point" H 5650 2850 50  0001 C CNN
 F 3 "" H 5650 2850 50  0000 C CNN
+F 4 "test point" H 5450 2850 60  0001 C CNN "Caracteristic"
+F 5 "Keystone Electronics" H 5450 2850 60  0001 C CNN "Manufacturer"
+F 6 "5000" H 5450 2850 60  0001 C CNN "Ref Manufacturer"
 	1    5450 2850
 	1    0    0    -1  
 $EndComp
@@ -320,8 +358,11 @@ U 1 1 57B6E214
 P 7250 2550
 F 0 "W2" H 7250 2820 50  0000 C CNN
 F 1 "TEST_1P" H 7250 2750 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 7450 2550 50  0001 C CNN
+F 2 "Echopen:Test_Point" H 7450 2550 50  0001 C CNN
 F 3 "" H 7450 2550 50  0000 C CNN
+F 4 "test point" H 7250 2550 60  0001 C CNN "Caracteristic"
+F 5 "Keystone Electronics" H 7250 2550 60  0001 C CNN "Manufacturer"
+F 6 "5000" H 7250 2550 60  0001 C CNN "Ref Manufacturer"
 	1    7250 2550
 	1    0    0    -1  
 $EndComp

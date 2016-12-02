@@ -1,0 +1,591 @@
+## Footprint report - date Tue Nov 29 16:16:55 2016
+## Created by Pcbnew version kicad 4.0.4+e1-6308~48~ubuntu16.04.1-stable
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner 45.760000 51.994999
+lower_right_corner 105.775000 106.640000
+$EndBOARD
+
+$MODULE "P2"
+reference "P2"
+value "CONN_01X15"
+footprint "Socket_Strips:Socket_Strip_Straight_1x15"
+attribut none
+position 58.420000 60.960000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  2.540000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  5.080000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Oval Layer both
+position  7.620000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Oval Layer both
+position 12.700000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Oval Layer both
+position 15.240000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Oval Layer both
+position 17.780000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Oval Layer both
+position 20.320000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Oval Layer both
+position 22.860000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "11"
+Shape Oval Layer both
+position 25.400000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "12"
+Shape Oval Layer both
+position 27.940000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "13"
+Shape Oval Layer both
+position 30.480000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "14"
+Shape Oval Layer both
+position 33.020000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "15"
+Shape Oval Layer both
+position 35.560000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  P2
+
+$MODULE "P3"
+reference "P3"
+value "CONN_01X15"
+footprint "Socket_Strips:Socket_Strip_Straight_1x15"
+attribut none
+position 73.660000 60.960000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  2.540000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  5.080000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Oval Layer both
+position  7.620000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Oval Layer both
+position 12.700000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Oval Layer both
+position 15.240000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Oval Layer both
+position 17.780000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Oval Layer both
+position 20.320000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Oval Layer both
+position 22.860000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "11"
+Shape Oval Layer both
+position 25.400000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "12"
+Shape Oval Layer both
+position 27.940000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "13"
+Shape Oval Layer both
+position 30.480000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "14"
+Shape Oval Layer both
+position 33.020000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "15"
+Shape Oval Layer both
+position 35.560000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  P3
+
+$MODULE "P4"
+reference "P4"
+value "CONN_01X08"
+footprint "Socket_Strips:Socket_Strip_Straight_1x08"
+attribut none
+position 80.010000 66.040000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  2.540000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  5.080000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Oval Layer both
+position  7.620000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Oval Layer both
+position 12.700000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Oval Layer both
+position 15.240000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Oval Layer both
+position 17.780000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  P4
+
+$MODULE "P5"
+reference "P5"
+value "CONN_01X08"
+footprint "Socket_Strips:Socket_Strip_Straight_1x08"
+attribut none
+position 92.710000 66.040000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  2.540000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  5.080000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Oval Layer both
+position  7.620000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Oval Layer both
+position 12.700000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Oval Layer both
+position 15.240000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Oval Layer both
+position 17.780000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  P5
+
+$MODULE "P6"
+reference "P6"
+value "CONN_01X04"
+footprint "Socket_Strips:Socket_Strip_Straight_1x04"
+attribut none
+position 101.600000 71.120000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  2.540000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  5.080000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Oval Layer both
+position  7.620000  0.000000  size  1.727200  2.032000  orientation 0.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  P6
+
+$MODULE "C2"
+reference "C2"
+value "10u"
+footprint "Echopen:CP_TH_common"
+attribut none
+position 82.550000 57.150000  orientation 0.00
+layer front
+$PAD "2"
+Shape Circle Layer both
+position  3.500000  0.000000  size  1.300000  1.300000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.300000  1.300000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C2
+
+$MODULE "Q1"
+reference "Q1"
+value "2N2222"
+footprint "Echopen:TO-18_TH_common"
+attribut none
+position 96.520000 92.710000  orientation 90.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  1.270000  0.000000  size  1.200000  1.200000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  0.000000 -1.270000  size  1.200000  1.200000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position -1.270000  0.000000  size  1.200000  1.200000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q1
+
+$MODULE "R1"
+reference "R1"
+value "1.5k"
+footprint "Echopen:Resistor_TH_common"
+attribut none
+position 80.010000 93.980000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.998980  1.998980  orientation 0.00
+drill  1.000760
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position 10.160000  0.000000  size  1.998980  1.998980  orientation 0.00
+drill  1.000760
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
+
+$MODULE "R2"
+reference "R2"
+value "1.5k"
+footprint "Echopen:Resistor_TH_common"
+attribut none
+position 80.010000 90.170000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.998980  1.998980  orientation 0.00
+drill  1.000760
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position 10.160000  0.000000  size  1.998980  1.998980  orientation 0.00
+drill  1.000760
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R2
+
+$MODULE "C1"
+reference "C1"
+value "100u"
+footprint "Echopen:CP_TH_common"
+attribut none
+position 99.060000 66.040000  orientation 90.00
+layer front
+$PAD "2"
+Shape Circle Layer both
+position  3.500000  0.000000  size  1.300000  1.300000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.300000  1.300000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C1
+
+$MODULE "P1"
+reference "P1"
+value "CONN_01X19"
+footprint "Echopen:Header_pin_angled_1x19"
+attribut none
+position 50.800000 78.740000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000 -22.860000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000 -20.320000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000 -17.780000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Oval Layer both
+position  0.000000 -15.240000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Oval Layer both
+position  0.000000 -12.700000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Oval Layer both
+position  0.000000 -10.160000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Oval Layer both
+position  0.000000 -7.620000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Oval Layer both
+position  0.000000 -5.080000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Oval Layer both
+position  0.000000 -2.540000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Oval Layer both
+position  0.000000  0.000000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "11"
+Shape Oval Layer both
+position  0.000000  2.540000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "12"
+Shape Oval Layer both
+position  0.000000  5.080000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "13"
+Shape Oval Layer both
+position  0.000000  7.620000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "14"
+Shape Oval Layer both
+position  0.000000 10.160000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "15"
+Shape Oval Layer both
+position  0.000000 12.700000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "16"
+Shape Oval Layer both
+position  0.000000 15.240000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "17"
+Shape Oval Layer both
+position  0.000000 17.780000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "18"
+Shape Oval Layer both
+position  0.000000 20.320000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "19"
+Shape Oval Layer both
+position  0.000000 22.860000  size  1.727200  2.032000  orientation 270.00
+drill  1.016000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  P1
+
+$EndDESCRIPTION

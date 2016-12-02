@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
-LIBS:DB_Supply_V1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -51,8 +50,11 @@ U 1 1 572A0226
 P 3950 3900
 F 0 "U1" H 3550 4250 50  0000 L CNN
 F 1 "LM555N" H 3550 3550 50  0000 L CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm" H 3950 3900 50  0001 C CNN
+F 2 "Echopen:DIP-8(LM555)" H 3950 3900 50  0001 C CNN
 F 3 "" H 3950 3900 50  0000 C CNN
+F 4 "timer" H 3950 3900 60  0001 C CNN "Caracteristic"
+F 5 "TI" H 3950 3900 60  0001 C CNN "Manufacturer"
+F 6 "LM555CN/NOPB" H 3950 3900 60  0001 C CNN "Ref Manufacturer"
 	1    3950 3900
 	1    0    0    -1  
 $EndComp
@@ -64,6 +66,9 @@ F 0 "C1" H 3525 4600 50  0000 L CNN
 F 1 "10n" H 3525 4400 50  0000 L CNN
 F 2 "Echopen:C_TH_common" H 3538 4350 50  0001 C CNN
 F 3 "" H 3500 4500 50  0000 C CNN
+F 4 "25V 10%" H 3500 4500 60  0001 C CNN "Caracteristic"
+F 5 "Vishay" H 3500 4500 60  0001 C CNN "Manufacturer"
+F 6 "K103K15X7RF5UH5" H 3500 4500 60  0001 C CNN "Ref Manufacturer"
 	1    3500 4500
 	0    1    1    0   
 $EndComp
@@ -75,6 +80,9 @@ F 0 "R2" V 4830 3950 50  0000 C CNN
 F 1 "12k" V 4750 3950 50  0000 C CNN
 F 2 "Echopen:Resistor_TH_common" V 4680 3950 50  0001 C CNN
 F 3 "" H 4750 3950 50  0000 C CNN
+F 4 "1/4W 5%" V 4750 3950 60  0001 C CNN "Caracteristic"
+F 5 "KOA speer" V 4750 3950 60  0001 C CNN "Manufacturer"
+F 6 "MF1/4LCT52R123J" V 4750 3950 60  0001 C CNN "Ref Manufacturer"
 	1    4750 3950
 	1    0    0    -1  
 $EndComp
@@ -92,6 +100,9 @@ F 0 "R1" V 4580 3300 50  0000 C CNN
 F 1 "2.2k" V 4500 3300 50  0000 C CNN
 F 2 "Echopen:Resistor_TH_common" V 4430 3300 50  0001 C CNN
 F 3 "" H 4500 3300 50  0000 C CNN
+F 4 "1/4W 10%" V 4500 3300 60  0001 C CNN "Caracteristic"
+F 5 "KOA speer" V 4500 3300 60  0001 C CNN "Manufacturer"
+F 6 "MF1/4LCT52R222J" V 4500 3300 60  0001 C CNN "Ref Manufacturer"
 	1    4500 3300
 	0    1    1    0   
 $EndComp
@@ -107,6 +118,9 @@ F 0 "D1" H 4900 5450 50  0000 C CNN
 F 1 "1N4001" H 4900 5250 50  0000 C CNN
 F 2 "Echopen:D_TH_common" H 4900 5350 50  0001 C CNN
 F 3 "" H 4900 5350 50  0000 C CNN
+F 4 "NA" H 4900 5350 60  0001 C CNN "Caracteristic"
+F 5 "Fairchild Semiconductor" H 4900 5350 60  0001 C CNN "Manufacturer"
+F 6 "1N4148" H 4900 5350 60  0001 C CNN "Ref Manufacturer"
 	1    4900 5350
 	-1   0    0    -1  
 $EndComp
@@ -120,6 +134,9 @@ F 0 "C3" H 5075 5750 50  0000 L CNN
 F 1 "220u" H 5075 5550 50  0000 L CNN
 F 2 "Echopen:CP_TH_common" H 5088 5500 50  0001 C CNN
 F 3 "" H 5050 5650 50  0000 C CNN
+F 4 "25V 20%" H 5050 5650 60  0001 C CNN "Caracteristic"
+F 5 "Cornell Dubilier - CDE" H 5050 5650 60  0001 C CNN "Manufacturer"
+F 6 "227CKS025MGM" H 5050 5650 60  0001 C CNN "Ref Manufacturer"
 	1    5050 5650
 	1    0    0    -1  
 $EndComp
@@ -131,6 +148,9 @@ F 0 "C4" H 5875 5750 50  0000 L CNN
 F 1 "47u" H 5875 5550 50  0000 L CNN
 F 2 "Echopen:CP_TH_common" H 5888 5500 50  0001 C CNN
 F 3 "" H 5850 5650 50  0000 C CNN
+F 4 "25V 20%" H 5850 5650 60  0001 C CNN "Caracteristic"
+F 5 "Nichicon" H 5850 5650 60  0001 C CNN "Manufacturer"
+F 6 "UVR1E470MDD6" H 5850 5650 60  0001 C CNN "Ref Manufacturer"
 	1    5850 5650
 	1    0    0    -1  
 $EndComp
@@ -142,6 +162,9 @@ F 0 "C5" H 6675 5750 50  0000 L CNN
 F 1 "47u" H 6675 5550 50  0000 L CNN
 F 2 "Echopen:CP_TH_common" H 6688 5500 50  0001 C CNN
 F 3 "" H 6650 5650 50  0000 C CNN
+F 4 "25V 20%" H 6650 5650 60  0001 C CNN "Caracteristic"
+F 5 "Nichicon" H 6650 5650 60  0001 C CNN "Manufacturer"
+F 6 "UVR1E470MDD6" H 6650 5650 60  0001 C CNN "Ref Manufacturer"
 	1    6650 5650
 	1    0    0    -1  
 $EndComp
@@ -155,6 +178,9 @@ F 0 "R5" V 6880 5350 50  0000 C CNN
 F 1 "270" V 6800 5350 50  0000 C CNN
 F 2 "Echopen:Resistor_TH_common" V 6730 5350 50  0001 C CNN
 F 3 "" H 6800 5350 50  0000 C CNN
+F 4 "1/4W 10%" V 6800 5350 60  0001 C CNN "Caracteristic"
+F 5 "KOA speer" V 6800 5350 60  0001 C CNN "Manufacturer"
+F 6 "MF1/4LCT52R271J" V 6800 5350 60  0001 C CNN "Ref Manufacturer"
 	1    6800 5350
 	0    1    1    0   
 $EndComp
@@ -166,6 +192,9 @@ F 0 "D2" H 6950 5650 50  0000 C CNN
 F 1 "LED" H 6950 5450 50  0000 C CNN
 F 2 "Echopen:D_TH_common" H 6950 5550 50  0001 C CNN
 F 3 "" H 6950 5550 50  0000 C CNN
+F 4 "green LED" H 6950 5550 60  0001 C CNN "Caracteristic"
+F 5 "parallax" H 6950 5550 60  0001 C CNN "Manufacturer"
+F 6 "350-00001" H 6950 5550 60  0001 C CNN "Ref Manufacturer"
 	1    6950 5550
 	0    -1   -1   0   
 $EndComp
@@ -198,6 +227,9 @@ F 0 "R4" V 5780 3350 50  0000 C CNN
 F 1 "1.8k" V 5700 3350 50  0000 C CNN
 F 2 "Echopen:Resistor_TH_common" V 5630 3350 50  0001 C CNN
 F 3 "" H 5700 3350 50  0000 C CNN
+F 4 "1/4W 10%" V 5700 3350 60  0001 C CNN "Caracteristic"
+F 5 "KOA speer" V 5700 3350 60  0001 C CNN "Manufacturer"
+F 6 "MF1/4LCT52R182G" V 5700 3350 60  0001 C CNN "Ref Manufacturer"
 	1    5700 3350
 	1    0    0    -1  
 $EndComp
@@ -218,6 +250,9 @@ F 0 "C7" H 7375 3700 50  0000 L CNN
 F 1 "47u" H 7375 3500 50  0000 L CNN
 F 2 "Echopen:CP_TH_common" H 7388 3450 50  0001 C CNN
 F 3 "" H 7350 3600 50  0000 C CNN
+F 4 "25V 20%" H 7350 3600 60  0001 C CNN "Caracteristic"
+F 5 "Nichicon" H 7350 3600 60  0001 C CNN "Manufacturer"
+F 6 "UVR1E470MDD6" H 7350 3600 60  0001 C CNN "Ref Manufacturer"
 	1    7350 3600
 	0    -1   -1   0   
 $EndComp
@@ -226,9 +261,12 @@ L D D3
 U 1 1 572A3EDF
 P 7500 3750
 F 0 "D3" H 7500 3850 50  0000 C CNN
-F 1 "1N4001" H 7500 3650 50  0000 C CNN
+F 1 "1N4148" H 7500 3650 50  0000 C CNN
 F 2 "Echopen:D_TH_common" H 7500 3750 50  0001 C CNN
 F 3 "" H 7500 3750 50  0000 C CNN
+F 4 "NA" H 7500 3750 60  0001 C CNN "Caracteristic"
+F 5 "Fairchild Semiconductor" H 7500 3750 60  0001 C CNN "Manufacturer"
+F 6 "1N4148" H 7500 3750 60  0001 C CNN "Ref Manufacturer"
 	1    7500 3750
 	0    -1   -1   0   
 $EndComp
@@ -240,6 +278,9 @@ F 0 "D4" H 7650 3700 50  0000 C CNN
 F 1 "1N4001" H 7650 3500 50  0000 C CNN
 F 2 "Echopen:D_TH_common" H 7650 3600 50  0001 C CNN
 F 3 "" H 7650 3600 50  0000 C CNN
+F 4 "NA" H 7650 3600 60  0001 C CNN "Caracteristic"
+F 5 "Fairchild Semiconductor" H 7650 3600 60  0001 C CNN "Manufacturer"
+F 6 "1N4148" H 7650 3600 60  0001 C CNN "Ref Manufacturer"
 	1    7650 3600
 	1    0    0    -1  
 $EndComp
@@ -251,6 +292,9 @@ F 0 "C8" H 7825 3850 50  0000 L CNN
 F 1 "47u" H 7825 3650 50  0000 L CNN
 F 2 "Echopen:CP_TH_common" H 7838 3600 50  0001 C CNN
 F 3 "" H 7800 3750 50  0000 C CNN
+F 4 "25V 20%" H 7800 3750 60  0001 C CNN "Caracteristic"
+F 5 "Nichicon" H 7800 3750 60  0001 C CNN "Manufacturer"
+F 6 "UVR1E470MDD6" H 7800 3750 60  0001 C CNN "Ref Manufacturer"
 	1    7800 3750
 	1    0    0    1   
 $EndComp
@@ -262,6 +306,9 @@ F 0 "C9" H 8625 3850 50  0000 L CNN
 F 1 "47u" H 8625 3650 50  0000 L CNN
 F 2 "Echopen:CP_TH_common" H 8638 3600 50  0001 C CNN
 F 3 "" H 8600 3750 50  0000 C CNN
+F 4 "25V 20%" H 8600 3750 60  0001 C CNN "Caracteristic"
+F 5 "Nichicon" H 8600 3750 60  0001 C CNN "Manufacturer"
+F 6 "UVR1E470MDD6" H 8600 3750 60  0001 C CNN "Ref Manufacturer"
 	1    8600 3750
 	1    0    0    1   
 $EndComp
@@ -290,6 +337,9 @@ F 0 "R3" V 5330 3700 50  0000 C CNN
 F 1 "3.3k" V 5250 3700 50  0000 C CNN
 F 2 "Echopen:Resistor_TH_common" V 5180 3700 50  0001 C CNN
 F 3 "" H 5250 3700 50  0000 C CNN
+F 4 "1/4W 10%" V 5250 3700 60  0001 C CNN "Caracteristic"
+F 5 "KOA speer" V 5250 3700 60  0001 C CNN "Manufacturer"
+F 6 "MF1/4LCT52R332J" V 5250 3700 60  0001 C CNN "Ref Manufacturer"
 	1    5250 3700
 	0    1    1    0   
 $EndComp
@@ -313,6 +363,9 @@ F 0 "C2" H 4775 4450 50  0000 L CNN
 F 1 "47n" H 4775 4250 50  0000 L CNN
 F 2 "Echopen:C_TH_common" H 4788 4200 50  0001 C CNN
 F 3 "" H 4750 4350 50  0000 C CNN
+F 4 "25V 10%" H 4750 4350 60  0001 C CNN "Caracteristic"
+F 5 "Vishay" H 4750 4350 60  0001 C CNN "Manufacturer"
+F 6 "1C10Z5U473M050B" H 4750 4350 60  0001 C CNN "Ref Manufacturer"
 	1    4750 4350
 	-1   0    0    1   
 $EndComp
@@ -361,6 +414,9 @@ F 0 "C10" H 9425 3850 50  0000 L CNN
 F 1 "47u" H 9425 3650 50  0000 L CNN
 F 2 "Echopen:CP_TH_common" H 9438 3600 50  0001 C CNN
 F 3 "" H 9400 3750 50  0000 C CNN
+F 4 "25V 20%" H 9400 3750 60  0001 C CNN "Caracteristic"
+F 5 "Nichicon" H 9400 3750 60  0001 C CNN "Manufacturer"
+F 6 "UVR1E470MDD6" H 9400 3750 60  0001 C CNN "Ref Manufacturer"
 	1    9400 3750
 	1    0    0    1   
 $EndComp
@@ -385,8 +441,11 @@ U 1 1 57A1CA2F
 P 2350 4850
 F 0 "P1" H 2350 5850 50  0000 C CNN
 F 1 "CONN_01X19" V 2450 4850 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x19" H 2350 4850 50  0001 C CNN
+F 2 "Echopen:Header_pin_angled_1x19" H 2350 4850 50  0001 C CNN
 F 3 "" H 2350 4850 50  0000 C CNN
+F 4 "angled pin 1*19" H 2350 4850 60  0001 C CNN "Caracteristic"
+F 5 "Molex" H 2350 4850 60  0001 C CNN "Manufacturer"
+F 6 "22-28-8192" H 2350 4850 60  0001 C CNN "Ref Manufacturer"
 	1    2350 4850
 	-1   0    0    1   
 $EndComp
@@ -431,6 +490,9 @@ F 0 "C6" H 6725 4600 50  0000 L CNN
 F 1 "47u" H 6725 4400 50  0000 L CNN
 F 2 "Echopen:CP_TH_common" H 6738 4350 50  0001 C CNN
 F 3 "" H 6700 4500 50  0000 C CNN
+F 4 "25V 20%" H 6700 4500 60  0001 C CNN "Caracteristic"
+F 5 "Nichicon" H 6700 4500 60  0001 C CNN "Manufacturer"
+F 6 "UVR1E470MDD6" H 6700 4500 60  0001 C CNN "Ref Manufacturer"
 	1    6700 4500
 	1    0    0    -1  
 $EndComp
@@ -495,6 +557,9 @@ F 0 "U2" H 5600 5204 50  0000 C CNN
 F 1 "LM2940T-12.0/NOPB" H 5450 5600 50  0000 C CNN
 F 2 "Echopen:TO-220_TH_common" H 5450 5400 50  0001 C CNN
 F 3 "" H 5450 5400 50  0000 C CNN
+F 4 "12V 1A voltage regulator" H 5450 5400 60  0001 C CNN "Caracteristic"
+F 5 "TI" H 5450 5400 60  0001 C CNN "Manufacturer"
+F 6 "LM2940CT-12/NOPB" H 5450 5400 60  0001 C CNN "Ref Manufacturer"
 	1    5450 5400
 	1    0    0    -1  
 $EndComp
@@ -506,6 +571,9 @@ F 0 "U3" H 6400 5204 50  0000 C CNN
 F 1 "LM2940T-5.0/NOPB" H 6250 5600 50  0000 C CNN
 F 2 "Echopen:TO-220_TH_common" H 6250 5400 50  0001 C CNN
 F 3 "" H 6250 5400 50  0000 C CNN
+F 4 "5V 1A voltage regulator" H 6250 5400 60  0001 C CNN "Caracteristic"
+F 5 "TI" H 6250 5400 60  0001 C CNN "Manufacturer"
+F 6 "LM2940CT-5.0/NOPB" H 6250 5400 60  0001 C CNN "Ref Manufacturer"
 	1    6250 5400
 	1    0    0    -1  
 $EndComp
@@ -517,6 +585,9 @@ F 0 "U4" H 6450 4204 50  0000 C CNN
 F 1 "LM1117T-3.3/NOPB" H 6300 4600 50  0000 C CNN
 F 2 "Echopen:TO-220_TH_common" H 6300 4400 50  0001 C CNN
 F 3 "" H 6300 4400 50  0000 C CNN
+F 4 "3.3V 1A voltage regulator" H 6300 4400 60  0001 C CNN "Caracteristic"
+F 5 "TI" H 6300 4400 60  0001 C CNN "Manufacturer"
+F 6 "LM1117T-3.3/NOPB" H 6300 4400 60  0001 C CNN "Ref Manufacturer"
 	1    6300 4400
 	1    0    0    -1  
 $EndComp
@@ -528,6 +599,9 @@ F 0 "Q1" H 5800 3775 50  0000 L CNN
 F 1 "2N2222" H 5800 3700 50  0000 L CNN
 F 2 "Echopen:TO-18_TH_common" H 5800 3625 50  0001 L CIN
 F 3 "" H 5600 3700 50  0000 L CNN
+F 4 "NA" H 5600 3700 60  0001 C CNN "Caracteristic"
+F 5 "Central Semiconductor" H 5600 3700 60  0001 C CNN "Manufacturer"
+F 6 "2N2222" H 5600 3700 60  0001 C CNN "Ref Manufacturer"
 	1    5600 3700
 	1    0    0    -1  
 $EndComp
@@ -539,6 +613,9 @@ F 0 "Q2" H 6700 3475 50  0000 L CNN
 F 1 "2N2222" H 6700 3400 50  0000 L CNN
 F 2 "Echopen:TO-18_TH_common" H 6700 3325 50  0001 L CIN
 F 3 "" H 6500 3400 50  0000 L CNN
+F 4 "NA" H 6500 3400 60  0001 C CNN "Caracteristic"
+F 5 "Central Semiconductor" H 6500 3400 60  0001 C CNN "Manufacturer"
+F 6 "2N2222" H 6500 3400 60  0001 C CNN "Ref Manufacturer"
 	1    6500 3400
 	1    0    0    -1  
 $EndComp
@@ -550,6 +627,9 @@ F 0 "Q3" H 6700 3875 50  0000 L CNN
 F 1 "2N2907" H 6700 3800 50  0000 L CNN
 F 2 "Echopen:TO-18_TH_common" H 6800 3650 50  0001 L CIN
 F 3 "" H 6500 3800 50  0000 L CNN
+F 4 "NA" H 6500 3800 60  0001 C CNN "Caracteristic"
+F 5 "Central Semiconductor" H 6500 3800 60  0001 C CNN "Manufacturer"
+F 6 "2N2907A" H 6500 3800 60  0001 C CNN "Ref Manufacturer"
 	1    6500 3800
 	1    0    0    1   
 $EndComp
@@ -561,6 +641,9 @@ F 0 "U5" H 8350 3454 50  0000 C CNN
 F 1 "LM2990T-12.0/NOPB" H 8200 3850 50  0000 C CNN
 F 2 "Echopen:TO-220_TH_common" H 8200 3650 50  0001 C CNN
 F 3 "" H 8200 3650 50  0000 C CNN
+F 4 "-12V 1A voltage regulator" H 8200 3650 60  0001 C CNN "Caracteristic"
+F 5 "TI" H 8200 3650 60  0001 C CNN "Manufacturer"
+F 6 "LM2990T-12/NOPB" H 8200 3650 60  0001 C CNN "Ref Manufacturer"
 	1    8200 3650
 	1    0    0    -1  
 $EndComp
@@ -572,6 +655,9 @@ F 0 "U6" H 9150 3454 50  0000 C CNN
 F 1 "LM2990T-5.0/NOPB" H 9000 3850 50  0000 C CNN
 F 2 "Echopen:TO-220_TH_common" H 9000 3650 50  0001 C CNN
 F 3 "" H 9000 3650 50  0000 C CNN
+F 4 "-5V 1A voltage regulator" H 9000 3650 60  0001 C CNN "Caracteristic"
+F 5 "TI" H 9000 3650 60  0001 C CNN "Manufacturer"
+F 6 "LM2990T-5.0/NOPB" H 9000 3650 60  0001 C CNN "Ref Manufacturer"
 	1    9000 3650
 	1    0    0    -1  
 $EndComp

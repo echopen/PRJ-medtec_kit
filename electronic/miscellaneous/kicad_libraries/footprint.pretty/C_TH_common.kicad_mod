@@ -1,6 +1,7 @@
-(module Capacitors_ThroughHole:C_Disc_D6_P5 (layer F.Cu) (tedit 57B463AA)
+(module C_TH_common (layer F.Cu) (tedit 57B463AA)
   (descr "Capacitor 6mm Disc, Pitch 5mm")
   (tags Capacitor)
+  (attr smd)
   (fp_text reference REF** (at 2.54 -1.27) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

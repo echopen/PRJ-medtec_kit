@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_Pulser/V2/PCB2/DB_Pulser_V2.sch</source>
-    <date>ven. 26 août 2016 17:19:13 CEST</date>
-    <tool>Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable</tool>
+    <source>/home/gg/GitHub/PRJ-medtec_kit/electronic/daughter_boards/DB-pulser/DB-pulser_v2/src/DB-pulser_v2.sch</source>
+    <date>ven. 02 déc. 2016 11:09:46 CET</date>
+    <tool>Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>DB_Pulser_V2.sch</source>
+        <source>DB-pulser_v2.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -22,13 +22,23 @@
     <comp ref="P1">
       <value>CONN_01X19</value>
       <footprint>Echopen:Header_pin_1x19</footprint>
+      <fields>
+        <field name="Caracteristic">Angled pin header 1*19</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Ref Manufacturer">22-28-8192</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X19"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57BEEBC1</tstamp>
     </comp>
     <comp ref="P3">
       <value>CONN_01X08</value>
-      <footprint>Socket_Strips:Socket_Strip_Angled_1x08</footprint>
+      <footprint>Echopen:Socket_Strip_Straight_1x08</footprint>
+      <fields>
+        <field name="Caracteristic">angled socket 1*08</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Ref Manufacturer">22-15-2086</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X08"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57BEECD8</tstamp>
@@ -36,20 +46,35 @@
     <comp ref="P4">
       <value>SMA</value>
       <footprint>Echopen:SMA</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Johnson / Cinch Connectivity Solutions</field>
+        <field name="Ref Manufacturer">142-0701-801</field>
+      </fields>
       <libsource lib="echopen" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57BEEF82</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_01X02</value>
-      <footprint>Socket_Strips:Socket_Strip_Angled_1x02</footprint>
+      <footprint>Echopen:Socket_1x02</footprint>
+      <fields>
+        <field name="Caracteristic">angled socket 1*02</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Ref Manufacturer">22-15-2026</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57BEEE86</tstamp>
     </comp>
     <comp ref="P5">
       <value>CONN_01X02</value>
-      <footprint>Socket_Strips:Socket_Strip_Angled_1x02</footprint>
+      <footprint>Echopen:Socket_1x02</footprint>
+      <fields>
+        <field name="Caracteristic">angled socket 1*02</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Ref Manufacturer">22-15-2026</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57BEF06F</tstamp>
@@ -57,13 +82,23 @@
     <comp ref="P7">
       <value>SMA</value>
       <footprint>Echopen:SMA</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Johnson / Cinch Connectivity Solutions</field>
+        <field name="Ref Manufacturer">142-0701-801</field>
+      </fields>
       <libsource lib="echopen" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57BEF0D8</tstamp>
     </comp>
     <comp ref="P6">
       <value>CONN_01X02</value>
-      <footprint>Socket_Strips:Socket_Strip_Angled_1x02</footprint>
+      <footprint>Echopen:Socket_1x02</footprint>
+      <fields>
+        <field name="Caracteristic">angled socket 1*02</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Ref Manufacturer">22-15-2026</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57BEF1AE</tstamp>
@@ -71,6 +106,11 @@
     <comp ref="P8">
       <value>SMA</value>
       <footprint>Echopen:SMA</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Johnson / Cinch Connectivity Solutions</field>
+        <field name="Ref Manufacturer">142-0701-801</field>
+      </fields>
       <libsource lib="echopen" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57BEF1B4</tstamp>
@@ -78,6 +118,11 @@
     <comp ref="33u(150V)1">
       <value>CP</value>
       <footprint>Echopen:CP_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">150V 20%</field>
+        <field name="Manufacturer">Lelon</field>
+        <field name="Ref Manufacturer">REA330M2CBK-1320P</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57C05E2E</tstamp>
@@ -194,14 +239,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="echopen">
+      <uri>/home/gg/GitHub/PRJ-medtec_kit/electronic/miscellaneous/kicad_libraries/echopen.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="echopen">
-      <uri>/home/echopen/Bureau/GitHub/electronic/kicad/Librairy/echopen.lib</uri>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>

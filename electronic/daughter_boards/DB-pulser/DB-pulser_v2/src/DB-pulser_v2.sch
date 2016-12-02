@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
-LIBS:DB_Pulser_V2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -52,6 +51,9 @@ F 0 "P1" H 3500 4500 50  0000 C CNN
 F 1 "CONN_01X19" V 3600 3500 50  0000 C CNN
 F 2 "Echopen:Header_pin_1x19" H 3500 3500 50  0001 C CNN
 F 3 "" H 3500 3500 50  0000 C CNN
+F 4 "Angled pin header 1*19" H 3500 3500 60  0001 C CNN "Caracteristic"
+F 5 "Molex" H 3500 3500 60  0001 C CNN "Manufacturer"
+F 6 "22-28-8192" H 3500 3500 60  0001 C CNN "Ref Manufacturer"
 	1    3500 3500
 	-1   0    0    -1  
 $EndComp
@@ -61,8 +63,11 @@ U 1 1 57BEECD8
 P 4750 2250
 F 0 "P3" H 4750 2700 50  0000 C CNN
 F 1 "CONN_01X08" V 4850 2250 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x08" H 4750 2250 50  0001 C CNN
+F 2 "Echopen:Socket_Strip_Straight_1x08" H 4750 2250 50  0001 C CNN
 F 3 "" H 4750 2250 50  0000 C CNN
+F 4 "angled socket 1*08" H 4750 2250 60  0001 C CNN "Caracteristic"
+F 5 "Molex" H 4750 2250 60  0001 C CNN "Manufacturer"
+F 6 "22-15-2086" H 4750 2250 60  0001 C CNN "Ref Manufacturer"
 	1    4750 2250
 	0    1    -1   0   
 $EndComp
@@ -139,6 +144,9 @@ F 0 "P4" H 4960 4370 50  0000 C CNN
 F 1 "SMA" V 5060 4190 50  0000 C CNN
 F 2 "Echopen:SMA" H 4950 4250 50  0001 C CNN
 F 3 "" H 4950 4250 50  0000 C CNN
+F 4 "NA" H 4950 4250 60  0001 C CNN "Caracteristic"
+F 5 "Johnson / Cinch Connectivity Solutions" H 4950 4250 60  0001 C CNN "Manufacturer"
+F 6 "142-0701-801" H 4950 4250 60  0001 C CNN "Ref Manufacturer"
 	1    4950 4250
 	1    0    0    -1  
 $EndComp
@@ -148,8 +156,11 @@ U 1 1 57BEEE86
 P 4600 4300
 F 0 "P2" H 4600 4450 50  0000 C CNN
 F 1 "CONN_01X02" V 4700 4300 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x02" H 4600 4300 50  0001 C CNN
+F 2 "Echopen:Socket_1x02" H 4600 4300 50  0001 C CNN
 F 3 "" H 4600 4300 50  0000 C CNN
+F 4 "angled socket 1*02" H 4600 4300 60  0001 C CNN "Caracteristic"
+F 5 "Molex" H 4600 4300 60  0001 C CNN "Manufacturer"
+F 6 "22-15-2026" H 4600 4300 60  0001 C CNN "Ref Manufacturer"
 	1    4600 4300
 	-1   0    0    -1  
 $EndComp
@@ -165,8 +176,11 @@ U 1 1 57BEF06F
 P 5250 3300
 F 0 "P5" H 5250 3450 50  0000 C CNN
 F 1 "CONN_01X02" V 5350 3300 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x02" H 5250 3300 50  0001 C CNN
+F 2 "Echopen:Socket_1x02" H 5250 3300 50  0001 C CNN
 F 3 "" H 5250 3300 50  0000 C CNN
+F 4 "angled socket 1*02" H 5250 3300 60  0001 C CNN "Caracteristic"
+F 5 "Molex" H 5250 3300 60  0001 C CNN "Manufacturer"
+F 6 "22-15-2026" H 5250 3300 60  0001 C CNN "Ref Manufacturer"
 	1    5250 3300
 	-1   0    0    -1  
 $EndComp
@@ -178,6 +192,9 @@ F 0 "P7" H 5610 3370 50  0000 C CNN
 F 1 "SMA" V 5710 3190 50  0000 C CNN
 F 2 "Echopen:SMA" H 5600 3250 50  0001 C CNN
 F 3 "" H 5600 3250 50  0000 C CNN
+F 4 "NA" H 5600 3250 60  0001 C CNN "Caracteristic"
+F 5 "Johnson / Cinch Connectivity Solutions" H 5600 3250 60  0001 C CNN "Manufacturer"
+F 6 "142-0701-801" H 5600 3250 60  0001 C CNN "Ref Manufacturer"
 	1    5600 3250
 	1    0    0    -1  
 $EndComp
@@ -193,8 +210,11 @@ U 1 1 57BEF1AE
 P 5250 3700
 F 0 "P6" H 5250 3850 50  0000 C CNN
 F 1 "CONN_01X02" V 5350 3700 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x02" H 5250 3700 50  0001 C CNN
+F 2 "Echopen:Socket_1x02" H 5250 3700 50  0001 C CNN
 F 3 "" H 5250 3700 50  0000 C CNN
+F 4 "angled socket 1*02" H 5250 3700 60  0001 C CNN "Caracteristic"
+F 5 "Molex" H 5250 3700 60  0001 C CNN "Manufacturer"
+F 6 "22-15-2026" H 5250 3700 60  0001 C CNN "Ref Manufacturer"
 	1    5250 3700
 	-1   0    0    -1  
 $EndComp
@@ -206,6 +226,9 @@ F 0 "P8" H 5610 3770 50  0000 C CNN
 F 1 "SMA" V 5710 3590 50  0000 C CNN
 F 2 "Echopen:SMA" H 5600 3650 50  0001 C CNN
 F 3 "" H 5600 3650 50  0000 C CNN
+F 4 "NA" H 5600 3650 60  0001 C CNN "Caracteristic"
+F 5 "Johnson / Cinch Connectivity Solutions" H 5600 3650 60  0001 C CNN "Manufacturer"
+F 6 "142-0701-801" H 5600 3650 60  0001 C CNN "Ref Manufacturer"
 	1    5600 3650
 	1    0    0    -1  
 $EndComp
@@ -251,13 +274,16 @@ NoConn ~ 3700 4200
 NoConn ~ 3700 4300
 NoConn ~ 3700 4400
 $Comp
-L CP 33u(150V)1
+L CP 33u(150V)
 U 1 1 57C05E2E
 P 5250 4300
-F 0 "33u(150V)1" H 5275 4400 50  0000 L CNN
+F 0 "33u(150V)" H 5275 4400 50  0000 L CNN
 F 1 "CP" H 5275 4200 50  0000 L CNN
 F 2 "Echopen:CP_TH_common" H 5288 4150 50  0001 C CNN
 F 3 "" H 5250 4300 50  0000 C CNN
+F 4 "150V 20%" H 5250 4300 60  0001 C CNN "Caracteristic"
+F 5 "Lelon" H 5250 4300 60  0001 C CNN "Manufacturer"
+F 6 "REA330M2CBK-1320P" H 5250 4300 60  0001 C CNN "Ref Manufacturer"
 	1    5250 4300
 	1    0    0    1   
 $EndComp

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/echopen/Bureau/GitHub/PRJ-medtec_kit/daughter_boards/DB-filter/DB-filter_v1/src/DB-filter_v1.sch</source>
-    <date>ven. 04 nov. 2016 19:19:39 CET</date>
+    <source>/home/gg/GitHub/PRJ-medtec_kit/electronic/daughter_boards/DB-filter/DB-filter_v1/src/DB-filter_v1.sch</source>
+    <date>jeu. 01 déc. 2016 13:29:40 CET</date>
     <tool>Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,6 +22,11 @@
     <comp ref="C1">
       <value>1n</value>
       <footprint>Echopen:C_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 10%</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="Ref Manufacturer">SR151C102KAA</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A4BA83</tstamp>
@@ -29,6 +34,11 @@
     <comp ref="L1">
       <value>10u</value>
       <footprint>Inductors:INDUCTOR_V</footprint>
+      <fields>
+        <field name="Caracteristic">10% 550mA</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Ref Manufacturer">RLB0608-100KL</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A4BB11</tstamp>
@@ -36,6 +46,11 @@
     <comp ref="R1">
       <value>330</value>
       <footprint>Echopen:Resistor_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">1/4W 5%</field>
+        <field name="Manufacturer">KOA speer</field>
+        <field name="Ref Manufacturer">MF1/4LCT52R331J</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A4BBB6</tstamp>
@@ -43,6 +58,11 @@
     <comp ref="P1">
       <value>CONN_01X19</value>
       <footprint>Echopen:Header_pin_angled_1x19</footprint>
+      <fields>
+        <field name="Caracteristic">angled pin header 1*19</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Ref Manufacturer">22-28-8192</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X19"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A84EF6</tstamp>
@@ -128,11 +148,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>

@@ -1,6 +1,7 @@
 (module CP_TH_common (layer F.Cu) (tedit 580DD8BA)
   (descr "Radial Electrolytic Capacitor Diameter 8mm x Length 11.5mm, Pitch 3.5mm")
   (tags "Electrolytic Capacitor")
+  (attr smd)
   (fp_text reference REF** (at 0 -1.905) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -1,6 +1,7 @@
 (module D_TH_common (layer F.Cu) (tedit 580DD903)
   (descr "Diode, DO-35,  SOD27, Horizontal, RM 10mm")
   (tags "Diode, DO-35, SOD27, Horizontal, RM 10mm, 1N4148,")
+  (attr smd)
   (fp_text reference REF** (at 5.08 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

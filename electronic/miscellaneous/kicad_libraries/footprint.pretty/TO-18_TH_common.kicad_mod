@@ -1,6 +1,7 @@
 (module TO-18_TH_common (layer F.Cu) (tedit 580DD979)
   (descr "TO-18, 3Pin,")
   (tags "TO-18, 3Pin,")
+  (attr smd)
   (fp_text reference REF** (at 0 1.27) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

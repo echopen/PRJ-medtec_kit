@@ -1,0 +1,10 @@
+### Module positions - created on Thu Dec  1 13:42:22 2016 ###
+### Printed by Pcbnew version kicad 4.0.4+e1-6308~48~ubuntu16.04.1-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                      PosX       PosY       Rot  Side
+C1        10p         C_TH_common              144.7800  -110.4900   90.0000  top
+D1        1N60        D_TH_common              144.7800  -119.3800  180.0000  top
+P1        CONN_01X19  Header_pin_angled_1x19   130.8100  -128.2700    0.0000  top
+R1        3.9k        Resistor_TH_common       137.1600  -115.5700   90.0000  top
+## End

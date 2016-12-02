@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/echopen/Bureau/GitHub/PRJ-medtec_kit/daughter_boards/DB-envelope_detector/DB-envelope_detector_v1/src/DB-envelope_detector_v1.sch</source>
-    <date>ven. 04 nov. 2016 19:09:21 CET</date>
+    <source>/home/gg/GitHub/PRJ-medtec_kit/electronic/daughter_boards/DB-envelope_detector/DB-envelope_detector_v1/src/DB-envelope_detector_v1.sch</source>
+    <date>jeu. 01 déc. 2016 13:42:12 CET</date>
     <tool>Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -21,28 +21,48 @@
   <components>
     <comp ref="D1">
       <value>1N60</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <footprint>Echopen:D_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">Germanium diode</field>
+        <field name="Manufacturer">NA</field>
+        <field name="Ref Manufacturer">1N60 DO-7</field>
+      </fields>
       <libsource lib="device" part="D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A4D48B</tstamp>
     </comp>
     <comp ref="R1">
       <value>3.9k</value>
-      <footprint>Resistors_ThroughHole:Resistor_Cement_Horizontal_Meggitt-SBC-2</footprint>
+      <footprint>Echopen:Resistor_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">1/4W 5%</field>
+        <field name="Manufacturer">KOA speer</field>
+        <field name="Ref Manufacturer">MF1/4LCT52R392J</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A4D538</tstamp>
     </comp>
     <comp ref="C1">
       <value>10p</value>
-      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <footprint>Echopen:C_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 10%</field>
+        <field name="Manufacturer">Xicon</field>
+        <field name="Ref Manufacturer">140-50N5-100J-TB-RC</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A4D575</tstamp>
     </comp>
     <comp ref="P1">
       <value>CONN_01X19</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x19</footprint>
+      <footprint>Echopen:Header_pin_angled_1x19</footprint>
+      <fields>
+        <field name="Caracteristic">angled pin header 1*19</field>
+        <field name="Ref Manufacturer">22-28-8192</field>
+        <field name="Manufacturer">Molex</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X19"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A857B8</tstamp>

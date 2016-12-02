@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
-LIBS:DB_Envelope_detector_V1-cache
+LIBS:DB-envelope_detector_v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -50,8 +50,11 @@ U 1 1 57A4D48B
 P 3100 2200
 F 0 "D1" H 3100 2300 50  0000 C CNN
 F 1 "1N60" H 3100 2100 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 3100 2200 50  0001 C CNN
+F 2 "Echopen:D_TH_common" H 3100 2200 50  0001 C CNN
 F 3 "" H 3100 2200 50  0000 C CNN
+F 4 "Germanium diode" H 3100 2200 60  0001 C CNN "Caracteristic"
+F 5 "NA" H 3100 2200 60  0001 C CNN "Manufacturer"
+F 6 "1N60 DO-7" H 3100 2200 60  0001 C CNN "Ref Manufacturer"
 	1    3100 2200
 	-1   0    0    -1  
 $EndComp
@@ -61,8 +64,11 @@ U 1 1 57A4D538
 P 3350 2350
 F 0 "R1" V 3430 2350 50  0000 C CNN
 F 1 "3.9k" V 3350 2350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Cement_Horizontal_Meggitt-SBC-2" V 3280 2350 50  0001 C CNN
+F 2 "Echopen:Resistor_TH_common" V 3280 2350 50  0001 C CNN
 F 3 "" H 3350 2350 50  0000 C CNN
+F 4 "1/4W 5%" V 3350 2350 60  0001 C CNN "Caracteristic"
+F 5 "KOA speer" V 3350 2350 60  0001 C CNN "Manufacturer"
+F 6 "MF1/4LCT52R392J" V 3350 2350 60  0001 C CNN "Ref Manufacturer"
 	1    3350 2350
 	1    0    0    -1  
 $EndComp
@@ -72,8 +78,11 @@ U 1 1 57A4D575
 P 3600 2350
 F 0 "C1" H 3625 2450 50  0000 L CNN
 F 1 "10p" H 3625 2250 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 3638 2200 50  0001 C CNN
+F 2 "Echopen:C_TH_common" H 3638 2200 50  0001 C CNN
 F 3 "" H 3600 2350 50  0000 C CNN
+F 4 "25V 10%" H 3600 2350 60  0001 C CNN "Caracteristic"
+F 5 "Xicon" H 3600 2350 60  0001 C CNN "Manufacturer"
+F 6 "140-50N5-100J-TB-RC" H 3600 2350 60  0001 C CNN "Ref Manufacturer"
 	1    3600 2350
 	1    0    0    -1  
 $EndComp
@@ -87,8 +96,11 @@ U 1 1 57A857B8
 P 2000 2400
 F 0 "P1" H 2000 3400 50  0000 C CNN
 F 1 "CONN_01X19" V 2100 2400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x19" H 2000 2400 50  0001 C CNN
+F 2 "Echopen:Header_pin_angled_1x19" H 2000 2400 50  0001 C CNN
 F 3 "" H 2000 2400 50  0000 C CNN
+F 4 "angled pin header 1*19" H 2000 2400 60  0001 C CNN "Caracteristic"
+F 5 "22-28-8192" H 2000 2400 60  0001 C CNN "Ref Manufacturer"
+F 6 "Molex" H 2000 2400 60  0001 C CNN "Manufacturer"
 	1    2000 2400
 	-1   0    0    1   
 $EndComp

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_High_Voltage/V1/PCB2/DB_HV_V1.sch</source>
-    <date>mar. 23 août 2016 18:29:34 CEST</date>
-    <tool>Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable</tool>
+    <source>/home/gg/GitHub/PRJ-medtec_kit/electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1/src/DB-high_voltage_v1.sch</source>
+    <date>jeu. 01 déc. 2016 17:55:30 CET</date>
+    <tool>Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>DB_HV_V1.sch</source>
+        <source>DB-high_voltage_v1.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -22,6 +22,11 @@
     <comp ref="U1">
       <value>LM555N</value>
       <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">TI</field>
+        <field name="Ref Manufacturer">LM555CN/NOPB</field>
+      </fields>
       <libsource lib="linear" part="LM555N"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A21C9E</tstamp>
@@ -29,6 +34,11 @@
     <comp ref="C1">
       <value>10n</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 10%</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Ref Manufacturer">K103K15X7RF5UH5</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A21C9F</tstamp>
@@ -36,6 +46,11 @@
     <comp ref="R2">
       <value>12k</value>
       <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Caracteristic">1/4W 5%</field>
+        <field name="Manufacturer">KOA speer</field>
+        <field name="Ref Manufacturer">MF1/4LCT52R123J</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A21CA0</tstamp>
@@ -43,6 +58,11 @@
     <comp ref="R1">
       <value>2.2k</value>
       <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Caracteristic">1/4W 5%</field>
+        <field name="Manufacturer">KOA speer</field>
+        <field name="Ref Manufacturer">MF1/4LCT52R222J</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A21CA1</tstamp>
@@ -50,6 +70,11 @@
     <comp ref="C2">
       <value>47n</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 10%</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Ref Manufacturer">1C10Z5U473M050B</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A21CB2</tstamp>
@@ -57,6 +82,11 @@
     <comp ref="R3">
       <value>3.3k</value>
       <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Caracteristic">1/4W 5%</field>
+        <field name="Manufacturer">KOA speer</field>
+        <field name="Ref Manufacturer">MF1/4LCT52R332J</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A21CB1</tstamp>
@@ -64,6 +94,11 @@
     <comp ref="R4">
       <value>1.8k</value>
       <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Caracteristic">1/4W 5%</field>
+        <field name="Manufacturer">KOA speer</field>
+        <field name="Ref Manufacturer">MF1/4LCT52R182G</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A21CA9</tstamp>
@@ -71,13 +106,23 @@
     <comp ref="C3">
       <value>47u</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UVR1E470MDD6</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A23487</tstamp>
     </comp>
     <comp ref="D1">
-      <value>1N4001</value>
+      <value>1N4148</value>
       <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
       <libsource lib="device" part="D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A235BA</tstamp>
@@ -85,146 +130,23 @@
     <comp ref="C4">
       <value>4.7u</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UMA1E4R7MDD</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A26CAB</tstamp>
     </comp>
-    <comp ref="D2">
-      <value>1N5062</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A26EA6</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>4.7u</value>
-      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A2700A</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>1N5062</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A2709E</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>4.7u</value>
-      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27B98</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>1N5062</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27B9E</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>4.7u</value>
-      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27BA4</tstamp>
-    </comp>
-    <comp ref="D5">
-      <value>1N5062</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27BAA</tstamp>
-    </comp>
-    <comp ref="C8">
-      <value>4.7u</value>
-      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27E51</tstamp>
-    </comp>
-    <comp ref="D6">
-      <value>1N5062</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27E57</tstamp>
-    </comp>
-    <comp ref="C9">
-      <value>4.7u</value>
-      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27E5D</tstamp>
-    </comp>
-    <comp ref="D7">
-      <value>1N5062</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27E63</tstamp>
-    </comp>
-    <comp ref="C10">
-      <value>4.7u</value>
-      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27E78</tstamp>
-    </comp>
-    <comp ref="D8">
-      <value>1N5062</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27E7E</tstamp>
-    </comp>
-    <comp ref="C11">
-      <value>4.7u</value>
-      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27E84</tstamp>
-    </comp>
-    <comp ref="D9">
-      <value>1N5062</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A27E8A</tstamp>
-    </comp>
-    <comp ref="C12">
-      <value>4.7u</value>
-      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A280FD</tstamp>
-    </comp>
-    <comp ref="D10">
-      <value>1N5062</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A28103</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>4.7u</value>
-      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
-      <libsource lib="device" part="CP"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A28109</tstamp>
-    </comp>
-    <comp ref="D11">
-      <value>1N5062</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A2810F</tstamp>
-    </comp>
     <comp ref="C14">
       <value>4.7u</value>
       <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">150V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UVR2C4R7MED1TD</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A286FF</tstamp>
@@ -232,6 +154,11 @@
     <comp ref="P1">
       <value>CONN_01X19</value>
       <footprint>Echopen:Header_pin_angled_1x19</footprint>
+      <fields>
+        <field name="Caracteristic">angled pin header 1*19</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Ref Manufacturer">22-28-8192</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X19"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A85897</tstamp>
@@ -239,6 +166,11 @@
     <comp ref="P2">
       <value>CONN_01X02</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Ref Manufacturer">22-15-2026</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A8658A</tstamp>
@@ -246,40 +178,321 @@
     <comp ref="P3">
       <value>SMA</value>
       <footprint>Echopen:SMA</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Johnson / Cinch Connectivity Solutions</field>
+        <field name="Ref Manufacturer">142-0701-801</field>
+      </fields>
       <libsource lib="echopen" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A88278</tstamp>
     </comp>
-    <comp ref="D12">
-      <value>1N4001</value>
-      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57A284A2</tstamp>
-    </comp>
     <comp ref="Q3">
-      <value>Q2N2907</value>
+      <value>2N2907</value>
       <footprint>TO_SOT_Packages_THT:TO-18_3Pin</footprint>
-      <libsource lib="DB_HV_V1-cache" part="Q2N2907"/>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Central Seminconductor</field>
+        <field name="Ref Manufacturer">2N2907A</field>
+      </fields>
+      <libsource lib="echopen" part="2N2907"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57B37A66</tstamp>
     </comp>
     <comp ref="Q1">
-      <value>Q2N2222</value>
+      <value>2N2222</value>
       <footprint>TO_SOT_Packages_THT:TO-18_3Pin</footprint>
-      <libsource lib="DB_HV_V1-cache" part="Q2N2222"/>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Central Semiconductor</field>
+        <field name="Ref Manufacturer">2N2222</field>
+      </fields>
+      <libsource lib="echopen" part="2N2222"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57B45C8E</tstamp>
     </comp>
     <comp ref="Q2">
-      <value>Q2N2222</value>
+      <value>2N2222</value>
       <footprint>TO_SOT_Packages_THT:TO-18_3Pin</footprint>
-      <libsource lib="DB_HV_V1-cache" part="Q2N2222"/>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Central Seminconductor</field>
+        <field name="Ref Manufacturer">2N2222</field>
+      </fields>
+      <libsource lib="echopen" part="2N2222"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57B45D33</tstamp>
     </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5840726A</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58407648</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5840786B</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58407B0B</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58407CD6</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58407E97</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5840805C</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58408223</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584083E0</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584085A3</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58408764</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.7u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UMA1E4R7MDD</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58408B8B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4.7u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UMA1E4R7MDD</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58408C33</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>4.7u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UMA1E4R7MDD</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58408CE1</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4.7u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UMA1E4R7MDD</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58408DAD</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4.7u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UMA1E4R7MDD</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58408E6F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UMA1E4R7MDD</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58408F21</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4.7u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UMA1E4R7MDD</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58408FD9</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>4.7u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UMA1E4R7MDD</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58409097</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>4.7u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L6_P2.5</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UMA1E4R7MDD</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58409165</tstamp>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="echopen" part="2N2222">
+      <footprints>
+        <fp>TO-18</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2222</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="echopen" part="2N2907">
+      <footprints>
+        <fp>TO-18</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2907</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="C">
       <description>Unpolarized capacitor</description>
       <footprints>
@@ -403,31 +616,6 @@
         <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="DB_HV_V1-cache" part="Q2N2222">
-      <footprints>
-        <fp>TO-92*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q2N2222</field>
-      </fields>
-      <pins>
-        <pin num="1" name="E" type="passive"/>
-        <pin num="2" name="B" type="input"/>
-        <pin num="3" name="C" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="DB_HV_V1-cache" part="Q2N2907">
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q2N2907</field>
-      </fields>
-      <pins>
-        <pin num="1" name="E" type="passive"/>
-        <pin num="2" name="B" type="input"/>
-        <pin num="3" name="C" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="R">
       <description>Resistor</description>
       <footprints>
@@ -460,11 +648,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="DB_HV_V1-cache">
-      <uri>/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_High_Voltage/V1/PCB2/DB_HV_V1-cache.lib</uri>
-    </library>
     <library logical="echopen">
-      <uri>/home/echopen/Bureau/GitHub/electronic/kicad/Librairy/echopen.lib</uri>
+      <uri>/home/gg/GitHub/PRJ-medtec_kit/electronic/miscellaneous/kicad_libraries/echopen.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
@@ -472,186 +660,183 @@
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="linear">
-      <uri>/usr/share/kicad/library/linear.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(C13-Pad2)">
-      <node ref="D12" pin="1"/>
-      <node ref="D11" pin="2"/>
-      <node ref="C13" pin="2"/>
+    <net code="1" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="P3" pin="1"/>
     </net>
-    <net code="2" name="Net-(C12-Pad2)">
-      <node ref="D11" pin="1"/>
-      <node ref="D10" pin="2"/>
-      <node ref="C12" pin="2"/>
-    </net>
-    <net code="3" name="VCC">
+    <net code="2" name="VCC">
+      <node ref="P1" pin="2"/>
       <node ref="R1" pin="2"/>
       <node ref="U1" pin="4"/>
       <node ref="U1" pin="8"/>
-      <node ref="P1" pin="2"/>
     </net>
-    <net code="4" name="Net-(P1-Pad3)">
-      <node ref="P1" pin="3"/>
-    </net>
-    <net code="5" name="Net-(P1-Pad4)">
-      <node ref="P1" pin="4"/>
-    </net>
-    <net code="6" name="Net-(P1-Pad5)">
-      <node ref="P1" pin="5"/>
-    </net>
-    <net code="7" name="Net-(P1-Pad6)">
-      <node ref="P1" pin="6"/>
-    </net>
-    <net code="8" name="Net-(P1-Pad7)">
-      <node ref="P1" pin="7"/>
-    </net>
-    <net code="9" name="Net-(P1-Pad8)">
-      <node ref="P1" pin="8"/>
-    </net>
-    <net code="10" name="Net-(P1-Pad9)">
-      <node ref="P1" pin="9"/>
-    </net>
-    <net code="11" name="Net-(P1-Pad10)">
-      <node ref="P1" pin="10"/>
-    </net>
-    <net code="12" name="Net-(P1-Pad11)">
-      <node ref="P1" pin="11"/>
-    </net>
-    <net code="13" name="Net-(P1-Pad13)">
-      <node ref="P1" pin="13"/>
-    </net>
-    <net code="14" name="Net-(P1-Pad14)">
-      <node ref="P1" pin="14"/>
-    </net>
-    <net code="15" name="Net-(C11-Pad1)">
-      <node ref="C9" pin="2"/>
-      <node ref="D7" pin="2"/>
-      <node ref="D8" pin="1"/>
-      <node ref="C11" pin="1"/>
-    </net>
-    <net code="16" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1"/>
-      <node ref="D6" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="D7" pin="1"/>
-    </net>
-    <net code="17" name="Net-(C10-Pad2)">
-      <node ref="D9" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="D8" pin="2"/>
-      <node ref="C10" pin="2"/>
-    </net>
-    <net code="18" name="Net-(C11-Pad2)">
-      <node ref="C11" pin="2"/>
-      <node ref="D10" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="D9" pin="2"/>
-    </net>
-    <net code="19" name="Net-(P1-Pad15)">
-      <node ref="P1" pin="15"/>
-    </net>
-    <net code="20" name="Net-(P1-Pad19)">
+    <net code="3" name="Net-(P1-Pad19)">
       <node ref="P1" pin="19"/>
     </net>
-    <net code="21" name="Net-(P1-Pad18)">
+    <net code="4" name="Net-(P1-Pad18)">
       <node ref="P1" pin="18"/>
     </net>
-    <net code="22" name="Net-(P1-Pad17)">
+    <net code="5" name="Net-(P1-Pad17)">
       <node ref="P1" pin="17"/>
     </net>
-    <net code="23" name="Net-(P1-Pad16)">
+    <net code="6" name="Net-(P1-Pad16)">
       <node ref="P1" pin="16"/>
     </net>
-    <net code="24" name="Net-(C3-Pad1)">
-      <node ref="Q2" pin="1"/>
-      <node ref="Q3" pin="1"/>
-      <node ref="C3" pin="1"/>
+    <net code="7" name="Net-(P1-Pad15)">
+      <node ref="P1" pin="15"/>
     </net>
-    <net code="25" name="Net-(Q1-Pad2)">
-      <node ref="R3" pin="1"/>
-      <node ref="Q1" pin="2"/>
+    <net code="8" name="Net-(P1-Pad14)">
+      <node ref="P1" pin="14"/>
     </net>
-    <net code="26" name="Net-(C14-Pad2)">
-      <node ref="C14" pin="2"/>
-      <node ref="P2" pin="1"/>
-      <node ref="P3" pin="1"/>
-      <node ref="D12" pin="2"/>
+    <net code="9" name="Net-(P1-Pad13)">
+      <node ref="P1" pin="13"/>
     </net>
-    <net code="28" name="Net-(C1-Pad2)">
-      <node ref="U1" pin="5"/>
-      <node ref="C1" pin="2"/>
+    <net code="10" name="Net-(P1-Pad11)">
+      <node ref="P1" pin="11"/>
     </net>
-    <net code="29" name="Net-(C2-Pad2)">
-      <node ref="C2" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="U1" pin="6"/>
-      <node ref="U1" pin="2"/>
+    <net code="11" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
     </net>
-    <net code="31" name="Net-(R1-Pad1)">
-      <node ref="R1" pin="1"/>
-      <node ref="U1" pin="7"/>
-      <node ref="R2" pin="1"/>
+    <net code="12" name="Net-(C13-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="C13" pin="2"/>
     </net>
-    <net code="32" name="Net-(Q1-Pad3)">
-      <node ref="R4" pin="2"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="Q1" pin="3"/>
-      <node ref="Q2" pin="2"/>
+    <net code="13" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3"/>
     </net>
-    <net code="33" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2"/>
-      <node ref="U1" pin="3"/>
+    <net code="14" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
     </net>
-    <net code="38" name="Net-(C6-Pad2)">
-      <node ref="C6" pin="2"/>
-      <node ref="D4" pin="2"/>
-      <node ref="D5" pin="1"/>
-      <node ref="C8" pin="1"/>
+    <net code="15" name="Net-(P1-Pad5)">
+      <node ref="P1" pin="5"/>
     </net>
-    <net code="39" name="Net-(C7-Pad2)">
+    <net code="16" name="Net-(P1-Pad10)">
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="17" name="Net-(P1-Pad7)">
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="18" name="Net-(P1-Pad8)">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="19" name="Net-(P1-Pad9)">
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="20" name="Net-(C10-Pad1)">
+      <node ref="C8" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C11-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C10-Pad2)">
+      <node ref="C12" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C11-Pad2)">
+      <node ref="D10" pin="1"/>
+      <node ref="D9" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C7-Pad2)">
+      <node ref="D6" pin="1"/>
       <node ref="D5" pin="2"/>
       <node ref="C7" pin="2"/>
-      <node ref="D6" pin="1"/>
       <node ref="C9" pin="1"/>
     </net>
-    <net code="40" name="Net-(P1-Pad12)">
-      <node ref="P1" pin="12"/>
-      <node ref="R4" pin="1"/>
-      <node ref="Q2" pin="3"/>
+    <net code="25" name="Net-(C12-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="C12" pin="2"/>
     </net>
-    <net code="42" name="GND">
-      <node ref="Q1" pin="1"/>
-      <node ref="P2" pin="2"/>
-      <node ref="P1" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="P3" pin="2"/>
-      <node ref="Q3" pin="3"/>
-      <node ref="C1" pin="1"/>
+    <net code="26" name="Net-(C3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="C3" pin="1"/>
     </net>
-    <net code="43" name="Net-(C3-Pad2)">
+    <net code="27" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C3-Pad2)">
       <node ref="C5" pin="1"/>
       <node ref="D2" pin="1"/>
-      <node ref="D1" pin="2"/>
       <node ref="C3" pin="2"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="44" name="Net-(C4-Pad2)">
-      <node ref="D3" pin="1"/>
-      <node ref="D2" pin="2"/>
+    <net code="29" name="Net-(C4-Pad2)">
       <node ref="C4" pin="2"/>
       <node ref="C6" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="1"/>
     </net>
-    <net code="45" name="Net-(C5-Pad2)">
-      <node ref="C5" pin="2"/>
-      <node ref="D3" pin="2"/>
-      <node ref="C7" pin="1"/>
+    <net code="30" name="Net-(C5-Pad2)">
       <node ref="D4" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="31" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="33" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="34" name="Net-(C2-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="36" name="Net-(R1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="37" name="Net-(Q1-Pad3)">
+      <node ref="Q2" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="38" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="43" name="Net-(P1-Pad12)">
+      <node ref="R4" pin="1"/>
+      <node ref="P1" pin="12"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="45" name="GND">
+      <node ref="C14" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="D1" pin="1"/>
     </net>
   </nets>
 </export>

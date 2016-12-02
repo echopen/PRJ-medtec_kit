@@ -1,0 +1,15 @@
+### Module positions - created on Fri Dec  2 11:09:10 2016 ###
+### Printed by Pcbnew version kicad 4.0.4+e1-6308~48~ubuntu16.04.1-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref       Val         Package                          PosX       PosY       Rot  Side
+33u(150V)  CP          CP_TH_common                  85.0900  -124.4600    0.0000  top
+P1          CONN_01X19  Header_pin_1x19               60.9600  -111.7600    0.0000  top
+P2          CONN_01X02  Socket_1x02                   87.6300  -134.6200    0.0000  top
+P3          CONN_01X08  Socket_Strip_Straight_1x08    64.7700  -134.6200    0.0000  top
+P4          SMA         SMA                           97.7900  -134.6200    0.0000  top
+P5          CONN_01X02  Socket_1x02                   68.5800   -87.6300  180.0000  top
+P6          CONN_01X02  Socket_1x02                   90.1700   -87.6300  180.0000  top
+P7          SMA         SMA                           97.7900   -87.6300  180.0000  top
+P8          SMA         SMA                           76.2000   -87.6300  180.0000  top
+## End

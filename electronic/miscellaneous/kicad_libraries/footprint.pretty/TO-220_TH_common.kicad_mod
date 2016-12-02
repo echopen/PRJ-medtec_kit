@@ -1,6 +1,7 @@
 (module TO-220_TH_common (layer F.Cu) (tedit 57B5C1DB)
   (descr "TO-220, Neutral, Vertical,")
   (tags "TO-220, Neutral, Vertical,")
+  (attr smd)
   (fp_text reference REF** (at 0 -3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

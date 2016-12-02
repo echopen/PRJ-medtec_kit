@@ -1,0 +1,21 @@
+### Module positions - created on Fri Dec  2 12:06:01 2016 ###
+### Printed by Pcbnew version kicad 4.0.4+e1-6308~48~ubuntu16.04.1-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                              PosX       PosY       Rot  Side
+AOP1      OPA625      SOT-23-6_Handsoldering(OPA625)   101.6000  -109.2200    0.0000  top
+C1        1n          C_TH_common                      102.8700  -124.4600   90.0000  top
+D1        1N4148      D_TH_common                       96.5200  -114.3000  270.0000  top
+D2        1N4148      D_TH_common                       99.0600  -124.4600   90.0000  top
+P1        CONN_01X19  Header_pin_angled_1x19            73.6600  -101.6000    0.0000  top
+P2        CONN_01X02  Socket_1x02                       78.7400  -124.4600    0.0000  top
+P3        SMA         SMA                               88.9000  -124.4600    0.0000  top
+P6        CONN_01X02  Socket_1x02                       81.2800   -77.4700  180.0000  top
+P7        CONN_01X02  Socket_1x02                       99.0600   -77.4700  180.0000  top
+P8        SMA         SMA                               88.9000   -77.4700  180.0000  top
+P9        SMA         SMA                              106.6800   -77.4700  180.0000  top
+R1        220         Resistor_TH_common                78.7400  -113.0300    0.0000  top
+U1        MD0100      SOT89-3_(MD0100)                  92.7100  -115.5700    0.0000  top
+W1        TEST_1P     Test_Point                       102.8700  -114.3000    0.0000  top
+W2        TEST_1P     Test_Point                        93.9800  -105.4100    0.0000  top
+## End

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_Supply/V1/PCB2/DB_Supply_V1.sch</source>
-    <date>ven. 26 août 2016 18:11:12 CEST</date>
-    <tool>Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable</tool>
+    <source>/home/gg/GitHub/PRJ-medtec_kit/electronic/daughter_boards/DB-supply/DB-supply_v1/src/DB-supply_v1.sch</source>
+    <date>ven. 02 déc. 2016 12:59:14 CET</date>
+    <tool>Eeschema 4.0.4+e1-6308~48~ubuntu16.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>DB_Supply_V1.sch</source>
+        <source>DB-supply_v1.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -21,7 +21,12 @@
   <components>
     <comp ref="U1">
       <value>LM555N</value>
-      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <footprint>Echopen:DIP-8(LM555)</footprint>
+      <fields>
+        <field name="Caracteristic">timer</field>
+        <field name="Manufacturer">TI</field>
+        <field name="Ref Manufacturer">LM555CN/NOPB</field>
+      </fields>
       <libsource lib="linear" part="LM555N"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A0226</tstamp>
@@ -29,6 +34,11 @@
     <comp ref="C1">
       <value>10n</value>
       <footprint>Echopen:C_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 10%</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Ref Manufacturer">K103K15X7RF5UH5</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A04D4</tstamp>
@@ -36,6 +46,11 @@
     <comp ref="R2">
       <value>12k</value>
       <footprint>Echopen:Resistor_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">1/4W 5%</field>
+        <field name="Manufacturer">KOA speer</field>
+        <field name="Ref Manufacturer">MF1/4LCT52R123J</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A061B</tstamp>
@@ -43,6 +58,11 @@
     <comp ref="R1">
       <value>2.2k</value>
       <footprint>Echopen:Resistor_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">1/4W 10%</field>
+        <field name="Manufacturer">KOA speer</field>
+        <field name="Ref Manufacturer">MF1/4LCT52R222J</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A0AD9</tstamp>
@@ -50,6 +70,11 @@
     <comp ref="D1">
       <value>1N4001</value>
       <footprint>Echopen:D_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
       <libsource lib="device" part="D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A15CB</tstamp>
@@ -57,6 +82,11 @@
     <comp ref="C3">
       <value>220u</value>
       <footprint>Echopen:CP_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Cornell Dubilier - CDE</field>
+        <field name="Ref Manufacturer">227CKS025MGM</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A164D</tstamp>
@@ -64,6 +94,11 @@
     <comp ref="C4">
       <value>47u</value>
       <footprint>Echopen:CP_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UVR1E470MDD6</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A208B</tstamp>
@@ -71,6 +106,11 @@
     <comp ref="C5">
       <value>47u</value>
       <footprint>Echopen:CP_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UVR1E470MDD6</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A239F</tstamp>
@@ -78,6 +118,11 @@
     <comp ref="R5">
       <value>270</value>
       <footprint>Echopen:Resistor_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">1/4W 10%</field>
+        <field name="Manufacturer">KOA speer</field>
+        <field name="Ref Manufacturer">MF1/4LCT52R271J</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A2406</tstamp>
@@ -85,6 +130,11 @@
     <comp ref="D2">
       <value>LED</value>
       <footprint>Echopen:D_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">green LED</field>
+        <field name="Manufacturer">parallax</field>
+        <field name="Ref Manufacturer">350-00001</field>
+      </fields>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A253C</tstamp>
@@ -92,6 +142,11 @@
     <comp ref="R4">
       <value>1.8k</value>
       <footprint>Echopen:Resistor_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">1/4W 10%</field>
+        <field name="Manufacturer">KOA speer</field>
+        <field name="Ref Manufacturer">MF1/4LCT52R182G</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A39CF</tstamp>
@@ -99,13 +154,23 @@
     <comp ref="C7">
       <value>47u</value>
       <footprint>Echopen:CP_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UVR1E470MDD6</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A3DB6</tstamp>
     </comp>
     <comp ref="D3">
-      <value>1N4001</value>
+      <value>1N4148</value>
       <footprint>Echopen:D_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
       <libsource lib="device" part="D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A3EDF</tstamp>
@@ -113,6 +178,11 @@
     <comp ref="D4">
       <value>1N4001</value>
       <footprint>Echopen:D_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Ref Manufacturer">1N4148</field>
+      </fields>
       <libsource lib="device" part="D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A4183</tstamp>
@@ -120,6 +190,11 @@
     <comp ref="C8">
       <value>47u</value>
       <footprint>Echopen:CP_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UVR1E470MDD6</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A41F8</tstamp>
@@ -127,6 +202,11 @@
     <comp ref="C9">
       <value>47u</value>
       <footprint>Echopen:CP_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UVR1E470MDD6</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A43A2</tstamp>
@@ -134,6 +214,11 @@
     <comp ref="R3">
       <value>3.3k</value>
       <footprint>Echopen:Resistor_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">1/4W 10%</field>
+        <field name="Manufacturer">KOA speer</field>
+        <field name="Ref Manufacturer">MF1/4LCT52R332J</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A487D</tstamp>
@@ -141,6 +226,11 @@
     <comp ref="C2">
       <value>47n</value>
       <footprint>Echopen:C_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 10%</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Ref Manufacturer">1C10Z5U473M050B</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>572A0580</tstamp>
@@ -148,13 +238,23 @@
     <comp ref="C10">
       <value>47u</value>
       <footprint>Echopen:CP_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UVR1E470MDD6</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>575A1244</tstamp>
     </comp>
     <comp ref="P1">
       <value>CONN_01X19</value>
-      <footprint>Socket_Strips:Socket_Strip_Straight_1x19</footprint>
+      <footprint>Echopen:Header_pin_angled_1x19</footprint>
+      <fields>
+        <field name="Caracteristic">angled pin 1*19</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Ref Manufacturer">22-28-8192</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X19"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A1CA2F</tstamp>
@@ -162,6 +262,11 @@
     <comp ref="C6">
       <value>47u</value>
       <footprint>Echopen:CP_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">25V 20%</field>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Ref Manufacturer">UVR1E470MDD6</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57A2E7D0</tstamp>
@@ -169,6 +274,11 @@
     <comp ref="U2">
       <value>LM2940T-12.0/NOPB</value>
       <footprint>Echopen:TO-220_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">12V 1A voltage regulator</field>
+        <field name="Manufacturer">TI</field>
+        <field name="Ref Manufacturer">LM2940CT-12/NOPB</field>
+      </fields>
       <libsource lib="echopen" part="LM2940T-12.0/NOPB"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57B5D420</tstamp>
@@ -176,6 +286,11 @@
     <comp ref="U3">
       <value>LM2940T-5.0/NOPB</value>
       <footprint>Echopen:TO-220_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">5V 1A voltage regulator</field>
+        <field name="Manufacturer">TI</field>
+        <field name="Ref Manufacturer">LM2940CT-5.0/NOPB</field>
+      </fields>
       <libsource lib="echopen" part="LM2940T-5.0/NOPB"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57B5D493</tstamp>
@@ -183,6 +298,11 @@
     <comp ref="U4">
       <value>LM1117T-3.3/NOPB</value>
       <footprint>Echopen:TO-220_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">3.3V 1A voltage regulator</field>
+        <field name="Manufacturer">TI</field>
+        <field name="Ref Manufacturer">LM1117T-3.3/NOPB</field>
+      </fields>
       <libsource lib="echopen" part="LM1117T-3.3/NOPB"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57B5D506</tstamp>
@@ -190,6 +310,11 @@
     <comp ref="Q1">
       <value>2N2222</value>
       <footprint>Echopen:TO-18_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Central Semiconductor</field>
+        <field name="Ref Manufacturer">2N2222</field>
+      </fields>
       <libsource lib="echopen" part="2N2222"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57B5DA31</tstamp>
@@ -197,6 +322,11 @@
     <comp ref="Q2">
       <value>2N2222</value>
       <footprint>Echopen:TO-18_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Central Semiconductor</field>
+        <field name="Ref Manufacturer">2N2222</field>
+      </fields>
       <libsource lib="echopen" part="2N2222"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57B5DAA6</tstamp>
@@ -204,6 +334,11 @@
     <comp ref="Q3">
       <value>2N2907</value>
       <footprint>Echopen:TO-18_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">NA</field>
+        <field name="Manufacturer">Central Semiconductor</field>
+        <field name="Ref Manufacturer">2N2907A</field>
+      </fields>
       <libsource lib="echopen" part="2N2907"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57B5DB1D</tstamp>
@@ -211,6 +346,11 @@
     <comp ref="U5">
       <value>LM2990T-12.0/NOPB</value>
       <footprint>Echopen:TO-220_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">-12V 1A voltage regulator</field>
+        <field name="Manufacturer">TI</field>
+        <field name="Ref Manufacturer">LM2990T-12/NOPB</field>
+      </fields>
       <libsource lib="echopen" part="LM2990T-12.0/NOPB"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57B5EE41</tstamp>
@@ -218,6 +358,11 @@
     <comp ref="U6">
       <value>LM2990T-5.0/NOPB</value>
       <footprint>Echopen:TO-220_TH_common</footprint>
+      <fields>
+        <field name="Caracteristic">-5V 1A voltage regulator</field>
+        <field name="Manufacturer">TI</field>
+        <field name="Ref Manufacturer">LM2990T-5.0/NOPB</field>
+      </fields>
       <libsource lib="echopen" part="LM2990T-5.0/NOPB"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57B5EEB8</tstamp>
@@ -472,17 +617,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
+    <library logical="echopen">
+      <uri>/home/gg/GitHub/PRJ-medtec_kit/electronic/miscellaneous/kicad_libraries/echopen.lib</uri>
     </library>
     <library logical="linear">
       <uri>/usr/share/kicad/library/linear.lib</uri>
     </library>
-    <library logical="echopen">
-      <uri>/home/echopen/Bureau/GitHub/electronic/kicad/Librairy/echopen.lib</uri>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>

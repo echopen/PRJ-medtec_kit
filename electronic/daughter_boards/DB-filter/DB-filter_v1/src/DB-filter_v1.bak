@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
-LIBS:DB_Filter_V1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -52,6 +51,9 @@ F 0 "C1" H 4625 3250 50  0000 L CNN
 F 1 "1n" H 4625 3050 50  0000 L CNN
 F 2 "Echopen:C_TH_common" H 4638 3000 50  0001 C CNN
 F 3 "" H 4600 3150 50  0000 C CNN
+F 4 "25V 10%" H 4600 3150 60  0001 C CNN "Caracteristic"
+F 5 "AVX" H 4600 3150 60  0001 C CNN "Manufacturer"
+F 6 "SR151C102KAA" H 4600 3150 60  0001 C CNN "Ref Manufacturer"
 	1    4600 3150
 	0    1    1    0   
 $EndComp
@@ -63,6 +65,9 @@ F 0 "L1" V 5000 3150 50  0000 C CNN
 F 1 "10u" V 5150 3150 50  0000 C CNN
 F 2 "Inductors:INDUCTOR_V" H 5050 3150 50  0001 C CNN
 F 3 "" H 5050 3150 50  0000 C CNN
+F 4 "10% 550mA" V 5050 3150 60  0001 C CNN "Caracteristic"
+F 5 "Bourns" V 5050 3150 60  0001 C CNN "Manufacturer"
+F 6 "RLB0608-100KL" V 5050 3150 60  0001 C CNN "Ref Manufacturer"
 	1    5050 3150
 	0    1    -1   0   
 $EndComp
@@ -72,8 +77,11 @@ U 1 1 57A4BBB6
 P 5350 3300
 F 0 "R1" V 5430 3300 50  0000 C CNN
 F 1 "330" V 5350 3300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 5280 3300 50  0001 C CNN
+F 2 "Echopen:Resistor_TH_common" V 5280 3300 50  0001 C CNN
 F 3 "" H 5350 3300 50  0000 C CNN
+F 4 "1/4W 5%" V 5350 3300 60  0001 C CNN "Caracteristic"
+F 5 "KOA speer" V 5350 3300 60  0001 C CNN "Manufacturer"
+F 6 "MF1/4LCT52R331J" V 5350 3300 60  0001 C CNN "Ref Manufacturer"
 	1    5350 3300
 	1    0    0    -1  
 $EndComp
@@ -83,26 +91,16 @@ U 1 1 57A84EF6
 P 4100 3400
 F 0 "P1" H 4100 4400 50  0000 C CNN
 F 1 "CONN_01X19" V 4200 3400 50  0000 C CNN
-F 2 "Echopen:Header_1x19" H 4100 3400 50  0001 C CNN
+F 2 "Echopen:Header_pin_angled_1x19" H 4100 3400 50  0001 C CNN
 F 3 "" H 4100 3400 50  0000 C CNN
+F 4 "angled pin header 1*19" H 4100 3400 60  0001 C CNN "Caracteristic"
+F 5 "Molex" H 4100 3400 60  0001 C CNN "Manufacturer"
+F 6 "22-28-8192" H 4100 3400 60  0001 C CNN "Ref Manufacturer"
 	1    4100 3400
 	-1   0    0    1   
 $EndComp
-$Comp
-L CONN_01X19 P2
-U 1 1 57A89932
-P 5850 3400
-F 0 "P2" H 5850 4400 50  0000 C CNN
-F 1 "CONN_01X19" V 5950 3400 50  0000 C CNN
-F 2 "Echopen:Header_1x19" H 5850 3400 50  0001 C CNN
-F 3 "" H 5850 3400 50  0000 C CNN
-	1    5850 3400
-	1    0    0    1   
-$EndComp
 Wire Wire Line
-	4300 4300 5650 4300
-Wire Wire Line
-	5350 3450 5350 4300
+	5350 4300 5350 3450
 Connection ~ 5350 4300
 Wire Wire Line
 	5350 3150 5550 3150
@@ -112,8 +110,6 @@ Wire Wire Line
 	4400 3150 4400 4100
 Wire Wire Line
 	4400 3150 4450 3150
-Wire Wire Line
-	5550 4000 5650 4000
 Wire Wire Line
 	4400 4100 4300 4100
 Connection ~ 5350 3150
@@ -132,25 +128,7 @@ NoConn ~ 4300 3600
 NoConn ~ 4300 3700
 NoConn ~ 4300 3800
 NoConn ~ 4300 3900
-NoConn ~ 4300 4000
 NoConn ~ 4300 4200
-NoConn ~ 5650 2500
-NoConn ~ 5650 2600
-NoConn ~ 5650 2700
-NoConn ~ 5650 2800
-NoConn ~ 5650 2900
-NoConn ~ 5650 3000
-NoConn ~ 5650 3100
-NoConn ~ 5650 3200
-NoConn ~ 5650 3300
-NoConn ~ 5650 3400
-NoConn ~ 5650 3500
-NoConn ~ 5650 3600
-NoConn ~ 5650 3700
-NoConn ~ 5650 3800
-NoConn ~ 5650 3900
-NoConn ~ 5650 4100
-NoConn ~ 5650 4200
 $Comp
 L PWR_FLAG #FLG01
 U 1 1 57AC9F7F
@@ -174,4 +152,9 @@ F 3 "" H 4750 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4750 4300
+Connection ~ 5550 4000
+Wire Wire Line
+	5550 4000 4300 4000
+Wire Wire Line
+	4300 4300 5350 4300
 $EndSCHEMATC

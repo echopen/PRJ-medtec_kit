@@ -1,20 +1,10 @@
-Source,/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_Pulser/V2/PCB2/DB_Pulser_V2.sch,,
-Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable,,
-Generated Date,ven. 26 août 2016 17:19:13 CEST,,
-,,,
-Title,Not Set,,
-Company,Not Set,,
-Revision,Not Set,,
-Date Issue,Not Set,,
-,,,
-Reference,Value,Library,Library Ref
-P1,CONN_01X19,conn,CONN_01X19
-P3,CONN_01X08,conn,CONN_01X08
-P4,SMA,echopen,SMA
-P2,CONN_01X02,conn,CONN_01X02
-P5,CONN_01X02,conn,CONN_01X02
-P7,SMA,echopen,SMA
-P6,CONN_01X02,conn,CONN_01X02
-P8,SMA,echopen,SMA
-33u(150V)1,CP,device,CP
-U1,MAX4940_evalz,echopen,MAX4940
+Reference, Value, Footprint, Datasheet, Caracteristic, Manufacturer, Ref Manufacturer
+P1,CONN_01X19,Echopen:Header_pin_1x19,,Angled pin header 1*19,Molex,22-28-8192
+P3,CONN_01X08,Echopen:Socket_Strip_Straight_1x08,,angled socket 1*08,Molex,22-15-2086
+P4,SMA,Echopen:SMA,,NA,Johnson / Cinch Connectivity Solutions,142-0701-801
+P2,CONN_01X02,Echopen:Socket_1x02,,angled socket 1*02,Molex,22-15-2026
+P5,CONN_01X02,Echopen:Socket_1x02,,angled socket 1*02,Molex,22-15-2026
+P7,SMA,Echopen:SMA,,NA,Johnson / Cinch Connectivity Solutions,142-0701-801
+P6,CONN_01X02,Echopen:Socket_1x02,,angled socket 1*02,Molex,22-15-2026
+P8,SMA,Echopen:SMA,,NA,Johnson / Cinch Connectivity Solutions,142-0701-801
+33u(150V)1,CP,Echopen:CP_TH_common,,150V 20%,Lelon,REA330M2CBK-1320P

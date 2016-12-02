@@ -1,6 +1,7 @@
 (module Resistor_TH_common (layer F.Cu) (tedit 580DD939)
   (descr "Resistor, Axial,  RM 10mm, 1/3W")
   (tags "Resistor Axial RM 10mm 1/3W")
+  (attr smd)
   (fp_text reference REF** (at 5.08 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

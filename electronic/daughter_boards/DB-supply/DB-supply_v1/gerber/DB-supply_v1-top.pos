@@ -1,0 +1,35 @@
+### Module positions - created on Fri Dec  2 12:58:21 2016 ###
+### Printed by Pcbnew version kicad 4.0.4+e1-6308~48~ubuntu16.04.1-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                      PosX       PosY       Rot  Side
+C1        10n                C_TH_common               60.9600   -84.4550   90.0000  top
+C2        47n                C_TH_common               47.6250   -60.3250    0.0000  top
+C3        220u               CP_TH_common              38.1000   -54.6100    0.0000  top
+C4        47u                CP_TH_common              38.1000   -78.1050    0.0000  top
+C5        47u                CP_TH_common              50.8000   -86.3600    0.0000  top
+C6        47u                CP_TH_common              66.0400   -69.2150    0.0000  top
+C7        47u                CP_TH_common              62.8650   -46.9900    0.0000  top
+C8        47u                CP_TH_common              69.2150   -53.9750    0.0000  top
+C9        47u                CP_TH_common              73.6600   -62.8650    0.0000  top
+C10       47u                CP_TH_common              78.7400   -70.4850    0.0000  top
+D1        1N4001             D_TH_common               37.4650   -61.5950  270.0000  top
+D2        LED                D_TH_common               73.0250   -88.9000    0.0000  top
+D3        1N4148             D_TH_common               56.5150   -59.0550    0.0000  top
+D4        1N4001             D_TH_common               56.5150   -62.2300    0.0000  top
+P1        CONN_01X19         Header_pin_angled_1x19    33.0200   -67.3100    0.0000  top
+Q1        2N2222             TO-18_TH_common           41.2750   -45.7200  270.0000  top
+Q2        2N2222             TO-18_TH_common           48.8950   -45.7200    0.0000  top
+Q3        2N2907             TO-18_TH_common           55.8800   -45.7200    0.0000  top
+R1        2.2k               Resistor_TH_common        60.9600   -75.5650   90.0000  top
+R2        12k                Resistor_TH_common        58.4200   -88.9000    0.0000  top
+R3        3.3k               Resistor_TH_common        47.6250   -55.2450    0.0000  top
+R4        1.8k               Resistor_TH_common        47.6250   -51.4350    0.0000  top
+R5        270                Resistor_TH_common        46.3550   -80.0100    0.0000  top
+U1        LM555N             DIP-8(LM555)              48.8950   -67.3100    0.0000  top
+U2        LM2940T-12.0/NOPB  TO-220_TH_common          41.2750   -66.0400  270.0000  top
+U3        LM2940T-5.0/NOPB   TO-220_TH_common          41.2750   -87.6300    0.0000  top
+U4        LM1117T-3.3/NOPB   TO-220_TH_common          66.6750   -80.6450  270.0000  top
+U5        LM2990T-12.0/NOPB  TO-220_TH_common          80.6450   -80.6450  270.0000  top
+U6        LM2990T-5.0/NOPB   TO-220_TH_common          73.6600   -80.6450  270.0000  top
+## End

@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
-LIBS:DB_Filter_V1-cache
+LIBS:DB-filter_v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -52,6 +52,9 @@ F 0 "C1" H 4625 3250 50  0000 L CNN
 F 1 "1n" H 4625 3050 50  0000 L CNN
 F 2 "Echopen:C_TH_common" H 4638 3000 50  0001 C CNN
 F 3 "" H 4600 3150 50  0000 C CNN
+F 4 "25V 10%" H 4600 3150 60  0001 C CNN "Caracteristic"
+F 5 "AVX" H 4600 3150 60  0001 C CNN "Manufacturer"
+F 6 "SR151C102KAA" H 4600 3150 60  0001 C CNN "Ref Manufacturer"
 	1    4600 3150
 	0    1    1    0   
 $EndComp
@@ -61,8 +64,11 @@ U 1 1 57A4BB11
 P 5050 3150
 F 0 "L1" V 5000 3150 50  0000 C CNN
 F 1 "10u" V 5150 3150 50  0000 C CNN
-F 2 "Inductors:INDUCTOR_V" H 5050 3150 50  0001 C CNN
+F 2 "Echopen:INDUCTOR_TH_common" H 5050 3150 50  0001 C CNN
 F 3 "" H 5050 3150 50  0000 C CNN
+F 4 "10% 550mA" V 5050 3150 60  0001 C CNN "Caracteristic"
+F 5 "Bourns" V 5050 3150 60  0001 C CNN "Manufacturer"
+F 6 "RLB0608-100KL" V 5050 3150 60  0001 C CNN "Ref Manufacturer"
 	1    5050 3150
 	0    1    -1   0   
 $EndComp
@@ -74,6 +80,9 @@ F 0 "R1" V 5430 3300 50  0000 C CNN
 F 1 "330" V 5350 3300 50  0000 C CNN
 F 2 "Echopen:Resistor_TH_common" V 5280 3300 50  0001 C CNN
 F 3 "" H 5350 3300 50  0000 C CNN
+F 4 "1/4W 5%" V 5350 3300 60  0001 C CNN "Caracteristic"
+F 5 "KOA speer" V 5350 3300 60  0001 C CNN "Manufacturer"
+F 6 "MF1/4LCT52R331J" V 5350 3300 60  0001 C CNN "Ref Manufacturer"
 	1    5350 3300
 	1    0    0    -1  
 $EndComp
@@ -85,6 +94,9 @@ F 0 "P1" H 4100 4400 50  0000 C CNN
 F 1 "CONN_01X19" V 4200 3400 50  0000 C CNN
 F 2 "Echopen:Header_pin_angled_1x19" H 4100 3400 50  0001 C CNN
 F 3 "" H 4100 3400 50  0000 C CNN
+F 4 "angled pin header 1*19" H 4100 3400 60  0001 C CNN "Caracteristic"
+F 5 "Molex" H 4100 3400 60  0001 C CNN "Manufacturer"
+F 6 "22-28-8192" H 4100 3400 60  0001 C CNN "Ref Manufacturer"
 	1    4100 3400
 	-1   0    0    1   
 $EndComp
