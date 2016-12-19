@@ -1,7 +1,7 @@
 # Notes on the STM32F205 Reference manual  [](@description Notes on the STM32F205 for quick ADCs)
 
-* [Source PDF : reference Manual](/electronic/module/hardware/MDL-arduino_wifi_daq/datasheets/en.CD00225773_STM32F2x5_RefManual.pdf).
-* [Other interesting : STM32TM’s ADC modes and their applications](/electronic/module/hardware/MDL-arduino_wifi_daq/datasheets/en.CD00258017.pdf)
+* [Source PDF : reference Manual](/electronic/modules/hardware/MDL-arduino_wifi_daq/datasheets/en.CD00225773_STM32F2x5_RefManual.pdf).
+* [Other interesting : STM32TM’s ADC modes and their applications](/electronic/modules/hardware/MDL-arduino_wifi_daq/datasheets/en.CD00258017.pdf)
 
 * [Inspiration for the code](http://microcontroleurs.blogspot.fr/2015/07/realisation-dune-carte-dacquision-moins.html)
 
@@ -40,7 +40,7 @@ Using the feather WICED to produce a waveform:
 
 ### Versions of code so far
 
-* [INO for close to 2Msps, 2ADCs interleaved](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/2ADC2UDP.ino)
+* [INO for close to 2Msps, 2ADCs interleaved](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/2ADC2UDP.ino)
 
 Compared to the waveform detailed above, gives the following acquisition:
 

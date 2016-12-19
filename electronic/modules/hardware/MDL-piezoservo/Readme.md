@@ -1,6 +1,6 @@
 # Module: Cletus
 
-![](/electronic/module/hardware/MDL-piezoservo/viewme.png)
+![](/electronic/modules/hardware/MDL-piezoservo/viewme.png)
 
 ## Name
 
@@ -51,7 +51,7 @@ The aim of this module is to interface the transducer and the servo, aka the phy
 
 ### How does it work: block diagram
 
-![Block schema](/electronic/module/hardware/MDL-piezoservo/source/blocks.png)
+![Block schema](/electronic/modules/hardware/MDL-piezoservo/source/blocks.png)
 
 * `ITF-mET_Piezo`->`Piezo`->`ITF-mET_Piezo`
 * `ITF-N_cc_motor_pwm`->`Servo`
@@ -63,7 +63,7 @@ The aim of this module is to interface the transducer and the servo, aka the phy
 
 #### Suppliers ?
 
-A list of suppliers and some details is [available here](/electronic/module/hardware/MDL-piezoservo/suppliers/).
+A list of suppliers and some details is [available here](/electronic/modules/hardware/MDL-piezoservo/suppliers/).
 
 #### Choice of the servo
 

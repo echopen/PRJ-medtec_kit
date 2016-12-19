@@ -1,6 +1,6 @@
 # Module: Croaker [](@description Analog processing module readme)
 
-![](/electronic/module/hardware/MDL-arduino_wifi_daq/viewme.png)
+![](/electronic/modules/hardware/MDL-arduino_wifi_daq/viewme.png)
 
 ## Name
 
@@ -49,7 +49,7 @@ The aim of this echOmod is to receive the signal and process it.
 
 ### How does it work: block diagram
 
-![Block schema](/electronic/module/hardware/MDL-arduino_wifi_daq/source/blocks.png)
+![Block schema](/electronic/modules/hardware/MDL-arduino_wifi_daq/source/blocks.png)
 
 * `ITF-E_signal_envelope`->`Feather WICED`->`WiFi`
 * `Feather WICED`->`ITF-mED-TFT-Screen`
@@ -69,16 +69,16 @@ The aim of this echOmod is to receive the signal and process it.
 
 ## Constraint and limits
 
-* A series of work has been done on ![EMW3165](/electronic/module/hardware/MDL-arduino_wifi_daq/notes_EMW3165.md),  ![ESP8266](/electronic/module/hardware/MDL-arduino_wifi_daq/notes_ESP8266.md), ![Raspberry Pi Zero](/electronic/module/hardware/MDL-arduino_wifi_daq/notes_RPi0.md), ![feather WICED](/electronic/module/hardware/MDL-arduino_wifi_daq/notes_feather_WICED.md). The EMW3165 gave birth to __[Kina](/retired/kina/)__ for slow speed wireless UDP streaming.
-* A recap of microcontrolers has been added [here](/electronic/module/hardware/MDL-arduino_wifi_daq/notes_uC.md)
+* A series of work has been done on ![EMW3165](/electronic/modules/hardware/MDL-arduino_wifi_daq/notes_EMW3165.md),  ![ESP8266](/electronic/modules/hardware/MDL-arduino_wifi_daq/notes_ESP8266.md), ![Raspberry Pi Zero](/electronic/modules/hardware/MDL-arduino_wifi_daq/notes_RPi0.md), ![feather WICED](/electronic/modules/hardware/MDL-arduino_wifi_daq/notes_feather_WICED.md). The EMW3165 gave birth to __[Kina](/retired/kina/)__ for slow speed wireless UDP streaming.
+* A recap of microcontrolers has been added [here](/electronic/modules/hardware/MDL-arduino_wifi_daq/notes_uC.md)
 
 
 
 ## Some images
 
-They can be [found here](/electronic/module/hardware/MDL-arduino_wifi_daq/data/examples/). 
+They can be [found here](/electronic/modules/hardware/MDL-arduino_wifi_daq/data/examples/). 
 
-They have been acquired with `nc -lu 5005` to listen to data coming from UDP port 5005, then translated in images using the [CreateCSV.py](/electronic/module/hardware/MDL-arduino_wifi_daq/data/examples/CreateCSV.py) script, which creates the raw data files, ready to be processed, respecting the format, and scan converted using the [CreateSC.py](/electronic/module/hardware/MDL-arduino_wifi_daq/data/examples/CreateSC.py) script for a nearest neighbour scan conversion.
+They have been acquired with `nc -lu 5005` to listen to data coming from UDP port 5005, then translated in images using the [CreateCSV.py](/electronic/modules/hardware/MDL-arduino_wifi_daq/data/examples/CreateCSV.py) script, which creates the raw data files, ready to be processed, respecting the format, and scan converted using the [CreateSC.py](/electronic/modules/hardware/MDL-arduino_wifi_daq/data/examples/CreateSC.py) script for a nearest neighbour scan conversion.
 
 ## Boosting the ADC work
 
@@ -86,13 +86,13 @@ They have been acquired with `nc -lu 5005` to listen to data coming from UDP por
 
 #### September:
 
-In a nutshell: getting roughly 12bits, 2Msps+ ADC acquisition and Wifi-streaming, on a powerbank. [Read more here](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/2016-09-10-Feather_ADC.md) for the details on the STM32 work. [Arduino code here, with details for setup](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/2ADC2UDP.ino).
+In a nutshell: getting roughly 12bits, 2Msps+ ADC acquisition and Wifi-streaming, on a powerbank. [Read more here](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/2016-09-10-Feather_ADC.md) for the details on the STM32 work. [Arduino code here, with details for setup](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/2ADC2UDP.ino).
 
 Video is [here](https://www.youtube.com/watch?v=iyfDMsgAquI).
 
 #### December:
 
-Later on, in december, I got it work with a [breadboard phantom](/electronic/module/hardware/MDL-arduino_wifi_daq/data/20161217/20161217-TestingArduinoAndPhantom.md)
+Later on, in december, I got it work with a [breadboard phantom](/electronic/modules/hardware/MDL-arduino_wifi_daq/data/20161217/20161217-TestingArduinoAndPhantom.md)
 
 ### In images
 
@@ -101,7 +101,7 @@ Later on, in december, I got it work with a [breadboard phantom](/electronic/mod
 
 #### Out of the Croaker module
 
-![](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/SilentAcqDualADC.png)
+![](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/SilentAcqDualADC.png)
 
 #### Following unprocessed signal, 
 
@@ -115,7 +115,7 @@ Later on, in december, I got it work with a [breadboard phantom](/electronic/mod
 
 ### TODO
 
-* Replace the work done by [OneEye](/electronic/module/hardware/MDL-pulser_control/) by [Croaker](/electronic/module/hardware/MDL-arduino_wifi_daq/).
+* Replace the work done by [OneEye](/electronic/modules/hardware/MDL-pulser_control/) by [Croaker](/electronic/modules/hardware/MDL-arduino_wifi_daq/).
 * Get better total ADC speed with an iterleaved move
 
 ### DONE
@@ -132,7 +132,7 @@ Later on, in december, I got it work with a [breadboard phantom](/electronic/mod
 
 ### Croaker 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [croaker](/electronic/module/hardware/MDL-arduino_wifi_daq/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [croaker](/electronic/modules/hardware/MDL-arduino_wifi_daq/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 

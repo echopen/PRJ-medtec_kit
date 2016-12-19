@@ -1,6 +1,6 @@
 # Module: Goblin [](@description Goblin description)
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/viewme.png)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/viewme.png)
 
 ## Name
 
@@ -17,7 +17,7 @@ Goblin: a TGC-Envelop-ADC module
 * version: V0.1
 * date: 24/04/2016
 * cost:150$
-* sourcing:Custom made, get the [Gerbers](/electronic/module/hardware/MDL-analog_processing_ic/source/), or [on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124
+* sourcing:Custom made, get the [Gerbers](/electronic/modules/hardware/MDL-analog_processing_ic/source/), or [on Tindie](https://www.tindie.com/products/kelu124/ultrasound-imaging-analog-processing-module/), or contact @kelu124
 * technology: Module-compatible, Homemade PCB, ICs based on `AD8331` and `ADL5511`
 * language: Altium
 * author: Kelu124
@@ -54,19 +54,19 @@ Goblin: a TGC-Envelop-ADC module
 
 The aim of this echOmod is to get the signal coming back from a transducer, and to deliver the signal, analogically processed, with all steps accessible to hackers. 
 
-With more details, this [Goblin](/electronic/module/hardware/MDL-analog_processing_ic/) board aims at getting a signal, and giving access to key points within the signal processing chain for ultrasound imaging, namely:
+With more details, this [Goblin](/electronic/modules/hardware/MDL-analog_processing_ic/) board aims at getting a signal, and giving access to key points within the signal processing chain for ultrasound imaging, namely:
 
 * Getting access to a TGC
 * Getting the enveloppe of the signal
 * Cleaning the signal before feeding in the on-board SPI ADC
 
-All key signals are accessible, and jumpers, as well as pots, enable on-board fine-tuning of the signals. [See more details on the __testing session__, to see the behavior of the board on a oscillo](/electronic/module/hardware/MDL-analog_processing_ic/2016-07-08.md).
+All key signals are accessible, and jumpers, as well as pots, enable on-board fine-tuning of the signals. [See more details on the __testing session__, to see the behavior of the board on a oscillo](/electronic/modules/hardware/MDL-analog_processing_ic/2016-07-08.md).
 
-It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch only the enveloppe, to be tested with other uC, RPi or BBB. Test have been also done with [6MSps, arduino IDE-compatible, STM32](/electronic/module/hardware/MDL-arduino_wifi_daq/). 
+It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch only the enveloppe, to be tested with other uC, RPi or BBB. Test have been also done with [6MSps, arduino IDE-compatible, STM32](/electronic/modules/hardware/MDL-arduino_wifi_daq/). 
 
 ### How does it work: block diagram
 
-![Block schema](/electronic/module/hardware/MDL-analog_processing_ic/source/blocks.png)
+![Block schema](/electronic/modules/hardware/MDL-analog_processing_ic/source/blocks.png)
 
 * `ITF-G_gain_control`->`Goblin_Jumper2`->`AD8331`->`ITF-C_amplified_raw_signal`->`ADL5511`->`ITF-E_signal_envelope`->`AD8691`->`ITF-Ext_Amplified`->`AD7274`->`ITF-mEG_SPI`
 * `ITF-R_reserved`->`Goblin_Jumper1`->`AD8331`
@@ -77,11 +77,11 @@ It's also a first try at a SPI ADC. Using a up to 3 Msps one in order to catch o
 
 This can be summarized below - all the signals represented are accessible via separate on-board pins:
 
-![Principle of goblin](/electronic/module/hardware/MDL-analog_processing_ic/images/slide_principle.png)
+![Principle of goblin](/electronic/modules/hardware/MDL-analog_processing_ic/images/slide_principle.png)
 
 Input/Output:
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/TEK0009.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/TEK0009.JPG)
 
 ## About the module
 
@@ -99,38 +99,38 @@ Input/Output:
 * The SMA brings little, but still a noise analysis could be done to assess the difference between routing the signal through a SMA cable or through the pins.
 * There are only two layers. A fourth one to connect each pin to the other pin on the same row, as well as a ground plane, could help with the noise.
 * Little flexibility from the use of ICs - but sufficient of sorts for our use.
-* The [ADC](/electronic/module/hardware/MDL-analog_processing_ic/datasheets/AD7274 - 7273 7276.pdf) is borderline in terms of speed of use. A higher sampling rate could be useful.
-* There was a bug with the [ADL5511](/electronic/module/hardware/MDL-analog_processing_ic/datasheets/ADL5511.pdf): need to know how it shuts down.
+* The [ADC](/electronic/modules/hardware/MDL-analog_processing_ic/datasheets/AD7274 - 7273 7276.pdf) is borderline in terms of speed of use. A higher sampling rate could be useful.
+* There was a bug with the [ADL5511](/electronic/modules/hardware/MDL-analog_processing_ic/datasheets/ADL5511.pdf): need to know how it shuts down.
 
 ### Detailed view
 
 #### Explained
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/module/GoblinModule.png)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/module/GoblinModule.png)
 
 #### In/Out
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/TEK0009.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/TEK0009.JPG)
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/TEK0010.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/TEK0010.JPG)
 
 #### Comparing the signals: amplified signal vs enveloppe detected
 
 The overall signal
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/TEK0000.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/TEK0000.JPG)
 
 Details
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/TEK0002.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/TEK0002.JPG)
 
 Details on the peaks
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/TEK0005.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/TEK0005.JPG)
 
 #### Schematics
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/module/schematics.png)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/module/schematics.png)
 
 ## Constraint and limits
 
@@ -139,26 +139,26 @@ Details on the peaks
 
 #### Signal in vs Signal out of the TGC
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0003.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0003.JPG)
 
 #### Trying with different frequencies
 
 
 ##### At 3 MHz
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0018.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0018.JPG)
 
 ##### At 5MHz
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0016.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0016.JPG)
 
 ##### At 7.5MHz
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0015.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0015.JPG)
 
 ##### At 10MHz
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0017.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0017.JPG)
 
 #### Difference between enveloppe and ADC input?
 
@@ -168,11 +168,11 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 
 ##### Before the AOP
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0011.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0011.JPG)
 
 ##### After the AOP
 
-![](/electronic/module/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0010.JPG)
+![](/electronic/modules/hardware/MDL-analog_processing_ic/images/2016-07-08/TEK0010.JPG)
 
 
 
@@ -181,7 +181,7 @@ See below: there's an offset at the enveloppe detection (~RMS), which is removed
 ### TODO
 
 
-* _BONUS!_ Plug it to a [RPi0 or BBB or RPi](/electronic/module/hardware/MDL-arduino_wifi_daq/) or else.
+* _BONUS!_ Plug it to a [RPi0 or BBB or RPi](/electronic/modules/hardware/MDL-arduino_wifi_daq/) or else.
 * _BONUS!_ or test it with the [EMW3165](/retired/kina/).
 * Publish the sources in KiCAD (@Sofian maybe?)
 

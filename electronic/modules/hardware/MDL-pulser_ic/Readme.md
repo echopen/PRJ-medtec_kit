@@ -1,6 +1,6 @@
 # Module: Tobo
 
-![](/electronic/module/hardware/MDL-pulser_ic/viewme.png)
+![](/electronic/modules/hardware/MDL-pulser_ic/viewme.png)
 
 ## Name
 
@@ -15,7 +15,7 @@ Tobo: the HV-pulser
 * The HV-Pulser of the echOmods
 * version: V0.2
 * cost:120$
-* sourcing:Custom made, get the [Gerbers](/electronic/module/hardware/MDL-pulser_ic/source/), or contact @kelu124
+* sourcing:Custom made, get the [Gerbers](/electronic/modules/hardware/MDL-pulser_ic/source/), or contact @kelu124
 * date: 24/04/2016
 * technology: Module-compatible, Homemade PCB, ICs based on `HV7360` and `R05-100B`
 * language: Altium
@@ -52,7 +52,7 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ### How does it work: block diagram
 
-![Block schema](/electronic/module/hardware/MDL-pulser_ic/source/blocks.png)
+![Block schema](/electronic/modules/hardware/MDL-pulser_ic/source/blocks.png)
 
 * `ITF-I_pulse_on`->`HV7360`
 * `ITF-J_pulse_off`->`HV7360`
@@ -81,28 +81,28 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ### The pulser-control
 
-![](/electronic/module/hardware/MDL-pulser_ic/images/TEK0006.JPG)
+![](/electronic/modules/hardware/MDL-pulser_ic/images/TEK0006.JPG)
 
 ### With and without a pulser - no impedance adaptation
 
-![](/electronic/module/hardware/MDL-pulser_ic/images/TEK0008.JPG)
+![](/electronic/modules/hardware/MDL-pulser_ic/images/TEK0008.JPG)
 
-![](/electronic/module/hardware/MDL-pulser_ic/images/TEK0007.JPG)
+![](/electronic/modules/hardware/MDL-pulser_ic/images/TEK0007.JPG)
 
 ### Look of the schematics
 
-![](/electronic/module/hardware/MDL-pulser_ic/images/schema-tobo.png)
+![](/electronic/modules/hardware/MDL-pulser_ic/images/schema-tobo.png)
 
-and [a link to it](/electronic/module/hardware/MDL-pulser_ic/tobo_schematics.pdf)
+and [a link to it](/electronic/modules/hardware/MDL-pulser_ic/tobo_schematics.pdf)
 
 
 ### Look of the actual board
 
-![](/electronic/module/hardware/MDL-pulser_ic/images/tobo-2.png)
+![](/electronic/modules/hardware/MDL-pulser_ic/images/tobo-2.png)
 
 ### Availability of HV7360
 
-* Some issues with the availability of the `HV7360`, living its end of life. The latest version of [Altium](/electronic/module/hardware/MDL-pulser_ic/source/Altium/) and [Kicad](/electronic/module/hardware/MDL-pulser_ic/source/Kicad/) source files should show the new [HV7360 CABGA](/electronic/module/hardware/MDL-pulser_ic/datasheets/HV7360_CABGA.pdf).
+* Some issues with the availability of the `HV7360`, living its end of life. The latest version of [Altium](/electronic/modules/hardware/MDL-pulser_ic/source/Altium/) and [Kicad](/electronic/modules/hardware/MDL-pulser_ic/source/Kicad/) source files should show the new [HV7360 CABGA](/electronic/modules/hardware/MDL-pulser_ic/datasheets/HV7360_CABGA.pdf).
 * However, this latest should be available officially in Jan 2017.
 
 ## Discussions
@@ -132,7 +132,7 @@ and [a link to it](/electronic/module/hardware/MDL-pulser_ic/tobo_schematics.pdf
 
 ### echOmods 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Tobo](/electronic/module/hardware/MDL-pulser_ic/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Tobo](/electronic/modules/hardware/MDL-pulser_ic/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 

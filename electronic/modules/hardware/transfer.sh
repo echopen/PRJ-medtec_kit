@@ -13,4 +13,7 @@ grep -rli '](/cletus/'  --include \*.md | xargs -i@ sed -i 's/](\/cletus\//](\/e
 grep -rli '](/oneeye/'  --include \*.md | xargs -i@ sed -i 's/](\/oneeye\//](\/electronic\/module\/hardware\/MDL-pulser_control\//g' @
 
 
+grep -rli 'onic/module/hard'  --include \*.md | xargs -i@ sed -i 's/onic\/module\/hard/onic\/modules\/hard/g' @
+
+
 

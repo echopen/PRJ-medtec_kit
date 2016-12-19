@@ -1,6 +1,6 @@
 # Module: oneeye
 
-![](/electronic/module/hardware/MDL-pulser_control/viewme.png)
+![](/electronic/modules/hardware/MDL-pulser_control/viewme.png)
 
 ## Name
 
@@ -50,7 +50,7 @@ As the controler the module is at the heart of the control interfaces, and in th
 
 ### How does it work: block diagram
 
-![Block schema](/electronic/module/hardware/MDL-pulser_control/source/blocks.png)
+![Block schema](/electronic/modules/hardware/MDL-pulser_control/source/blocks.png)
 
 * `ITF-B_5v`->`ArduinoTrinketPro`->`ITF-G_gain_control`
 * `ArduinoTrinketPro`->`ITF-I_pulse_on`
@@ -71,7 +71,7 @@ As the controler the module is at the heart of the control interfaces, and in th
 
 ### Layout on the motherboard
 
-![](/electronic/module/hardware/MDL-pulser_control/images/oneeye-trinket.png)
+![](/electronic/modules/hardware/MDL-pulser_control/images/oneeye-trinket.png)
 
 ## Discussions
 
@@ -89,7 +89,7 @@ As the controler the module is at the heart of the control interfaces, and in th
 
 ### echOmods 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [One-Eye](/electronic/module/hardware/MDL-pulser_control/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [One-Eye](/electronic/modules/hardware/MDL-pulser_control/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 

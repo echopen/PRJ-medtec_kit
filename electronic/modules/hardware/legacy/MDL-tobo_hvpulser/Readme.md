@@ -75,7 +75,7 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ### echOmods 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Tobo](/electronic/module/hardware/MDL-pulser_ic/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Tobo](/electronic/modules/hardware/MDL-pulser_ic/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 

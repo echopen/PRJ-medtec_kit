@@ -22,4 +22,4 @@ In it we could make:
 * 5.0MHz, 0.5” diameter with 3” Spherical Focus,     $277.0each
 * 7.5MHz, 0.5” diameter with 3” Spherical Focus,     $320.0each
 
-![](/electronic/module/hardware/MDL-piezoservo/suppliers/ndtx/schema.png)
+![](/electronic/modules/hardware/MDL-piezoservo/suppliers/ndtx/schema.png)

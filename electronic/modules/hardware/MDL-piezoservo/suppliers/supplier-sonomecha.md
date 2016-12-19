@@ -27,7 +27,7 @@ should be make the criteria by the mold size and sintering process of ceramics.
     We need your shipping address to make a quote. (The shipping fee will calculates only if we know your address)
 
 
-![](/electronic/module/hardware/MDL-piezoservo/suppliers/sonomecha/quote.png)
+![](/electronic/modules/hardware/MDL-piezoservo/suppliers/sonomecha/quote.png)
 
 
 #### Feedback in 2016 for 3 different piezos

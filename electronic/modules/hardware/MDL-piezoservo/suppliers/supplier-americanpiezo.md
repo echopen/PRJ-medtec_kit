@@ -13,8 +13,8 @@
 
 #### December 2015
 
-![](/electronic/module/hardware/MDL-piezoservo/suppliers/americanpiezo/quote.png)
+![](/electronic/modules/hardware/MDL-piezoservo/suppliers/americanpiezo/quote.png)
 
 * From Jeff: Crystal @67$, Casing at 250$. The minimum order for Crystals is Qty 10.
 
-![](/electronic/module/hardware/MDL-piezoservo/suppliers/americanpiezo/structure.png)
+![](/electronic/modules/hardware/MDL-piezoservo/suppliers/americanpiezo/structure.png)

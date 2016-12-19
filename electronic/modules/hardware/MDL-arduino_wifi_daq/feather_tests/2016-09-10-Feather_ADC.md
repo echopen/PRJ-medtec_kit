@@ -2,7 +2,7 @@
 
 ## First tests
 
-Code can be found [here](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/ReadPins.ino).
+Code can be found [here](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/ReadPins.ino).
 
 Testing it with a 10kHz (0-1V) sine gives the following
 
@@ -13,7 +13,7 @@ Not satisfactory.
 
 ## Digging into the low-level code
 
-Code can be found [here](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/Registers.ino).
+Code can be found [here](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/Registers.ino).
 
 ### Sources
 
@@ -36,11 +36,11 @@ Working on this at the moment, but would appreciate if you had some ideas on wha
 
 ### Playing with the same code (D+1)
 
-But removing all references to the second ADC (and so .. to the third as well), the [code works](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/Registers1Msps.ino).
+But removing all references to the second ADC (and so .. to the third as well), the [code works](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/Registers1Msps.ino).
 
 Interfacing the feather to a i2c 128x64 oled display, I can see that it takes around 990 us to get 1000 samples. That's a bit more than 1Msps - and it should be enough to get a signal coming from the emulator.
 
-Moreover, with this working, we can see that the input signal coming from 0 to 3.3V gives 0 to 4095.. as expected. Since the output of [Goblin](/electronic/module/hardware/MDL-analog_processing_ic/) is up to 3.3V, it means I can connect goblin's output to this one, and try to trig on the same trigger as the emulator as well. Will need a level shifter.
+Moreover, with this working, we can see that the input signal coming from 0 to 3.3V gives 0 to 4095.. as expected. Since the output of [Goblin](/electronic/modules/hardware/MDL-analog_processing_ic/) is up to 3.3V, it means I can connect goblin's output to this one, and try to trig on the same trigger as the emulator as well. Will need a level shifter.
 
 ### Playing with the same code (D+2)
 
@@ -48,7 +48,7 @@ Been putting the trig on the 5V trigger from the pulser. Works better.
 
 Also doing some averaging.. need to check if it really works.
 
-Anyhow, the [code works](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/Registers1MspsDisplayTrigged.ino). 
+Anyhow, the [code works](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/Registers1MspsDisplayTrigged.ino). 
 
 It seems like for 2048 points buffer, only 4 full periods of the pulser are present. This pulser working at 300us intervals, this would put the 
 acquisition at 1.7Msps. Need to check what is really the speed of this acquisition.
@@ -58,13 +58,13 @@ Seeing echoes as well from a real transducer =)
 
 ## Being a bit more serious
 
-The code is here [ADC2UDP-Cleaning.ino](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/ADC2UDP-Cleaning.ino).
+The code is here [ADC2UDP-Cleaning.ino](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/ADC2UDP-Cleaning.ino).
 
 ### Testing the speed of acquisition
  
-I got 24x128 points (data is [here](/electronic/module/hardware/MDL-arduino_wifi_daq/data/128x24points.data), decimated 128 times: and I see 22.2 decimated points for a period of 300us. 
+I got 24x128 points (data is [here](/electronic/modules/hardware/MDL-arduino_wifi_daq/data/128x24points.data), decimated 128 times: and I see 22.2 decimated points for a period of 300us. 
 
-![](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/24x128pts.png)
+![](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/24x128pts.png)
 
 Thats 533 points per period. Since it's a 300us period, the overall acquisition speed is close to 1.776Msps at 12 bits, using only one ADC.
 
@@ -82,9 +82,9 @@ and after
 
 #### Acquisition
 
-The data was acquired with [Croaker](/electronic/module/hardware/MDL-arduino_wifi_daq/) through the UDP streaming option. Lines are 128 points long (hence 72us long), and the value is coded over 12 bits, from 0-4095, corresponding to 0-3.3V. [Data is here](/croaker)
+The data was acquired with [Croaker](/electronic/modules/hardware/MDL-arduino_wifi_daq/) through the UDP streaming option. Lines are 128 points long (hence 72us long), and the value is coded over 12 bits, from 0-4095, corresponding to 0-3.3V. [Data is here](/croaker)
 
-![](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/SilentAcq.png)
+![](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/SilentAcq.png)
 
 Comparing with the source signal, it seems that we are late on acquisition: the trigger took some time.
 
@@ -97,9 +97,9 @@ Peaks on the 3 smaller peaks afterwards are on points 82, 88 and 95. That's 6.5 
 
 New acquisition is as follows:
 
-![](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/SilentAcqDualADC.png)
+![](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/SilentAcqDualADC.png)
 
-The peaks get better resolved. [Data is here](/electronic/module/hardware/MDL-arduino_wifi_daq/data/dualADC.data) -and [Arduino code is here](/electronic/module/hardware/MDL-arduino_wifi_daq/feather_tests/2ADC2UDP.ino). Roughly doubling the sampling rate.
+The peaks get better resolved. [Data is here](/electronic/modules/hardware/MDL-arduino_wifi_daq/data/dualADC.data) -and [Arduino code is here](/electronic/modules/hardware/MDL-arduino_wifi_daq/feather_tests/2ADC2UDP.ino). Roughly doubling the sampling rate.
 
 * Video of the setup, showing the OLED screen showcasing the signal : https://www.youtube.com/watch?v=iyfDMsgAquI
 

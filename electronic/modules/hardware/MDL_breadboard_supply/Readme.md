@@ -1,6 +1,6 @@
 # Module: Mogaba
 
-![](/electronic/module/hardware/MDL_breadboard_supply/viewme.png)
+![](/electronic/modules/hardware/MDL_breadboard_supply/viewme.png)
 
 ## Name
 
@@ -47,7 +47,7 @@ The aim of this echOmod is to get 3.3V and 5V done.
 
 ### How does it work: block diagram
 
-![Block schema](/electronic/module/hardware/MDL_breadboard_supply/source/blocks.png)
+![Block schema](/electronic/modules/hardware/MDL_breadboard_supply/source/blocks.png)
 
 * `ITF-mEM_Alimentation`->`BreadBoardAlim`->`ITF-B_5v`
 * `BreadBoardAlim`->`ITF-B_3_3v`
@@ -102,7 +102,7 @@ Quality of the power supply is key: it can introduce noise in the final
 
 ### echOmods 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Mogaba](/electronic/module/hardware/MDL_breadboard_supply/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Mogaba](/electronic/modules/hardware/MDL_breadboard_supply/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 

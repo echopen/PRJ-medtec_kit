@@ -7,7 +7,7 @@
 ### Status
 
 * Deja contactes en 2015 
-* Retour 2/1/16: need the [query sheet](/electronic/module/hardware/MDL-piezoservo/suppliers/meggitt/query.pdf)
+* Retour 2/1/16: need the [query sheet](/electronic/modules/hardware/MDL-piezoservo/suppliers/meggitt/query.pdf)
 
 ### Notes
 
@@ -24,4 +24,4 @@
 
 #### Sheet
 
-* To provode more details on the required piezo : [Download](/electronic/module/hardware/MDL-piezoservo/suppliers/meggitt/query.pdf)
+* To provode more details on the required piezo : [Download](/electronic/modules/hardware/MDL-piezoservo/suppliers/meggitt/query.pdf)
