@@ -2,7 +2,7 @@
 ![](viewme.png)
 
 ## Name
-[`MDL-tobo_hvpulser`]()
+[`MDL-MDL-pulser_ic_hvpulser`]()
 
 ## Title
 Tobo HV-Pulser
@@ -75,7 +75,7 @@ The aim of this echOmod is to get the HV Pulse done.
 
 ### echOmods 
 
-The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Tobo](/tobo/) module) are open hardware, and working with open-hardware components.
+The [echOmods project](https://github.com/kelu124/echomods) and its prototypes (amongst which we find the [Tobo](/electronic/module/hardware/MDL-pulser_ic/) module) are open hardware, and working with open-hardware components.
 
 Licensed under TAPR Open Hardware License (www.tapr.org/OHL)
 
