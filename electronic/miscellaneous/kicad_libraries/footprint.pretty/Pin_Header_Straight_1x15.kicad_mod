@@ -34,7 +34,7 @@
   (pad 13 thru_hole oval (at 0 30.48) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask))
   (pad 14 thru_hole oval (at 0 33.02) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask))
   (pad 15 thru_hole oval (at 0 35.56) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask))
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x15.wrl
+  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x15.wrl
     (at (xyz 0 -0.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
