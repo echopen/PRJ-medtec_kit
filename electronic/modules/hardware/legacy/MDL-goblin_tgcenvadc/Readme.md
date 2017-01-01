@@ -2,7 +2,7 @@
 ![](viewme.png)
 
 ## Name
-[`MDL-goblin_tgcenvadc`]()
+[`MDL-MDL-analog_processing_ic_tgcenvadc`]()
 
 ## Title
 Goblin TGC-Envelop-ADC
