@@ -101,17 +101,6 @@ Wire Wire Line
 	3850 2150 3850 1900
 Connection ~ 3850 1900
 $Comp
-L CONN_01X08 P2
-U 1 1 585A77FB
-P 4150 3800
-F 0 "P2" H 4150 4250 50  0000 C CNN
-F 1 "CONN_01X08" V 4250 3800 50  0000 C CNN
-F 2 "Echopen:Pin_Header_Straight_1x08" H 4150 3800 50  0001 C CNN
-F 3 "" H 4150 3800 50  0000 C CNN
-	1    4150 3800
-	-1   0    0    -1  
-$EndComp
-$Comp
 L CONN_01X08 P3
 U 1 1 585A78B1
 P 4850 3800
@@ -170,9 +159,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 3100 5300 3100
 Wire Wire Line
-	4350 3450 4350 1900
-Connection ~ 4350 1900
-Wire Wire Line
 	5700 4150 5300 4150
 Wire Wire Line
 	5300 3550 5300 4300
@@ -180,8 +166,6 @@ Wire Wire Line
 	5300 4300 4000 4300
 Wire Wire Line
 	4000 4300 4000 3450
-Wire Wire Line
-	4000 3450 4350 3450
 Wire Wire Line
 	3850 2450 3850 4400
 Wire Wire Line
@@ -212,12 +196,10 @@ Wire Wire Line
 Wire Wire Line
 	3400 2850 5700 2850
 NoConn ~ 3850 2850
-NoConn ~ 4350 2850
 NoConn ~ 3400 2550
 NoConn ~ 3400 2650
 NoConn ~ 3400 2750
 NoConn ~ 3400 2950
-NoConn ~ 3400 4150
 NoConn ~ 3400 4050
 Wire Wire Line
 	5300 3550 5700 3550
@@ -279,14 +261,9 @@ F 3 "" H 7600 3200 50  0000 C CNN
 	1    7600 3200
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	7250 1900 7250 2900
-Wire Wire Line
-	7250 2900 6800 2900
 Connection ~ 4950 1900
 Wire Wire Line
-	7800 2600 7250 2600
-Connection ~ 7250 2600
+	7250 2600 8050 2600
 Wire Wire Line
 	7800 2800 7350 2800
 Wire Wire Line
@@ -378,7 +355,6 @@ NoConn ~ 6800 2600
 NoConn ~ 6800 2700
 NoConn ~ 6800 2800
 NoConn ~ 6800 3000
-NoConn ~ 6800 3300
 NoConn ~ 6800 3400
 NoConn ~ 6800 3500
 NoConn ~ 6800 3600
@@ -410,4 +386,91 @@ F 3 "" H 4100 1900 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 Connection ~ 4100 1900
+Wire Wire Line
+	7250 1900 7250 2600
+Wire Wire Line
+	6800 2900 6500 2900
+Wire Wire Line
+	6500 2900 6500 2950
+Connection ~ 6500 2950
+$Comp
+L R R4
+U 1 1 58824A15
+P 6600 4950
+F 0 "R4" V 6680 4950 50  0000 C CNN
+F 1 "1.5k" V 6600 4950 50  0000 C CNN
+F 2 "Echopen:Resistor_TH_common" V 6530 4950 50  0001 C CNN
+F 3 "" H 6600 4950 50  0000 C CNN
+	1    6600 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L 2N2222 Q2
+U 1 1 58824BB0
+P 6100 4950
+F 0 "Q2" H 6300 5025 50  0000 L CNN
+F 1 "2N2222" H 6300 4950 50  0000 L CNN
+F 2 "Echopen:TO-18_TH_common" H 6300 4875 50  0001 L CIN
+F 3 "" H 6100 4950 50  0000 L CNN
+	1    6100 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 4950 6300 4950
+Wire Wire Line
+	6800 3300 7150 3300
+Wire Wire Line
+	7150 3300 7150 4950
+Wire Wire Line
+	7150 4950 6750 4950
+Wire Wire Line
+	3400 4150 3400 5200
+Wire Wire Line
+	3400 5200 5400 5200
+$Comp
+L R R3
+U 1 1 588250BD
+P 5550 5200
+F 0 "R3" V 5630 5200 50  0000 C CNN
+F 1 "1.5k" V 5550 5200 50  0000 C CNN
+F 2 "Echopen:Resistor_TH_common" V 5480 5200 50  0001 C CNN
+F 3 "" H 5550 5200 50  0000 C CNN
+	1    5550 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 5200 6000 5200
+Wire Wire Line
+	6000 5200 6000 5150
+Wire Wire Line
+	6000 4750 8050 4750
+Wire Wire Line
+	8050 4750 8050 2600
+Connection ~ 7800 2600
+$Comp
+L CONN_01X09 P2
+U 1 1 58825882
+P 4150 3750
+F 0 "P2" H 4150 4250 50  0000 C CNN
+F 1 "CONN_01X09" V 4250 3750 50  0000 C CNN
+F 2 "" H 4150 3750 50  0001 C CNN
+F 3 "" H 4150 3750 50  0000 C CNN
+	1    4150 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3450 4350 3450
+Wire Wire Line
+	4200 3450 4200 1900
+Connection ~ 4200 1900
+Connection ~ 4200 3450
+Wire Wire Line
+	4350 3350 5200 3350
+Wire Wire Line
+	5200 3350 5200 5100
+Wire Wire Line
+	5200 5100 5800 5100
+Wire Wire Line
+	5800 5100 5800 5200
+Connection ~ 5800 5200
 $EndSCHEMATC
