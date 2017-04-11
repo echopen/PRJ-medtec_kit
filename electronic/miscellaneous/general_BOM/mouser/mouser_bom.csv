@@ -10,7 +10,7 @@ mars 21, 2017 05:38:53,,,,,,,,,,,
 6,538-22-28-8200,22-28-8200,Molex,,Headers & Wire Housings 2.54MM BREAKAWAY RA 20 CKT Tin,RoHS Compliant,,7,0,941,6,587
 7,538-22-15-2086,22-15-2086,Molex,,Headers & Wire Housings 8 POS RT ANGLE PCB,RoHS Compliant,,1,1,1,1,1
 8,926-LM555CN/NOPB,LM555CN/NOPB,Texas Instruments,,Timers & Support Products TIMER,RoHS Compliant,,2,0,981,1,962
-9,689-MD0100N8-G,MD0100N8-G,Microchip,,Switch ICs - Various HIGH VOLTAGE PROTECT T/R SWITCH,RoHS Compliant,,5,1,1,5,5
+9,689-MD0100N8-G,MD0100N8-G,Microchip,,Switch ICs - Various HIGH VOLTAGE PROTECT T/R SWITCH,RoHS Compliant,,3,1,1,5,5
 10,595-OPA625IDBVT,OPA625IDBVT,Texas Instruments,,Precision Amplifiers SAR ADC Driver w/Power Scaling,RoHS Compliant,New Product,1,2,56,2,56
 11,619-350-00001,350-00001,Parallax,,Standard LEDs - Through Hole Green LED,RoHS Compliant,,1,0,462,0,462
 12,511-BAT48,BAT48,STMicroelectronics,,Schottky Diodes & Rectifiers 350mA 40 Volt,RoHS Compliant,,1,0,321,0,321
@@ -22,8 +22,8 @@ mars 21, 2017 05:38:53,,,,,,,,,,,
 18,926-LM2990T-5.0/NOPB,LM2990T-5.0/NOPB,Texas Instruments,,LDO Voltage Regulators NEG LDO REG,RoHS Compliant By Exemption,,1,2,88,2,88
 19,992-ARD-NANO30NP,ARD-NANO30NP,Arduino,,Development Boards & Kits - AVR Arduino Nano 3.1 W/ATMEGA328 NO-PIN,RoHS Compliant,,1,29,3,29,3
 20,926-LM2940T-12.0NOPB,LM2940T-12.0/NOPB,Texas Instruments,,LDO Voltage Regulators 1A LDO REG,RoHS Compliant,,1,1,48,1,48
-21,610-2N2222,2N2222,Central Semiconductor,,Bipolar Transistors - BJT NPN Silicon,RoHS Compliant,,6,1,7,10,2
-22,610-2N2907A,2N2907A,Central Semiconductor,,Bipolar Transistors - BJT PNP Gen Pur SS,RoHS Compliant,,2,1,7,3,4
+21,610-2N2222,2N2222,Central Semiconductor,,Bipolar Transistors - BJT NPN Silicon,RoHS Compliant,,8,1,7,10,2
+22,610-2N2907A,2N2907A,Central Semiconductor,,Bipolar Transistors - BJT PNP Gen Pur SS,RoHS Compliant,,4,1,7,3,4
 23,603-CFR-25JB-52-220R,CFR-25JB-52-220R,Yageo,,Carbon Film Resistors - Through Hole 1/4W 220 Ohm 5% 250 Volts,RoHS Compliant,,1,0,94,0,94
 24,660-MF1/4LCT52R271J,MF1/4LCT52R271J,KOA Speer,,Metal Film Resistors - Through Hole 1/4 WATT 270 OHM 5%,RoHS Compliant,,1,0,101,0,101
 25,660-MF1/4LCT52R331J,MF1/4LCT52R331J,KOA Speer,,Metal Film Resistors - Through Hole 1/4 WATT 330 OHM 5%,RoHS Compliant,,1,0,101,0,101
