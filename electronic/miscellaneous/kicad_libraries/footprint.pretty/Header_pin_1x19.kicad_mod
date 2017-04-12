@@ -46,4 +46,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 90))
   )
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x19_Pitch2.54mm.wrl
+    (at (xyz 0 0 -0.05))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 90))
+  )
 )

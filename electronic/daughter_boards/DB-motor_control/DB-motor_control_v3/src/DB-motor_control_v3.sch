@@ -58,7 +58,7 @@ $EndComp
 Wire Wire Line
 	3400 2350 3400 1900
 Wire Wire Line
-	3400 1900 7250 1900
+	2750 1900 7250 1900
 $Comp
 L GND #PWR01
 U 1 1 585A5F1C
@@ -171,8 +171,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 4400 7350 4400
 Wire Wire Line
-	5800 4400 5800 4050
-Wire Wire Line
 	5800 4050 5700 4050
 $Comp
 L CONN_01X04 P5
@@ -268,7 +266,6 @@ Wire Wire Line
 	7800 2800 7350 2800
 Wire Wire Line
 	7350 2800 7350 4400
-Connection ~ 5800 4400
 Wire Wire Line
 	3400 2450 3850 2450
 Wire Wire Line
@@ -343,7 +340,6 @@ Wire Wire Line
 NoConn ~ 6650 4400
 NoConn ~ 6700 4400
 NoConn ~ 3400 3050
-NoConn ~ 3400 3350
 NoConn ~ 3400 3450
 NoConn ~ 3400 3550
 NoConn ~ 3400 3650
@@ -465,7 +461,7 @@ Wire Wire Line
 Connection ~ 4200 1900
 Connection ~ 4200 3450
 Wire Wire Line
-	4350 3350 5200 3350
+	3400 3350 5200 3350
 Wire Wire Line
 	5200 3350 5200 5100
 Wire Wire Line
@@ -473,4 +469,45 @@ Wire Wire Line
 Wire Wire Line
 	5800 5100 5800 5200
 Connection ~ 5800 5200
+$Comp
+L CP C6
+U 1 1 58ECF1A9
+P 3250 5200
+F 0 "C6" H 3275 5300 50  0000 L CNN
+F 1 "10u" H 3275 5100 50  0000 L CNN
+F 2 "Echopen:CP_small_TH_echopen" H 3288 5050 50  0001 C CNN
+F 3 "" H 3250 5200 50  0001 C CNN
+	1    3250 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 1900 2750 5200
+Wire Wire Line
+	2750 5200 3100 5200
+Connection ~ 3400 1900
+$Comp
+L C C5
+U 1 1 58ECF3F6
+P 3100 4900
+F 0 "C5" H 3125 5000 50  0000 L CNN
+F 1 "47n" H 3125 4800 50  0000 L CNN
+F 2 "Echopen:C_small_TH_echopen" H 3138 4750 50  0001 C CNN
+F 3 "" H 3100 4900 50  0001 C CNN
+	1    3100 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 4900 3400 4900
+Connection ~ 3400 4900
+Wire Wire Line
+	2950 4900 2750 4900
+Connection ~ 2750 4900
+Wire Wire Line
+	5800 4050 5800 4800
+Wire Wire Line
+	5800 4800 4550 4800
+Wire Wire Line
+	4550 4800 4550 5200
+Connection ~ 4550 5200
+Connection ~ 4350 3350
 $EndSCHEMATC

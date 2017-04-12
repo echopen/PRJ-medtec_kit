@@ -32,4 +32,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
+  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x09_Pitch2.54mm.wrl
+    (at (xyz 0.4 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
