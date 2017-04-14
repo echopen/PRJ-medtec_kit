@@ -10,7 +10,3 @@ The three last MDL are not necessary
 
 For 3dprinting use MDL-x.stl files. If you want to make modifications one can use freecad (open the .igs file) modify and then export in .stl file (mesh formats files).
 
-Prendre une photo du support avant après pour montrer qu'il faut l'évider.
-Donner une longueur approximative de la tige et son diamètre. Essayer d'acheter de l'inox (sinon ça rouille!).
-Regarder les différentes références des vis à utiliser
-Photo pour montrer la butée de la vis
