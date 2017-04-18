@@ -427,6 +427,8 @@ void gnuplot_surf_gray_IMP(gnuplot_ctrl *handle, double *x, double *y, double **
 
 void gnuplot_angle_gray_IMP(gnuplot_ctrl *handle, double **x, double **y, double **z, int Nr, int Ntheta);
 
+void gnuplot_angle_gray_int(gnuplot_ctrl *handle, double **x, double **y, int **z, int Nr, int Ntheta);
+
 void gnuplot_matrix(gnuplot_ctrl *handle, int **z, int Nx, int Ny);
 
 void gnuplot_matrixdouble(gnuplot_ctrl *handle, double **z, int Nx, int Ny);

@@ -799,9 +799,9 @@ void gnuplot_angle_gray_IMP(gnuplot_ctrl *handle, double **x, double **y, double
     int i, j;
     if (handle==NULL || x==NULL || y==NULL || z==NULL || (Nr<1) || (Ntheta<1)) return ;
 
-    gnuplot_cmd(handle, "clear"); //clear figure for animation
-    gnuplot_cmd(handle, "set pm3d map"); //surf option
-    gnuplot_cmd(handle, "set palette gray"); //grey level
+    //gnuplot_cmd(handle, "clear"); //clear figure for animation
+    //gnuplot_cmd(handle, "set pm3d map"); //surf option
+    //gnuplot_cmd(handle, "set palette gray"); //grey level
     gnuplot_cmd(handle, "splot '-'\n");
      /* Write data to this file  */
     for (i=0 ; i<Ntheta ; i++) 
@@ -809,6 +809,29 @@ void gnuplot_angle_gray_IMP(gnuplot_ctrl *handle, double **x, double **y, double
 	for (j=0 ; j<Nr ; j++)
 	{
             gnuplot_cmd(handle, "%.18e %.18e %.18e", x[i][j], y[i][j], z[i][j]);
+	}
+	gnuplot_cmd(handle, ""); //empty because gnuplot_cmd finish the command by \n
+    }
+    gnuplot_cmd(handle, "e");
+ 
+    return ;	
+}
+
+void gnuplot_angle_gray_int(gnuplot_ctrl *handle, double **x, double **y, int **z, int Nr, int Ntheta)
+{
+    int i, j;
+    if (handle==NULL || x==NULL || y==NULL || z==NULL || (Nr<1) || (Ntheta<1)) return ;
+
+    //gnuplot_cmd(handle, "clear"); //clear figure for animation
+    //gnuplot_cmd(handle, "set pm3d map"); //surf option
+    //gnuplot_cmd(handle, "set palette gray"); //grey level
+    gnuplot_cmd(handle, "splot '-'\n");
+     /* Write data to this file  */
+    for (i=0 ; i<Ntheta ; i++) 
+    {
+	for (j=0 ; j<Nr ; j++)
+	{
+            gnuplot_cmd(handle, "%.18e %.18e %i", x[i][j], y[i][j], z[i][j]);
 	}
 	gnuplot_cmd(handle, ""); //empty because gnuplot_cmd finish the command by \n
     }
@@ -829,7 +852,7 @@ void gnuplot_matrix(gnuplot_ctrl *handle, int **z, int Nr, int Ntheta)
 	{
 		for (j=0 ; j<Nr ; j++)
 		{
-			fprintf(fmat,"%d ",z[i][j]);
+			fprintf(fmat,"%i ",z[i][j]);
 		}
 		fprintf(fmat,"\n");
 	}

@@ -3,7 +3,7 @@
 ![](viewme2.JPG)
 
 ## Name
-[`CFG-sweeping_probe`]()
+[`CFG-aquarium_kit`]()
 
 ## Title
 Kit 2.1 - Oct 2016
@@ -23,3 +23,5 @@ Kit 2.1 - Oct 2016
 * [`DB-filter_v1`](../../electronic/daughter_boards/DB-filter/DB-filter_v1)
 * [`DB-envelope_detector_v1`](../../electronic/daughter_boards/DB-envelope_detector/DB-envelope_detector_v1)
 * [`DB-tr_switch_tgc_v1`](../../electronic/daughter_boards/DB-tr_switch_tgc/DB-tr_switch_tgc_v1)
+
+The sources of the code can be found [here](../../electronic/modules/software), select your configuration. Details on how to put the code on the arduino and the RedPitaya can be found [here](../../installation/linux_user/readme.md).

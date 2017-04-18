@@ -28,23 +28,25 @@ You must also plug a WIFI dongle (such as [edimax EW_7811Un dongle](http://www.e
 
 # How to launch the acquisition
 
+* Go to [software folder](../../electronic/modules/software) and select the folder corresponding to your configuration.
+
 * Lauch arduino IDE and check that the right arduino board is selected by clicquing on tools:  
 ![](./images/arduino_select.png)
 
-* Open /PRJ-medtec_kit/modules/electronic/software/MDL-motor_control/MDL-motor_control_v1.ino and send it in the arduino nano:  
+* Open the arduino file (.ino file) and send it in the arduino nano:  
 ![](./images/arduino_send.png)
 
 * Power up your RedPitaya and connect your computer on redpitaya WIFI network, password is redpitaya.
 
-* Go to [MDL-redpitaya software repo](../../electronic/modules/software/MDL-redpitaya/). If you have download the compiling tool for the RedPitaya type this command line:  
-`sh run.sh 192.168.128.3 Acquisition_RAW`  
+* Go to RedPitaya repo. If you have download the compiling tool for the RedPitaya type this command line:  
+`sh run.sh 192.168.128.3 probe`  
 otherwise (you might not have the good permission so we make a chmod 777):  
-`chmod 777 Acquisition_RAW`  
-`scp ./Acquisition_RAW root@192.168.128.3:/tmp/`  
+`chmod 777 probe`  
+`scp ./probe root@192.168.128.3:/tmp/`  
 `ssh root@192.168.128.3`  
 `root`  
 `cd /tmp/`  
-`./Acquisition_RAW`  
+`./probe`  
 You can stop the sofware running in the RedPitaya by simply typing CTRL+C. You are connecting to the RedPitaya *via* ssh so if you want to quit just type:  
 `exit`
 
@@ -52,6 +54,8 @@ You can stop the sofware running in the RedPitaya by simply typing CTRL+C. You a
 
 # Display
 
-To display the image one can use the androit application.
+To display the image one can use the android application.
 
-One can also use the C software provided in ./src repo. This softs used are based on [gnuplot_i](http://ndevilla.free.fr/gnuplot/) tool, tuned for our uses. All the sources are provided here so one can modify them if desire
+One can also use the C software provided in ./src repo. This softs used are based on [gnuplot_i](http://ndevilla.free.fr/gnuplot/) tool, tuned for our uses. All the sources are provided here so one can modify them if desire.
+
+probe_mode_A display line by line measurement such as an oscilloscope. probe_mode_B display the full image on gray scale such as an echographic machin, excepte there is no scan conversion (image display in a rectangle).
