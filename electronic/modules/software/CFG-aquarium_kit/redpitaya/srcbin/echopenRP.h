@@ -15,7 +15,7 @@ extern double sector; //angle of the sector of the image
 extern int mode_RP; //0 for measuring raw data and sent int16_t, 1 for measuring envelope ans send char
 extern int step; //0 no stepper plug to RedPitaya, 1 drive stepper
 
-#define StepperOffset 150 //after initialising stepper position by putting it on mecanical stop, this offset is roughly the angle between mecanical stop and the middle of the image (transducer parallel to phantom)
+//#define StepperOffset 150 //after initialising stepper position by putting it on mecanical stop, this offset is roughly the angle between mecanical stop and the middle of the image (transducer parallel to phantom)
 
 typedef struct data data; //structure that containe data about length of line, clients, stepper
 
@@ -55,7 +55,7 @@ struct data
 	int16_t *buffer_int16; //buffer of 2 bytes data (correspond to mode_RP=0)
 };
 
-void init_data(data *data_RP, unsigned int Nmax, int PORT, float level0, float levelf, mode stepper_mode)
+void init_data(data *data_RP, unsigned int Nmax, int PORT, float level0, float levelf, mode step_mode)
 {
 	//init RedPitaya and variables (buffer_length, delay)
 	init_RP();
@@ -82,8 +82,8 @@ void init_data(data *data_RP, unsigned int Nmax, int PORT, float level0, float l
 	{
 		data_RP->stepper=(stepper_motor *)malloc(sizeof(stepper_motor));
 		init_stepper(data_RP->stepper);
-		set_mode(data_RP->stepper, data_RP->stepper_mode);
-		init_position(data_RP->stepper, (double)StepperOffset-sector/2.0);
+		set_mode(data_RP->stepper, step_mode);
+		init_position(data_RP->stepper, 150.0-sector/2.0);
 	}
 }
 

@@ -110,79 +110,56 @@ void disable_stepper(stepper_motor* stepper)
 	set_gpio(stepper->pin_en,1);
 }
 
-void set_mode(stepper_motor* stepper, mode step_size)
+void set_mode(stepper_motor* stepper, enum mode step_size)
 {
 	// mode of step from A4988 datasheet
-	if (step_size!=stepper->step_size)
-	{
-		stepper->step_size=step_size;
+	stepper->step_size=step_size;
 
-		if (step_size==full)
-		{
-			set_gpio(stepper->pin_ms1,0);
-			set_gpio(stepper->pin_ms2,0);
-			set_gpio(stepper->pin_ms3,0);
-			stepper->StepPerTour=StepNumber;
-			stepper->minimum_angle=360.0/((double)stepper->StepPerTour);
-		}
-		if (step_size==full_2)
-		{
-			set_gpio(stepper->pin_ms1,1);
-			set_gpio(stepper->pin_ms2,0);
-			set_gpio(stepper->pin_ms3,0);
-			stepper->StepPerTour=StepNumber*2;
-			stepper->minimum_angle=360.0/((double)stepper->StepPerTour);
-		}
-		if (step_size==full_4)
-		{
-			set_gpio(stepper->pin_ms1,0);
-			set_gpio(stepper->pin_ms2,1);
-			set_gpio(stepper->pin_ms3,0);
-			stepper->StepPerTour=StepNumber*4;
-			stepper->minimum_angle=360.0/((double)stepper->StepPerTour);
-		}
-		if (step_size==full_8)
-		{
-			set_gpio(stepper->pin_ms1,1);
-			set_gpio(stepper->pin_ms2,1);
-			set_gpio(stepper->pin_ms3,0);
-			stepper->StepPerTour=StepNumber*8;
-			stepper->minimum_angle=360.0/((double)stepper->StepPerTour);
-		}
-		if (step_size==full_16)
-		{
-			set_gpio(stepper->pin_ms1,1);
-			set_gpio(stepper->pin_ms2,1);
-			set_gpio(stepper->pin_ms3,1);
-			stepper->StepPerTour=StepNumber*16;
-			stepper->minimum_angle=360.0/((double)stepper->StepPerTour);
-		}
+	if (step_size==full)
+	{
+		set_gpio(stepper->pin_ms1,0);
+		set_gpio(stepper->pin_ms2,0);
+		set_gpio(stepper->pin_ms3,0);
+		stepper->StepPerTour=StepNumber;
+		stepper->minimum_angle=360.0/((double)stepper->StepPerTour);
+	}
+	if (step_size==full_2)
+	{
+		set_gpio(stepper->pin_ms1,1);
+		set_gpio(stepper->pin_ms2,0);
+		set_gpio(stepper->pin_ms3,0);
+		stepper->StepPerTour=StepNumber*2;
+		stepper->minimum_angle=360.0/((double)stepper->StepPerTour);
+	}
+	if (step_size==full_4)
+	{
+		set_gpio(stepper->pin_ms1,0);
+		set_gpio(stepper->pin_ms2,1);
+		set_gpio(stepper->pin_ms3,0);
+		stepper->StepPerTour=StepNumber*4;
+		stepper->minimum_angle=360.0/((double)stepper->StepPerTour);
+	}
+	if (step_size==full_8)
+	{
+		set_gpio(stepper->pin_ms1,1);
+		set_gpio(stepper->pin_ms2,1);
+		set_gpio(stepper->pin_ms3,0);
+		stepper->StepPerTour=StepNumber*8;
+		stepper->minimum_angle=360.0/((double)stepper->StepPerTour);
+	}
+	if (step_size==full_16)
+	{
+		set_gpio(stepper->pin_ms1,1);
+		set_gpio(stepper->pin_ms2,1);
+		set_gpio(stepper->pin_ms3,1);
+		stepper->StepPerTour=StepNumber*16;
+		stepper->minimum_angle=360.0/((double)stepper->StepPerTour);
 	}
 }
 
 int half_step_time(stepper_motor* stepper, double* speed)
 {
-	//int Nstep=0;
 	double time;
-
-	/*switch (stepper->step_size)
-	{
-		case full :
-			Nstep=400;
-			break;
-		case full_2 :
-			Nstep=400*2;
-			break;
-		case full_4 :
-			Nstep=400*4;
-			break;
-		case full_8 :
-			Nstep=400*8;
-			break;
-		case full_16 :
-			Nstep=400*16;
-			break;
-	}*/
 
 	time=1000000.0/((double)stepper->StepPerTour)/(*speed)/2.0; //time in us (factor 1000000) of an half step (factor 2)
 	if (time<1.0){time=1.0;} //minimum time is set 1.0 us from A4988 datasheet
@@ -192,27 +169,7 @@ int half_step_time(stepper_motor* stepper, double* speed)
 
 int step_number(stepper_motor* stepper, double* angle)
 {
-	//double minimum_angle=0;
 	int  Nstep;
-
-	/*switch (stepper->step_size)
-	{
-		case full :
-			minimum_angle=360.0/400.0;
-			break;
-		case full_2 :
-			minimum_angle=360.0/(400.0*2.0);
-			break;
-		case full_4 :
-			minimum_angle=360.0/(400.0*4.0);
-			break;
-		case full_8 :
-			minimum_angle=360.0/(400.0*8.0);
-			break;
-		case full_16 :
-			minimum_angle=360.0/(400.0*16.0);
-			break;
-	}*/
 
 	if ((*angle) < stepper->minimum_angle){(*angle)=stepper->minimum_angle;}	
 	Nstep=(int)((*angle)/stepper->minimum_angle);
