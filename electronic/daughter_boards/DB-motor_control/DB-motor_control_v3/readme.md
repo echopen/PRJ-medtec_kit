@@ -12,6 +12,7 @@ Daughter board motor control version 3
 
 ## Modules included
 * [`MDL-motor_control_v3`](../../../modules/hardware/MDL-motor_control/MDL-motor_control_v3/readme.md)
+* [`MDL-ucontroler_v2`](../../../modules/hardware/MDL-ucontroler/MDL-ucontroler_v2/readme.md)
 
 ## Interfaces
 ### Input
@@ -48,7 +49,7 @@ Daughter board motor control version 3
 ## Remarks
 [BOM](./src/DB-motor_control_v2.csv)
 
-This daughter board is for driving stepper motor MDL-motor_v2. An arduino is pluged on socket P6 and P7, a stepper driver [pololu A4988](./doc/pololu_a4988.pdf) is plugged on socket P3 and P4 and stepper motor is plugged on socket P5. Socket P2 is used to connect the RedPitaya with this daughter_board. Instruction about the orientation of them is writen on the PCB.
+This daughter board is for driving stepper motor MDL-motor_v2 and generate the command pulse for the pulser. An arduino is pluged on socket P6 and P7, a stepper driver [pololu A4988](./doc/pololu_a4988.pdf) is plugged on socket P3 and P4 and stepper motor is plugged on socket P5. Socket P2 is used to connect the RedPitaya with this daughter_board. Instruction about the orientation of them is writen on the PCB.
 
 Connector P2 is link to RedPitaya such on following image.
 
