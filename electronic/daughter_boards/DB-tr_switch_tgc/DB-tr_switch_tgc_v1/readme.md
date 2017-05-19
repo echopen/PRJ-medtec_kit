@@ -11,8 +11,8 @@ Daughter board T/R switch, TGC version 1
 * [`CTC-dubois_jerome`]()
 
 ## Modules included
-* [`MDL-tr_switch_v1`]()
-* [`MDL-tgc_v1`]()
+* [`MDL-tr_switch_v1`](../../../modules/hardware/MDL-tr_switch/MDL-tr_switch_v1/readme.md)
+* [`MDL-tgc_v1`](../../../modules/hardware/MDL-tgc/MDL-tgc_v1/readme.md)
 
 ## Interfaces
 ### Input
