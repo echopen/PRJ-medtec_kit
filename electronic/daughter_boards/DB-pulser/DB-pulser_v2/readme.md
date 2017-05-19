@@ -11,7 +11,7 @@ Daughter board pulser version 2
 * [`CTC-dubois_jerome`]()
 
 ## Modules included
-* [`MDL-pulser_v2`]()
+* [`MDL-pulser_v2`](../../../modules/hardware/MDL-pulser/MDL-pulser_v2/readme.md)
 
 ## Interfaces
 ### Input
