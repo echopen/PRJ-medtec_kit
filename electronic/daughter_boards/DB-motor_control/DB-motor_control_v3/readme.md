@@ -12,7 +12,7 @@ Daughter board motor control version 3
 
 ## Modules included
 * [`MDL-motor_control_v3`](../../../modules/hardware/MDL-motor_control/MDL-motor_control_v3/readme.md)
-* [`MDL-ucontroler_v2`](../../../modules/hardware/MDL-ucontroler/MDL-ucontroler_v2/readme.md)
+* [`MDL-ucontroller_v2`](../../../modules/hardware/MDL-ucontroler/MDL-ucontroler_v2/readme.md)
 
 ## Interfaces
 ### Input

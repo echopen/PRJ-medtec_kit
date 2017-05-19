@@ -16,6 +16,7 @@ Kit 2.1 - Oct 2016
 * [`MDL-power_supply_v1`](../../electronic/modules/hardware/MDL-power_supply/MDL-power_supply_v1)
 * [`MDL-mother_board_v1`](../../electronic/modules/hardware/MDL-mother_board)
 * [`MDL-redpitaya`](../../electronic/modules/hardware/MDL-redpitaya)
+* [`MDL-motor_v2`](../../electronic/modules/hardware/MDL-motor/MDL-motor_v2)
 * [`DB-supply_v1`](../../electronic/daughter_boards/DB-supply/DB-supply_v1)
 * [`DB-high_voltage_v1`](../../electronic/daughter_boards/DB-high_voltage/DB-high_voltage_v1)
 * [`DB-motor_control_v3`](../../electronic/daughter_boards/DB-motor_control/DB-motor_control_v3)
