@@ -11,7 +11,7 @@ Daughter board envelope detector version 1
 * [`CTC-dubois_jerome`]()
 
 ## Modules included
-* [`MDL-envelope_detector_v1`]()
+* [`MDL-envelope_detector_v1`](../../../modules/hardware/MDL-envelope_detector/MDL-envelope_detector_v1/readme.md)
 
 ## Interfaces
 ### Input
