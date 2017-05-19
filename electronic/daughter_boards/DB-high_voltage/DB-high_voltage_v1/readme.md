@@ -11,7 +11,7 @@ Duaghter board high voltage circuit version 1
 * [`CTC-dubois_jerome`]()
 
 ## Modules included
-* [`MDL-high_voltage_v1`]()
+* [`MDL-high_voltage_v1`](../../../modules/hardware/MDL-high_voltage/MDL-high_voltage_v1/readme.md)
 
 ## Interfaces
 ### Input
