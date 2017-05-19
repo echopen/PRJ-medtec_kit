@@ -11,7 +11,7 @@ Daughter board supply version 1
 * [`CTC-dubois_jerome`]()
 
 ## Modules included
-* [`MDL-supply_v1`]()
+* [`MDL-supply_v1`](../../../modules/hardware/MDL-power_supply/MDL-power_supply_v1/readme.md)
 
 ## Interfaces
 ### Input
