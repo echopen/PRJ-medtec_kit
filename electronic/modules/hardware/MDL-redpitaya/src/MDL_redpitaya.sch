@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:echopen
+LIBS:MDL_redpitaya-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -55,19 +56,23 @@ F 3 "" H 5600 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 2700 5200 2500
-Wire Wire Line
-	5800 2700 5800 2500
+	5800 2700 5800 2250
 Wire Wire Line
 	5200 3250 5050 3250
 Wire Wire Line
 	5250 3800 5050 3800
-Text GLabel 5200 2500 0    60   Input ~ 0
+Text GLabel 5400 2500 0    60   Input ~ 0
 ITF-G_gain_control
-Text GLabel 5800 2500 2    60   Input ~ 0
+Text GLabel 6000 2500 2    60   Input ~ 0
 ITF-E_signal_envelope
 Text GLabel 5050 3250 0    60   Input ~ 0
 ITF-A_gnd
 Text GLabel 5050 3800 0    60   Input ~ 0
 ITF-K_pulse_redpitaya
+Wire Wire Line
+	5400 2700 5400 2500
+Wire Wire Line
+	6000 2700 6000 2500
+Text GLabel 5800 2250 2    60   Input ~ 0
+ITF-D_amplified_filtered_signal
 $EndSCHEMATC

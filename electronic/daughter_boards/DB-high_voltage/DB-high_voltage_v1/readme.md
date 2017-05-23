@@ -5,7 +5,7 @@
 [`DB-high_voltage_v1`]()
 
 ## Title
-Duaghter board high voltage circuit version 1
+Duauhter board high voltage circuit version 1
 
 ## Author
 * [`CTC-dubois_jerome`]()

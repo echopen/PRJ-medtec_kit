@@ -13,6 +13,8 @@ Pulser version 2
 ## About
 In oder to excite efficiently a transducer we must have a high voltage (around -100V high) short time (half the period of the central frequency of the transducer) excitating pulse.
 
+
+
 ## Uses
 ### Input
 * [`ITF-A_gnd`]()
@@ -37,7 +39,7 @@ In oder to excite efficiently a transducer we must have a high voltage (around -
 
 Note that Pins 2 and 3 are linked together with ITF-A_gnd.
 
-One can find the [datasheet](./doc/MAX4940_evalkit.pdf) in the doc repo.
+One can find the [datasheet of the evaluation kit](../../../../miscellaneous/datasheets/Pulser/MAX4940EVKIT.pdf) and the [datasheet of the integrated circuit](../../../../miscellaneous/datasheets/Pulser/MAX4940.pdf) in the datasheet repo. Output maximum range is 200 V.
 
 ## Results
 

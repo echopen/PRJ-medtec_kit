@@ -35,6 +35,17 @@ With filter:
 ![](./images/scheme.png)
 
 ## Remarks
+
+We use a RLC pass-band filter wich central frequency $f_c$ is given by:
+
+$f_c=\dfrac{1}{2*\pi\sqrt{LC}}
+
+and quality factor $Q$:
+
+$Q=\dfrac{1}{R}\sqrt{\dfrac{L}{C}}$
+
+
+
 [BOM](./src/MDL-filter_v1.csv)
 
 ## Results

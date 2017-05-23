@@ -13,11 +13,12 @@ RedPitaya board
 ## About
 RedPitaya is a commercial board that is not a daugter board for our system but bring together different modules we have not develop yet (MDL_Ramp, MDL_ADC, MDL_WIFI).
 
-For informations about this board one can look at their [website](http://www.redpitaya.com).
+For informations about this board one can look at their [website](http://www.redpitaya.com), and the [wiki]().
 
 ## Uses
 ### Input
 * [`ITF-A_gnd`]()
+* [`ITF-D_amplified_filtered_signal`]()
 * [`ITF-E_signal_envelope`]()
 * [`ITF-K_pulse_redpitaya`]()
 
@@ -31,6 +32,11 @@ For informations about this board one can look at their [website](http://www.red
 ## Scheme
 ![](images/scheme.png)
 
+Schematic of the connectors E1 and E2 can be found on [RedPitaya website](http://redpitaya.readthedocs.io/en/latest/doc/developerGuide/125-14/extent.html):
+
+![](./images/connectors.png)
+
+
 ## Remarks
 
 ###General
@@ -42,13 +48,11 @@ You must also plug a WIFI dongle (such as [edimax EW_7811Un dongle](http://www.e
 `ssh root@192.168.128.3`  
 `root`
 
-ITF-D_signal_envelope can be plug either on IN1 or IN2 (for the moment, IN2 programed in the soft), but **you must put the jumper on high voltage mode** (full scale +/- 20V):  
+[`ITF-E_signal_envelope`]() is plugged on IN1, [`ITF-D_amplified_filtered_signal`]() is pluged on IN2, **you must put the jumper on high voltage mode** (full scale +/- 20V):  
 ![](./images/lv_hv.png)
 
-[`ITF-G_gain_control`] can be plug either on OUT1 or OUT2 (for the moment, IN2 programed in the soft).
 
-[`ITF-K_pulse_redpitaya`] is connect to PIN 3 of E1 connector.
-
+[`ITF-K_pulse_redpitaya`]() is connect to PIN 3 (DIO0_P) of E1 connector.
 ## Results
 
 ## Pros/Cons/Constraint:

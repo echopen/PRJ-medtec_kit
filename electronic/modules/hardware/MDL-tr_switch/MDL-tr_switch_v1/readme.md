@@ -11,7 +11,7 @@ Protect the following electronic components from the high voltage pulse
 * [`CTC-dubois_jerome`]()
 
 ## About
-We use [MD0100](./doc/MD0100.pdf) T/R switch.
+We use a [MD0100](../../../../miscellaneous/datasheets/TR_switch/MD0100.pdf) T/R switch.
 
 
 ## Uses
@@ -30,6 +30,9 @@ We use [MD0100](./doc/MD0100.pdf) T/R switch.
 ![](images/scheme.png)
 
 ## Remarks
+
+The MD0100 T/R switch need two diodes top to tail.
+
 [BOM](./src/MDL-tr_switch_v1.csv)
 
 ## Results

@@ -1,4 +1,4 @@
-update=ven. 04 nov. 2016 16:23:35 CET
+update=sam. 20 mai 2017 17:58:03 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../../../miscellianous/kicad_libraries
+LibDir=../../../../miscellaneous/kicad_libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/echopen/Bureau/GitHub/PRJ-medtec_kit/kicad_libraries/echopen
+LibName30=echopen

@@ -32,8 +32,15 @@ Output : envelope of the echoes (red curve).
 ![](images/scheme.png)
 
 ## Remarks
+
+Envelope detector presented here is a very simple circuit where the diode is used to keep only positives slopes, then a low-pass filter is apply (RC circuit) to smooth the signal. 
+
+Central frequency of this filer must be higher than the frequency of the signal. For that kind of filter, central frequency $f_c$ is given by:
+
+$f_c=\dfrac{1}{2\pi RC}.$
+
 Value of R1 and C1 are defined for RedPiataya measurement.
-Value of R1 (and/or C1) must be refined for use of a different probe.
+Value of R1 (and/or C1) must be refined when using a different probe.
 
 [BOM](./src/MDL-envelope_detector_v1.csv)
 
