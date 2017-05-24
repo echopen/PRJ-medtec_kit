@@ -31,7 +31,7 @@ We use a single transducer, it must sweep a given angle in order to make 2D imag
 ![](./images/scheme.png)
 
 ## Remarks
-We use the motor presented in MDL_motor_v1. The part TopTour is an opto-interuptor like [this one](https://hackspark.fr/fr/opto-interrupter-with-holder.html).
+We use the motor presented in MDL-motor_v1. The part TopTour is an opto-interuptor like [this one](https://hackspark.fr/fr/opto-interrupter-with-holder.html).
 
 [BOM](./src/MDL-motor_control_v1.csv)
 

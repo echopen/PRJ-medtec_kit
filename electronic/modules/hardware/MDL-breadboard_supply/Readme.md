@@ -1,14 +1,14 @@
-# Module: Mogaba
+# Module
 
-![](/electronic/modules/hardware/MDL_breadboard_supply/viewme.png)
+![](viewme.png)
 
 ## Name
 
-[`MDL-mogaba_small_powersupply`]()
+[`MDL-breadboard_supply`]()
 
 ## Title
 
-Mogaba, the power supply
+Mogaba, the power supply, MDL - mogaba_small_powersupply
 
 ## Description
 
@@ -47,7 +47,7 @@ The aim of this echOmod is to get 3.3V and 5V done.
 
 ### How does it work: block diagram
 
-![Block schema](/electronic/modules/hardware/MDL_breadboard_supply/source/blocks.png)
+![Block schema](source/blocks.png)
 
 * `ITF-mEM_Alimentation`->`BreadBoardAlim`->`ITF-B_5v`
 * `BreadBoardAlim`->`ITF-B_3_3v`
