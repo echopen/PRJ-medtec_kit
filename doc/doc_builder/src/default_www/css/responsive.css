@@ -1,0 +1,468 @@
+@media(min-width:2060px) and (max-width:5120px){
+    .container-fluid{
+        width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .singleFolio img{
+        width:100%;
+    }
+    .singleTeam.teamMargin {
+        margin: 0 280px;
+    }
+    .imackRelative{
+        position: relative;
+    }
+    .sliders .tp-bullets.hidebullets, .sliders .tp-bullets{
+        right:80px !important;
+    }
+    .logo {
+        margin: 20px 0 20px -15px;
+        text-align: left;
+        width: 100%;
+    }
+    .headerSocials{
+        text-align: right;
+    }
+    .headerRight {
+        margin-right: -15px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1440px){
+    /**Home1**/
+    .iconbox1 {
+        padding-left: 125px;
+        padding-right: 0px;
+    }
+    .iconbox1 h3{
+        line-height:24px;
+    }
+     .iconboxec {
+        padding-left: 125px;
+        padding-right: 0px;
+    }
+    .iconboxec h3{
+        line-height:24px;
+    }
+    .srcontent h3{
+        line-height: 45px;
+        font-size :28px;;
+    }
+    .singleServices {
+        padding: 110px 30px;
+    }
+    .portfolioSection .sectionTitle {
+        margin-bottom: 60px;
+    }
+    .fhl {
+        margin-right: 105px;
+    }
+    .singleTeam {
+        width: 28%;
+    }
+    .designation {
+        right: -158px;
+        top: 156px;
+    }
+    .idInner{
+        width:70%;
+    }
+    .singleTeam.teamMargin {
+        margin: 0 88px;
+    }
+    .singleClient span img.himg, .singleClient span img.nimg {
+        width: 160px;
+        height: auto;
+    }
+    .highDesc {
+        margin-left: 223px;
+        width: 400px;
+    }
+    .highDesc h1{
+        letter-spacing: 0;
+    }
+    .singleClient{
+        height:180px;
+    }
+
+    /**Home 2**/
+    .sl2head, .sl2det, .ven_btn{
+        margin-left:100px;
+    }
+    .singleServices02 .ven_btn{
+        margin-left:0;
+    }
+    .sl2head h2 {
+        letter-spacing: 5px;
+    }
+    .sl2pic {
+        margin-right: 80px;
+    }
+    .sliders2 .tp-bullets.hidebullets, .sliders2 .tp-bullets {
+        margin-left: 5px !important;
+    }
+    .serviceDetails {
+        padding: 82px 10px 0 30px;
+        position: relative;
+    }
+    .expaddingcon {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .alfolioButton {
+        width: 400px;
+    }
+    .callToActionContent h1 {
+        font-size: 30px;
+    }
+    /**Portfolio**/
+    .projectGallery {
+        width: 672px;
+    }
+
+    /**Services**/
+    .mtop240minus {
+        margin-top: -75px;
+    }
+    .contactForm #con_sumit{
+        margin-left:0;
+    }
+}
+
+
+@media(min-width:1225px) and (max-width:1280px){
+    .iconbox1 {
+        min-height: 210px;
+    }
+    .iconboxec {
+        min-height: 210px;
+    }
+    .folioNav ul li {
+        margin-right: 25px;
+    }
+    .fhl {
+        margin-right: 0;
+        width: 25%;
+    }
+    .serviceDetails p {
+        margin: 0 0 50px;
+    }
+
+
+}
+@media(min-width:980px) and (max-width:1280px){
+    .latestBlogs {
+        min-height: 575px;
+    }
+    .sidebar .widget .instaFeed a {
+        height: 98px;
+        width: 98px;
+    }
+    .imgDescs {
+        width: 570px;
+        position: relative;
+        left: -310px;
+    }
+    .highDesc {
+        margin-left: 230px !important
+    }
+    .idInner {
+        padding: 0 20px 30px 31px !important
+    }
+    .sliders2 .tp-caption {
+        text-align: center !important;
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+    }
+    .sl2pic{
+        display:none;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1024px){
+    /**Home 1**/
+    .sectionTitle {
+        margin-bottom: 30px;
+    }
+    .greyTitle {
+        margin-bottom: 30px;
+    }
+    .singleServices {
+        padding: 80px 20px;
+        min-height: 500px;
+    }
+    .srcontent h3 {
+        line-height: 40px;
+    }
+    .fhl {
+        margin-right: 0;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .singleTeam.teamMargin {
+        margin: 0;
+    }
+    .singleTeam {
+        width: 33%;
+    }
+    .designation {
+        right: -120px;
+    }
+    .latestBlogs {
+        margin-bottom: 30px;
+    }
+    .footer .widget{
+        margin-bottom: 60px;
+    }
+    .mainMenu ul li{
+        margin-left:25px;
+    }
+    .headerSocials a{
+        margin-right:20px;
+    }
+    .highDesc {
+        margin-left: 135px;
+        margin-top: -100px;
+    }
+    .opacity0{
+        opacity:0;
+    }
+    .imgDescs {
+        margin-top: 50px;
+    }
+    .idInner {
+        margin-left: 105px;
+    }
+    .idInner p br {
+        display: none;
+        visibility: visible;
+        opacity: 1;
+    }
+    /**Home 2**/
+    .serviceSliders.owl-carousel .owl-item img {
+        width: auto;
+    }
+    .serviceDetails {
+        padding: 80px 50px;
+    }
+    .testimonialSlider {
+        overflow: hidden;
+    }
+    .serviceDetails h2 {
+        line-height: 40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 989px){
+    /**Home 1**/
+    .sectionTitle{
+        margin-bottom: 50px;
+    }
+    .greyTitle{
+        margin-bottom: 50px;
+    }
+    .sliders {
+        height: auto;
+        padding :0 30px;
+    }
+    
+    
+    .yellows {
+        width:480px;
+    }
+    .sliders .tp-bullets.hidebullets, .sliders .tp-bullets {
+        bottom: 40px !important;
+    }
+    .highDesc h1{
+        letter-spacing: 2px;
+    }
+    .highDesc {
+        margin-left: 100px;
+    }
+    .idInner {
+        bottom: 0;
+        left: 0;
+        padding: 0 200px 30px 31px;
+        position: absolute;
+        width: 100%;
+    }
+    .idInner p {
+        font-size: 14px;
+    }
+    .iconbox1 {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .iconbox1 i {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: 0 auto 30px;
+        display: block;
+    }
+     .iconboxec {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .iconboxec i {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: 0 auto 30px;
+        display: block;
+    }
+    .calltoAction {
+        background: rgba(0, 0, 0, 0) url("../images/bg/3.jpg") no-repeat scroll center center/cover;
+    }
+    .portfolioSection {
+        padding: 0 15px;
+    }
+    .fhl {
+        margin-bottom: 70px;
+        margin-right: 0;
+        text-align: center;
+        width: 50%;
+    }
+    .singleTeam.teamMargin {
+        margin: 0;
+    }
+    .latestBlogs {
+        margin-bottom: 30px;
+    }
+    .callToActionContent h1 {
+        line-height: 70px;
+    }
+    #footer .widget{
+        margin-bottom: 60px;
+    }
+    .highDesc {
+        margin-top: -75px;
+    }
+    .opacity0{
+        opacity:0;
+    }
+    .imgDescs {
+        margin-top: 50px;
+    }
+    .sl2pic{
+        display:none;
+    }
+
+
+    /**Home 2**/
+    .sl2head, .sliders2 .ven_btn, .sl2det{
+        margin-left: 100px;
+        margin-top:200px;
+    }
+    .sl2head h2 {
+        margin-top: -130px;
+        line-height: 50px;
+    }
+    .sl2button .ven_btn {
+        margin-top:300px;
+    }
+    .iconbox2 {
+        padding: 0;
+    }
+    .iconbox2 h3 {
+        font-size: 18px;
+    }
+    .serviceDetails h2 {
+        line-height: 40px;
+    }
+    .testimonialSlider {
+        overflow: hidden;
+    }
+    .serviceDetails h2 {
+        line-height: 40px;
+    }
+    .serviceDetails {
+        padding: 100px;
+    }
+    .expaddingcon {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sliders2 .tp-caption {
+        text-align: center !important;
+        width: 100% !important;
+        left: -50px!important;
+        right: 0 !important;
+    }
+
+
+    /**Portfolio**/
+    .pageTitleSection {
+        padding: 85px 30px 60px;
+    }
+    .pageTitle h1 {
+        letter-spacing: 2.8px;
+    }
+    .singlefoliodetails {
+        padding: 0 30px;
+    }
+    .projectGallery {
+        left: 0;
+        position: relative;
+        width: 100%;
+    }
+    .projectTextBox{
+        padding-left: 0;
+    }
+    .mobilePadding{
+        margin-top: 50px;
+    }
+    .projectInfoSection {
+        padding: 0 30px;
+    }
+    /**Services**/
+    .mtop240minus {
+        margin-top: 0;
+    }
+    .imgDiv img{
+        width: 100%;
+    }
+    .sectionTitle.smTitle h2 {
+        font-size: 32px;
+    }
+    .skillsArea {
+        padding-left: 0;
+    }
+
+    /**Contact Page**/
+    .expaddingLeft {
+        padding-left: 0;
+    }
+
+    /**Blog**/
+    .sidebar .widget .widPopPost{
+        padding-left: 0;
+    }
+    .sidebar .widget .widPopPost img {
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .tagClouds .noMarginRight{
+        margin-right: 10px !important;
+    }
+    .instaFeed .noMarginBottom{
+        margin-bottom: 10px !important;
+    }
+    .relatedPostSingle{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 481px) and (max-width:767px){
+
+}
+@media (max-width:480px){
+
+
+
+}
