@@ -1,0 +1,19 @@
+Source,/home/echopen/Bureau/GitHub/electronic/kicad/Modules/MDL_Motor_control/V1/MDL_Motor_control_V1.sch
+Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable
+Generated Date,mer. 17 août 2016 16:00:51 CEST
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+M1,DC_Motor,echopen,DC_Motor
+U1,TopTour,echopen,TopTour
+R2,1k,device,R
+D1,400x,device,D
+R1,680,device,R
+R5,2.2k,device,R
+R4,330,device,R
+R3,33k,device,R
+Q1,2N2222,echopen,2N2222

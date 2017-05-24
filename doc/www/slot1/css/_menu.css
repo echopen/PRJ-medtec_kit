@@ -1,0 +1,95 @@
+ul.Menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 12em;
+	background-color: #ffffff;
+	/* position: fixed; */
+        float: left;
+	height: 100%;
+	overflow: auto;
+/*	border-right-style : solid;  */
+	border-color : #3C6EB5;
+	font-family : Raleway;
+	font-size: 16px;
+	font-family: Raleway;
+	text-transform: uppercase;
+	color: #807f79 ;
+}
+
+ul.Menu li a {
+	display: block;
+	color: #000;
+	padding: 4px 4px;
+	text-decoration: none;
+}
+
+ul.Menu li a:hover:not(.active) {
+	background-color: #3C6EB5;
+	color: white;
+}
+
+div.MenuContent {
+	margin-left: 15%;
+	padding: 0px 0px;
+}
+
+img :nom(.icon){
+	padding-top : 3em;
+	margin-botton : 3em;
+	max-width : 70vw;
+	height : auto;
+}
+
+img {
+	max-width : 70vw;
+}
+
+
+@media screen and (min-width: 1200px){
+	ul.Menu {
+		margin-top : 0em;
+	}
+	
+	ul.menu li {
+		padding-top : 0em;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	ul.Menu {
+		width:100%;
+		height:auto;
+		position:relative;
+/*		border-bottom-style : solid;   */
+		border-right-style : none;
+		border-color : #3C6EB5;
+	}
+	ul.Menu li a {
+		float: left;
+		padding: 15px;
+	}
+	div.MenuContent {
+		margin-left : 0;
+	}
+	img {
+		max-width : 80vw;
+		height : auto;
+	}
+}
+
+@media screen and (max-width: 500px){
+	ul.Menu li a {
+		text-align: center;
+		float: none;
+	}
+	img {
+		max-width : 80vw;
+		height : auto;
+	}
+}
+
+.Content {
+	margin-top : 3em;
+	margin-bottom : 3em;
+}

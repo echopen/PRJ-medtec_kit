@@ -1,0 +1,16 @@
+Reference, Value, Footprint, Datasheet, Caracteristic, Manufacturer, Ref Manufacturer
+U1,MD0100,Echopen:SOT89-3_(MD0100),,NA,Microchip Technology,MD0100N8-G
+D1,1N4148,Echopen:D_TH_common,,high speed diode,Fairchild Semiconductor,1N4148
+D2,1N4148,Echopen:D_TH_common,,high speed diode,Fairchild Semiconductor,1N4148
+P1,CONN_01X19,Echopen:Header_pin_angled_1x19,,angled pin 1*19,Molex,22-28-8192
+P3,SMA,Echopen:SMA,,NA,Johnson / Cinch Connectivity Solutions,142-0701-801
+P2,CONN_01X02,Echopen:Socket_1x02,,angled socket 1*02,Molex,22-15-2026
+C1,1n,Echopen:C_TH_common,,25V 10%,AVX,SR151C102KAA
+R1,220,Echopen:Resistor_TH_common,,1/4W 5%,Yageo,CFR-25JB-52-220R
+AOP1,OPA625,Echopen:SOT-23-6_Handsoldering(OPA625),,high speed OPA,TI,OPA625IDBVT
+P8,SMA,Echopen:SMA,,NA,Johnson / Cinch Connectivity Solutions,142-0701-801
+P6,CONN_01X02,Echopen:Socket_1x02,,angled socket 1*02,Molex,22-15-2026
+P9,SMA,Echopen:SMA,,NA,Johnson / Cinch Connectivity Solutions,142-0701-801
+P7,CONN_01X02,Echopen:Socket_1x02,
+W1,TEST_1P,Echopen:Test_Point,,test point,Keystone Electronics,5000
+W2,TEST_1P,Echopen:Test_Point,,test point,Keystone Electronics,5000

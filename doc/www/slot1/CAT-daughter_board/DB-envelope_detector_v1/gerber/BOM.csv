@@ -1,0 +1,5 @@
+Reference, Value, Footprint, Datasheet, Caracteristic, Manufacturer, Ref Manufacturer
+D1,1N60,Echopen:D_TH_common,,Germanium diode,NA,1N60 DO-7
+R1,3.9k,Echopen:Resistor_TH_common,,1/4W 5%,KOA speer,MF1/4LCT52R392J
+C1,10p,Echopen:C_TH_common,,25V 10%,Xicon,140-50N5-100J-TB-RC
+P1,CONN_01X19,Echopen:Header_pin_angled_1x19,,angled pin header 1*19,Molex,22-28-8192

@@ -1,0 +1,38 @@
+Reference, Value, Footprint, Datasheet, Caracteristic, Manufacturer, Ref Manufacturer
+U1,LM555N,Housings_DIP:DIP-8_W7.62mm,,NA,TI,LM555CN/NOPB
+C1,10n,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 10%,Vishay,K103K15X7RF5UH5
+R2,12k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,1/4W 5%,KOA speer,MF1/4LCT52R123J
+R1,2.2k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,1/4W 5%,KOA speer,MF1/4LCT52R222J
+C2,47n,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 10%,Vishay,1C10Z5U473M050B
+R3,3.3k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,1/4W 5%,KOA speer,MF1/4LCT52R332J
+R4,1.8k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,1/4W 5%,KOA speer,MF1/4LCT52R182G
+C3,47u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 20%,Nichicon,UVR1E470MDD6
+D1,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+C4,4.7u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 20%,Nichicon,UMA1E4R7MDD
+C14,4.7u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,150V 20%,Nichicon,UVR2C4R7MED1TD
+P1,CONN_01X19,Echopen:Header_pin_angled_1x19,,angled pin header 1*19,Molex,22-28-8192
+P2,CONN_01X02,Socket_Strips:Socket_Strip_Straight_1x02,,NA,Molex,22-15-2026
+P3,SMA,Echopen:SMA,,NA,Johnson / Cinch Connectivity Solutions,142-0701-801
+Q3,2N2907,TO_SOT_Packages_THT:TO-18_3Pin,,NA,Central Seminconductor,2N2907A
+Q1,2N2222,TO_SOT_Packages_THT:TO-18_3Pin,,NA,Central Semiconductor,2N2222
+Q2,2N2222,TO_SOT_Packages_THT:TO-18_3Pin,,NA,Central Seminconductor,2N2222
+D2,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+D3,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+D4,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+D5,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+D6,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+D7,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+D8,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+D9,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+D10,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+D11,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+D12,1N4148,Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10,,NA,Fairchild Semiconductor,1N4148
+C5,4.7u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 20%,Nichicon,UMA1E4R7MDD
+C6,4.7u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 20%,Nichicon,UMA1E4R7MDD
+C7,4.7u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 20%,Nichicon,UMA1E4R7MDD
+C8,4.7u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 20%,Nichicon,UMA1E4R7MDD
+C9,4.7u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 20%,Nichicon,UMA1E4R7MDD
+C10,4.7u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 20%,Nichicon,UMA1E4R7MDD
+C11,4.7u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 20%,Nichicon,UMA1E4R7MDD
+C12,4.7u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 20%,Nichicon,UMA1E4R7MDD
+C13,4.7u,Capacitors_ThroughHole:C_Radial_D5_L6_P2.5,,25V 20%,Nichicon,UMA1E4R7MDD

@@ -1,0 +1,5 @@
+Reference, Value, Footprint, Datasheet, Caracteristic, Manufacturer, Ref Manufacturer
+C1,1n,Echopen:C_TH_common,,25V 10%,AVX,SR151C102KAA
+L1,10u,Inductors:INDUCTOR_V,,10% 550mA,Bourns,RLB0608-100KL
+R1,330,Echopen:Resistor_TH_common,,1/4W 5%,KOA speer,MF1/4LCT52R331J
+P1,CONN_01X19,Echopen:Header_pin_angled_1x19,,angled pin header 1*19,Molex,22-28-8192
