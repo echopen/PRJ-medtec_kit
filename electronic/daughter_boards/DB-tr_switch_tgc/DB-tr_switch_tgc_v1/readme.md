@@ -38,13 +38,13 @@ Daughter board T/R switch, TGC version 1
 ## Remarks
 [BOM](./src/DB-tr_switch_tgc_v1.csv)
 
-This daughter board use an AD8331_EVALZ (evaluation kit of AD8331 IC), the input of this evaluation kit is connected to P6 or P8 of this daughter board and output to P7 or P9. The output of DB_pulser is plugged to P2 or P3.
+This daughter board uses an `AD8331_EVALZ` (evaluation kit of AD8331 IC), the input of this evaluation kit is connected to P6 or P8 of this daughter board and output to P7 or P9. The output of DB_pulser is plugged to P2 or P3.
 
-AD8331_EVALZ need 5V supply and ramp command for the VGA.
+The `AD8331_EVALZ` evaluation kit needs a 5V supply, and ramp command for the Variable Gain Amplifier (VGA or TGC).
 
 Test point W1 is here to check that the signal is clamped by the MD0100 and test point W2 is here to to check that the input of the TGC is valid (between +/- 2.5V).
 
-We add a high pass filter after the T/R switch because we had low frequency parasite signal. Impedance matching is insure by the OPA cable as a voltage follower.
+We add a high pass filter after the T/R switch because we had low frequency parasite signal. Impedance matching is ensured by the OPA cable as a voltage follower.
 
 ## Results
 

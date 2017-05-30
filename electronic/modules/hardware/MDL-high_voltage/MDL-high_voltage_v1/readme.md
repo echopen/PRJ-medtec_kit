@@ -12,7 +12,8 @@ High voltage circuit version 1
 * [`CTC-chaplier_gerard`]()
 
 ## About
-We need a high negative voltage pulse to excite the transducer typically -100V
+
+We need a high negative voltage pulse to excite the transducer, typically -100V
 
 ## Uses
 ### Input
@@ -32,7 +33,7 @@ We need a high negative voltage pulse to excite the transducer typically -100V
 
 ## Remarks
 
-High voltage is obtained with a [Cockcroft Walton multiplier](https://en.wikipedia.org/wiki/Cockcroft%E2%80%93Walton_generator). Input of the multiplier is a square signal 0-18 V, there are 5 stages of multiplication (output is a square signal between 90 and 108 V). Output is around -97 V after smoothing.
+High voltage is obtained with a [Cockcroft Walton multiplier](https://en.wikipedia.org/wiki/Cockcroft%E2%80%93Walton_generator). Input of the multiplier is a square signal between 0 and 18 V, there are 5 stages of multiplication (output is a square signal between 90 and 108 V). Output is around -97 V after smoothing.
 
 [BOM](./src/MDL-high_voltage_v1.csv)
 

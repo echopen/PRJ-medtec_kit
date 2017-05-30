@@ -12,10 +12,10 @@ Filter version 1
 * [`CTC-dubois_jerome`]()
 
 ## About
-We need a pass-band filter for removing the noise on the signal. This pass-band filter must be center on the central frequency of the transducer. Without filter:
+We need a pass-band filter for removing the noise on the signal. This pass-band filter must be centered on the central frequency of the transducer. Without filter, one obtains for example this signal:
 ![](./images/noisy_signal.png)
 
-With filter:
+With a filter, only the signal of interest is kept:
 
 ![](./images/signal.png)
 
@@ -36,7 +36,7 @@ With filter:
 
 ## Remarks
 
-We use a RLC pass-band filter wich central frequency $f_c$ is given by:
+We use a RLC pass-band filter, which central frequency $f_c$ is given by:
 
 $f_c=\dfrac{1}{2*\pi\sqrt{LC}}
 

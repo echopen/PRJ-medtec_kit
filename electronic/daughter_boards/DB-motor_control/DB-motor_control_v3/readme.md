@@ -49,20 +49,21 @@ Daughter board motor control version 3
 ## Remarks
 [BOM](./src/DB-motor_control_v2.csv)
 
-../../../modules/hardware/MDL-motor_control/MDL-motor_control_v3/readme.md
+See [Motor Control Readme](../../../modules/hardware/MDL-motor_control/MDL-motor_control_v3/readme.md)
 
-This daughter board is for driving stepper motor [MDL-motor_v2](../../../modules/hardware/MDL-motor/MDL-motor_v2/readme.md) and generate the command pulse for the pulser. An arduino is pluged on socket P6 and P7, a stepper driver [pololu A4988](./doc/pololu_a4988.pdf) is plugged on socket P3 and P4 and stepper motor is plugged on socket P5. Instruction about the orientation of them is writen on the PCB. 
+This daughter board is designed to drive a stepper motor [MDL-motor_v2](../../../modules/hardware/MDL-motor/MDL-motor_v2/readme.md) and to generate the command pulse for the pulser. An arduino is plugged on the sockets P6 and P7, a stepper driver [pololu A4988](./doc/pololu_a4988.pdf) is plugged on socket P3 and P4 and stepper motor is plugged on socket P5. Instruction about the orientation of thosed is written on the PCB. 
 
-Socket P2 is used to connect the RedPitaya with this daughter_board, follow [MDL-motor_control](../../../modules/hardware/MDL-motor_control/MDL-motor_control_v3/readme.md) find corresponding GPIO of the RedPitaya.
+Socket P2 is used to connect the RedPitaya with this daughter board, see [MDL-motor_control](../../../modules/hardware/MDL-motor_control/MDL-motor_control_v3/readme.md) to find the corresponding GPIO of the RedPitaya.
 
-Connector P2 is link to RedPitaya such on following image.
+Connector P2 is linked to the RedPitaya such on following image.
 
 ![](images/RPPCB_top_view.png)
 
-The piece on the left of the image can be cut from a matrix board like for the [mother board](../../../modules/hardware/MDL-mother_board/readme.md), the soldering track are on the top of this piece. There are two sockets 1*13 solder on it, don't forget to cut the tracks between these two socket (cut represent by the green line).
+The piece on the left of the image can be cut from a strip-board like for the [mother board](../../../modules/hardware/MDL-mother_board/readme.md), the soldering track are on the top of this piece. There are two sockets 1*13 solder on it, don't forget to cut the tracks between these two sockets (the cuts are represented by the green line).
 
 ### Hand making
-For the moment, the PCB of this daugther board is not disponible, so one have to make it himself with a matrix board. To do this, follow the following schemes.
+
+For the moment, the PCB of this daugther board is not available, so one has to make it himself with a strip-board. To do this, follow the following schemes.
 
 Top view:
 
@@ -72,11 +73,11 @@ Bottom view:
 
 ![](images/bottom_view.png)
 
-Cuts of tracks that must be done are represented by green lines and red lines with red dots represent wires that are used to link some tracks, the hole where they have to be soldering are representing by the red dots.
+Cuts of tracks that must be done are represented by green lines and red lines with red dots represent wires that are used to link some tracks, the hole where they have to be soldered are represented by the red dots.
 
-Connectors P1 to P7 are represented in light blue and hole where to solder the different components are represented by hard blue dots.
+Connectors P1 to P7 are represented in light blue and the holes the different components have to be soldered are represented by hard blue dots.
 
-Not that capacitor C2, C4 and C5 are not put/solder on this hand making board. 
+Note that capacitor C2, C4 and C5 are not put/soldered on this hand made  board. 
 
 ## Results
 
