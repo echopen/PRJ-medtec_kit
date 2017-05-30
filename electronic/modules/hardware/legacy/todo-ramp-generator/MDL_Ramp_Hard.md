@@ -1,4 +1,4 @@
-**Module:** MDL_Ramp_Hard
+**Module:** MDL-Ramp_Hard
 
 **Function:** signal processing
 
@@ -48,7 +48,7 @@ author: Joris
 
 **Source:**
 
-[https://github.com/echopen/electronic/tree/master/kicad/Modules/MDL_Ramp/MDL_Ramp_V2](https://github.com/echopen/electronic/tree/master/kicad/Modules/MDL_Ramp/MDL_Ramp_V2)
+[https://github.com/echopen/electronic/tree/master/kicad/Modules/MDL-Ramp/MDL-Ramp_V2](https://github.com/echopen/electronic/tree/master/kicad/Modules/MDL-Ramp/MDL-Ramp_V2)
 
 **Scheme:**
 

@@ -1,0 +1,280 @@
+/*
+  Theme Name: Veno - Creative Portfolio HTML5 Responsive Template
+  Theme URL: http://themewar.com/html/veno
+  Author: ThemeWar
+  Author URI: http://themewar.com
+  Description: will be description here.
+  Version: 1.0
+*/
+/*=======================================================================
+[Table of contents]
+=========================================================================
+1. Fonts
+2. Normalization
+3. Margin and padding setup
+3. Button Style
+==========================================================================*/
+
+/*=======================================================================
+// Fonts
+=========================================================================*/
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic);
+
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,700';
+body{
+    font-family: Ubuntu;
+    color: #5f5c54;
+    letter-spacing: .07px;
+    font-size: 14px;
+
+    line-height: 25.2px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Raleway;
+    line-height: .8;
+    margin-bottom: 15px;
+    color: #333330;
+}
+
+
+a{
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+}
+a:hover{
+    text-decoration: none;
+}
+a:focus, a:active{
+    outline: 0;
+    text-decoration: none;
+    border: medium none;
+    box-shadow: none;
+}
+.ven_btn{
+    font-size: 14px;
+    border: 2px solid #b3b0aa;
+    color: #b3b0aa;
+    font-family: Raleway;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .35px;
+    text-transform: uppercase;
+    height: 50px;
+    padding: 18px 38px;
+    display: inline-block;
+    line-height: .7;
+}
+.ven_btn:hover{
+    color: #2d67b1;
+    border-color: #2d67b1;
+}
+
+
+
+/*=======================================================================
+// Sectlion Setup
+=========================================================================*/
+.comonSection{
+    position: relative;
+    padding: 20px 0;
+}
+.horizontalPadding{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.sectionTitle{
+    position: relative;
+    margin: 0;
+    padding-right: auto;
+}
+.sectionTitle h2{
+    font-size: 46px;
+    letter-spacing: 1.15px;
+    position: relative;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: .8;
+}
+.sectionTitle.smTitle{
+    display: inline-block;
+    margin: 0 auto;
+}
+.sectionTitle.smTitle h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+.sectionTitle h6{
+    font-size: 16px;
+    color: #807f79;
+    letter-spacing: .08px;
+    text-transform: uppercase;
+    margin: 20px 0 20px;
+    line-height: .7;
+}
+.sectionTitle #echTitle h6{
+  color:#DD2A2A;
+  letter-spacing: .08px;
+  font-size: 15px;
+}
+.titleBar{
+    width: 160px;
+    height: 3px;
+    background: #DD2a2a;
+    position: relative;
+    /**/margin-bottom: 18px;
+}
+.titleBar2{
+    width: 100%;
+    height: 3px;
+    background: #DD2a2a;
+    position: relative;
+    margin-bottom:10%;
+}
+.text-center .titleBar{
+    margin-left: auto;
+    margin-right: auto;
+}
+.sectionTitle p{
+    margin: 0;
+}
+
+
+
+
+/*=======================================================================
+// Padding Margin Setup
+=========================================================================*/
+.noPadding{
+    padding: 0px !important;
+}
+.noPaddingLeft{
+    padding-left: 0px !important;
+}
+.noPaddingRight{
+    padding-right: 0px !important;
+}
+.noPaddingBottom{
+    padding-bottom: 0px !important;
+}
+.noPaddingTop{
+    padding-top: 0px;
+}
+
+.noMargin{
+    margin: 0;
+}
+.noMarginTop{
+    margin-top: 0;
+}
+.noMarginBottom{
+    margin-bottom: 0 !important;
+}
+.noMarginRight{
+    margin-right: 0px !important;
+}
+
+/*=======================================================================
+// Page Title
+=========================================================================*/
+.pageTitleSection{
+    min-height: 220px;
+    background: white;
+    padding: 85px 80px 60px;
+}
+.pageTitle{
+    position: relative;
+    text-align: left;
+}
+.pageTitle h1{
+    font-size: 46px;
+    color: #333330;
+    letter-spacing: 13.8px;
+    line-height: .8;
+    text-transform: uppercase;
+    margin: -5px 0 30px;
+    font-weight: 700;
+}
+.pageTitle h5{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #807f79;
+    letter-spacing: .07px;
+    margin: 0;
+    line-height: .7;
+}
+.breadcrumbs{
+    width: 100%;
+    position: relative;
+    text-align: right;
+    font-size: 14px;
+    color: #b3b0aa;
+    letter-spacing: .07px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Raleway;
+    line-height: .7;
+    padding-top: 62px;
+}
+.breadcrumbs a{
+    color: #b3b0aa;
+    display: inline-block;
+    line-height: .7;
+}
+.breadcrumbs a:hover{
+    color: #ffe200;
+}
+.breadcrumbs span{
+    color: #807f79;
+    display: inline-block;
+    line-height: .7;
+}
+.imgDiv{
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    overflow: hidden;
+}
+.imgDiv img{
+    display: inline-block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+*{
+    font-family: Raleway;
+}
+
+
+/******/
+
+.ven_btn2{
+    font-size: 12px;
+    border: 2px solid #b3b0aa;
+    color: #b3b0aa;
+    font-family: Raleway;
+    font-weight: 700;
+    text-align: center;
+    margin-top:8%;
+    margin-left:40%;
+    letter-spacing: .35px;
+    text-transform: uppercase;
+    height: 35px;
+    padding: 15px 35px;
+    display: inline-block;
+    line-height: .4;
+}
+.ven_btn2:hover{
+    color: #bcd6d6;
+    border-color: #bcd6d6;
+}

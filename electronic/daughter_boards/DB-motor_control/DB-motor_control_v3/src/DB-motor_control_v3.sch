@@ -1,0 +1,513 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:echopen
+LIBS:DB-motor_control_v3-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X19 P1
+U 1 1 585A5EA2
+P 3200 3250
+F 0 "P1" H 3200 4250 50  0000 C CNN
+F 1 "CONN_01X19" V 3300 3250 50  0000 C CNN
+F 2 "Echopen:Header_pin_angled_1x19" H 3200 3250 50  0001 C CNN
+F 3 "" H 3200 3250 50  0000 C CNN
+	1    3200 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2350 3400 1900
+Wire Wire Line
+	2750 1900 7250 1900
+$Comp
+L GND #PWR01
+U 1 1 585A5F1C
+P 4100 1900
+F 0 "#PWR01" H 4100 1650 50  0001 C CNN
+F 1 "GND" H 4100 1750 50  0000 C CNN
+F 2 "" H 4100 1900 50  0000 C CNN
+F 3 "" H 4100 1900 50  0000 C CNN
+	1    4100 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L CP C1
+U 1 1 585A5F3A
+P 3550 2300
+F 0 "C1" H 3575 2400 50  0000 L CNN
+F 1 "10u" H 3575 2200 50  0000 L CNN
+F 2 "Echopen:CP_small_TH_echopen" H 3588 2150 50  0001 C CNN
+F 3 "" H 3550 2300 50  0000 C CNN
+	1    3550 2300
+	1    0    0    1   
+$EndComp
+Connection ~ 3550 2450
+Wire Wire Line
+	3550 2150 3550 1900
+Connection ~ 3550 1900
+$Comp
+L C C2
+U 1 1 585A5FAE
+P 3850 2300
+F 0 "C2" H 3875 2400 50  0000 L CNN
+F 1 "100n" H 3875 2200 50  0000 L CNN
+F 2 "Echopen:C_small_TH_echopen" H 3888 2150 50  0001 C CNN
+F 3 "" H 3850 2300 50  0000 C CNN
+	1    3850 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 2450
+Wire Wire Line
+	3850 2150 3850 1900
+Connection ~ 3850 1900
+$Comp
+L CONN_01X08 P3
+U 1 1 585A78B1
+P 4850 3800
+F 0 "P3" H 4850 4250 50  0000 C CNN
+F 1 "CONN_01X08" V 4950 3800 50  0000 C CNN
+F 2 "Echopen:Pin_Header_Straight_1x08" H 4850 3800 50  0001 C CNN
+F 3 "" H 4850 3800 50  0000 C CNN
+	1    4850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P4
+U 1 1 585A78FF
+P 5500 3800
+F 0 "P4" H 5500 4250 50  0000 C CNN
+F 1 "CONN_01X08" V 5600 3800 50  0000 C CNN
+F 2 "Echopen:Pin_Header_Straight_1x08" H 5500 3800 50  0001 C CNN
+F 3 "" H 5500 3800 50  0000 C CNN
+	1    5500 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4150 4650 4150
+Wire Wire Line
+	4350 4050 4650 4050
+Wire Wire Line
+	4650 3950 4650 3850
+Wire Wire Line
+	4350 3950 4600 3950
+Wire Wire Line
+	4600 3950 4600 3750
+Wire Wire Line
+	4600 3750 4650 3750
+Wire Wire Line
+	4350 3850 4550 3850
+Wire Wire Line
+	4550 3850 4550 3650
+Wire Wire Line
+	4550 3650 4650 3650
+Wire Wire Line
+	4350 3750 4500 3750
+Wire Wire Line
+	4500 3750 4500 3550
+Wire Wire Line
+	4500 3550 4650 3550
+Wire Wire Line
+	4350 3650 4450 3650
+Wire Wire Line
+	4450 3650 4450 3450
+Wire Wire Line
+	4450 3450 4650 3450
+Wire Wire Line
+	4350 3550 4400 3550
+Wire Wire Line
+	4400 3550 4400 3100
+Wire Wire Line
+	4400 3100 5300 3100
+Wire Wire Line
+	5700 4150 5300 4150
+Wire Wire Line
+	5300 3550 5300 4300
+Wire Wire Line
+	5300 4300 4000 4300
+Wire Wire Line
+	4000 4300 4000 3450
+Wire Wire Line
+	3850 2450 3850 4400
+Wire Wire Line
+	3850 4400 7350 4400
+Wire Wire Line
+	5800 4050 5700 4050
+$Comp
+L CONN_01X04 P5
+U 1 1 585A7A9E
+P 6150 3800
+F 0 "P5" H 6150 4050 50  0000 C CNN
+F 1 "CONN_01X04" V 6250 3800 50  0000 C CNN
+F 2 "Echopen:Pin_Header_Straight_1x04" H 6150 3800 50  0001 C CNN
+F 3 "" H 6150 3800 50  0000 C CNN
+	1    6150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3950 5950 3950
+Wire Wire Line
+	5700 3850 5950 3850
+Wire Wire Line
+	5700 3750 5950 3750
+Wire Wire Line
+	5700 3650 5950 3650
+Wire Wire Line
+	3400 2850 5700 2850
+NoConn ~ 3850 2850
+NoConn ~ 3400 2550
+NoConn ~ 3400 2650
+NoConn ~ 3400 2750
+NoConn ~ 3400 2950
+NoConn ~ 3400 4050
+Wire Wire Line
+	5300 3550 5700 3550
+Connection ~ 5300 4150
+Wire Wire Line
+	5700 2850 5700 3450
+$Comp
+L CP C3
+U 1 1 585A7EE8
+P 4650 2450
+F 0 "C3" H 4675 2550 50  0000 L CNN
+F 1 "100u" H 4675 2350 50  0000 L CNN
+F 2 "Echopen:CP_small_TH_echopen" H 4688 2300 50  0001 C CNN
+F 3 "" H 4650 2450 50  0000 C CNN
+	1    4650 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L C C4
+U 1 1 585A7F7C
+P 4950 2450
+F 0 "C4" H 4975 2550 50  0000 L CNN
+F 1 "100n" H 4975 2350 50  0000 L CNN
+F 2 "Echopen:C_small_TH_echopen" H 4988 2300 50  0001 C CNN
+F 3 "" H 4950 2450 50  0000 C CNN
+	1    4950 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2600 4650 2850
+Connection ~ 4650 2850
+Wire Wire Line
+	4950 2600 4950 2850
+Connection ~ 4950 2850
+Wire Wire Line
+	4650 1900 4650 2300
+Wire Wire Line
+	4950 1900 4950 2300
+Connection ~ 4650 1900
+$Comp
+L CONN_01X15 P6
+U 1 1 585A818D
+P 7000 3200
+F 0 "P6" H 7000 4000 50  0000 C CNN
+F 1 "CONN_01X15" V 7100 3200 50  0000 C CNN
+F 2 "Echopen:Pin_Header_Straight_1x15" H 7000 3200 50  0001 C CNN
+F 3 "" H 7000 3200 50  0000 C CNN
+	1    7000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X15 P7
+U 1 1 585A81E2
+P 7600 3200
+F 0 "P7" H 7600 4000 50  0000 C CNN
+F 1 "CONN_01X15" V 7700 3200 50  0000 C CNN
+F 2 "Echopen:Pin_Header_Straight_1x15" H 7600 3200 50  0001 C CNN
+F 3 "" H 7600 3200 50  0000 C CNN
+	1    7600 3200
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4950 1900
+Wire Wire Line
+	7250 2600 8050 2600
+Wire Wire Line
+	7800 2800 7350 2800
+Wire Wire Line
+	7350 2800 7350 4400
+Wire Wire Line
+	3400 2450 3850 2450
+Wire Wire Line
+	5300 3100 5300 2500
+Wire Wire Line
+	5300 2500 5400 2500
+$Comp
+L R R1
+U 1 1 585A8455
+P 5550 2500
+F 0 "R1" V 5630 2500 50  0000 C CNN
+F 1 "680" V 5550 2500 50  0000 C CNN
+F 2 "Echopen:Resistor_TH_common" V 5480 2500 50  0001 C CNN
+F 3 "" H 5550 2500 50  0000 C CNN
+	1    5550 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 2500 5800 2500
+$Comp
+L 2N2222 Q1
+U 1 1 585A8503
+P 6000 2500
+F 0 "Q1" H 6200 2575 50  0000 L CNN
+F 1 "2N2222" H 6200 2500 50  0000 L CNN
+F 2 "Echopen:TO-18_TH_common" H 6200 2425 50  0001 L CIN
+F 3 "" H 6000 2500 50  0000 L CNN
+	1    6000 2500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6500 4400 6500 3250
+Connection ~ 6500 4400
+$Comp
+L R R2
+U 1 1 585A85BB
+P 6500 3100
+F 0 "R2" V 6580 3100 50  0000 C CNN
+F 1 "1.5k" V 6500 3100 50  0000 C CNN
+F 2 "Echopen:Resistor_TH_common" V 6430 3100 50  0001 C CNN
+F 3 "" H 6500 3100 50  0000 C CNN
+	1    6500 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2950 6100 2950
+Wire Wire Line
+	6100 2950 6100 2700
+Wire Wire Line
+	6100 2300 6100 1900
+Connection ~ 6100 1900
+Wire Wire Line
+	6800 3100 6650 3100
+Wire Wire Line
+	6650 3100 6650 4500
+Wire Wire Line
+	6650 4500 3700 4500
+Wire Wire Line
+	3700 4500 3700 3150
+Wire Wire Line
+	3700 3150 3400 3150
+Wire Wire Line
+	3400 3250 3550 3250
+Wire Wire Line
+	3550 3250 3550 4600
+Wire Wire Line
+	3550 4600 6700 4600
+Wire Wire Line
+	6700 4600 6700 3200
+Wire Wire Line
+	6700 3200 6800 3200
+NoConn ~ 6650 4400
+NoConn ~ 6700 4400
+NoConn ~ 3400 3050
+NoConn ~ 3400 3450
+NoConn ~ 3400 3550
+NoConn ~ 3400 3650
+NoConn ~ 3400 3750
+NoConn ~ 3400 3850
+NoConn ~ 3400 3950
+NoConn ~ 6800 2500
+NoConn ~ 6800 2600
+NoConn ~ 6800 2700
+NoConn ~ 6800 2800
+NoConn ~ 6800 3000
+NoConn ~ 6800 3400
+NoConn ~ 6800 3500
+NoConn ~ 6800 3600
+NoConn ~ 6800 3700
+NoConn ~ 6800 3800
+NoConn ~ 6800 3900
+NoConn ~ 7800 3900
+NoConn ~ 7800 3800
+NoConn ~ 7800 3700
+NoConn ~ 7800 3600
+NoConn ~ 7800 3500
+NoConn ~ 7800 3400
+NoConn ~ 7800 3300
+NoConn ~ 7800 3200
+NoConn ~ 7800 3100
+NoConn ~ 7800 3000
+NoConn ~ 7800 2900
+NoConn ~ 7800 2700
+NoConn ~ 7800 2500
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 585A8C8C
+P 4100 1900
+F 0 "#FLG02" H 4100 1995 50  0001 C CNN
+F 1 "PWR_FLAG" H 4100 2080 50  0000 C CNN
+F 2 "" H 4100 1900 50  0000 C CNN
+F 3 "" H 4100 1900 50  0000 C CNN
+	1    4100 1900
+	1    0    0    1   
+$EndComp
+Connection ~ 4100 1900
+Wire Wire Line
+	7250 1900 7250 2600
+Wire Wire Line
+	6800 2900 6500 2900
+Wire Wire Line
+	6500 2900 6500 2950
+Connection ~ 6500 2950
+$Comp
+L R R4
+U 1 1 58824A15
+P 6600 4950
+F 0 "R4" V 6680 4950 50  0000 C CNN
+F 1 "680" V 6600 4950 50  0000 C CNN
+F 2 "Echopen:Resistor_TH_common" V 6530 4950 50  0001 C CNN
+F 3 "" H 6600 4950 50  0000 C CNN
+	1    6600 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L 2N2222 Q2
+U 1 1 58824BB0
+P 6100 4950
+F 0 "Q2" H 6300 5025 50  0000 L CNN
+F 1 "2N2222" H 6300 4950 50  0000 L CNN
+F 2 "Echopen:TO-18_TH_common" H 6300 4875 50  0001 L CIN
+F 3 "" H 6100 4950 50  0000 L CNN
+	1    6100 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 4950 6300 4950
+Wire Wire Line
+	6800 3300 7150 3300
+Wire Wire Line
+	7150 3300 7150 4950
+Wire Wire Line
+	7150 4950 6750 4950
+Wire Wire Line
+	3400 4150 3400 5200
+Wire Wire Line
+	3400 5200 5400 5200
+$Comp
+L R R3
+U 1 1 588250BD
+P 5550 5200
+F 0 "R3" V 5630 5200 50  0000 C CNN
+F 1 "1.5k" V 5550 5200 50  0000 C CNN
+F 2 "Echopen:Resistor_TH_common" V 5480 5200 50  0001 C CNN
+F 3 "" H 5550 5200 50  0000 C CNN
+	1    5550 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 5200 6000 5200
+Wire Wire Line
+	6000 5200 6000 5150
+Wire Wire Line
+	6000 4750 8050 4750
+Wire Wire Line
+	8050 4750 8050 2600
+Connection ~ 7800 2600
+$Comp
+L CONN_01X09 P2
+U 1 1 58825882
+P 4150 3750
+F 0 "P2" H 4150 4250 50  0000 C CNN
+F 1 "CONN_01X09" V 4250 3750 50  0000 C CNN
+F 2 "Echopen:Socket_1x09" H 4150 3750 50  0001 C CNN
+F 3 "" H 4150 3750 50  0000 C CNN
+	1    4150 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3450 4350 3450
+Wire Wire Line
+	4200 3450 4200 1900
+Connection ~ 4200 1900
+Connection ~ 4200 3450
+Wire Wire Line
+	3400 3350 5200 3350
+Wire Wire Line
+	5200 3350 5200 5100
+Wire Wire Line
+	5200 5100 5800 5100
+Wire Wire Line
+	5800 5100 5800 5200
+Connection ~ 5800 5200
+$Comp
+L CP C6
+U 1 1 58ECF1A9
+P 3250 5200
+F 0 "C6" H 3275 5300 50  0000 L CNN
+F 1 "10u" H 3275 5100 50  0000 L CNN
+F 2 "Echopen:CP_small_TH_echopen" H 3288 5050 50  0001 C CNN
+F 3 "" H 3250 5200 50  0001 C CNN
+	1    3250 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 1900 2750 5200
+Wire Wire Line
+	2750 5200 3100 5200
+Connection ~ 3400 1900
+$Comp
+L C C5
+U 1 1 58ECF3F6
+P 3100 4900
+F 0 "C5" H 3125 5000 50  0000 L CNN
+F 1 "47n" H 3125 4800 50  0000 L CNN
+F 2 "Echopen:C_small_TH_echopen" H 3138 4750 50  0001 C CNN
+F 3 "" H 3100 4900 50  0001 C CNN
+	1    3100 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 4900 3400 4900
+Connection ~ 3400 4900
+Wire Wire Line
+	2950 4900 2750 4900
+Connection ~ 2750 4900
+Wire Wire Line
+	5800 4050 5800 4800
+Wire Wire Line
+	5800 4800 4550 4800
+Wire Wire Line
+	4550 4800 4550 5200
+Connection ~ 4550 5200
+Connection ~ 4350 3350
+$EndSCHEMATC

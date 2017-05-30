@@ -1,0 +1,35 @@
+### Module positions - created on Thu Dec  1 19:24:27 2016 ###
+### Printed by Pcbnew version kicad 4.0.4+e1-6308~48~ubuntu16.04.1-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                      PosX       PosY       Rot  Side
+C1        100p        C_small_TH_echopen        48.2600  -101.6000  180.0000  top
+C2        100n        C_small_TH_echopen        54.6100  -109.2200    0.0000  top
+C3        33u         CP_TH_common              58.4200  -116.8400    0.0000  top
+C4        100n        C_small_TH_echopen        69.8500  -105.4100  270.0000  top
+C5        220p        C_small_TH_echopen        45.7200   -96.5200    0.0000  top
+D1        BAT48       D_TH_common               54.6100   -92.7100  270.0000  top
+D2        1N4746      D_TH_common               50.8000  -113.0300  270.0000  top
+D3        1N4148      D_TH_common               49.5300   -82.5500  270.0000  top
+D5        1N4746      D_TH_common               76.2000   -93.9800  270.0000  top
+P1        CONN_01X19  Header_pin_angled_1x19    41.9100  -104.1400    0.0000  top
+P2        CONN_01X02  Socket_1x02               53.3400  -127.0000    0.0000  top
+P4        CONN_01X02  Socket_1x02               55.8800   -80.0100  180.0000  top
+P5        SMA         SMA                       72.3900   -80.0100  180.0000  top
+P6        SMA         SMA                       64.7700  -127.0000    0.0000  top
+P7        CONN_01X02  Socket_1x02               63.5000   -80.0100  180.0000  top
+P8        SMA         SMA                       83.8200   -80.0100  180.0000  top
+Q1        2N2907      TO-18_TH_common           59.6900   -97.7900  270.0000  top
+Q2        2N2222      TO-18_TH_common           54.6100   -87.6300   90.0000  top
+Q3        2N2222      TO-18_TH_common           60.9600   -90.1700    0.0000  top
+Q4        2N2907      TO-18_TH_common           68.5800  -113.0300    0.0000  top
+Q5        2N2222      TO-18_TH_common           66.0400  -100.3300  270.0000  top
+Q6        2N2907      TO-18_TH_common           63.5000  -107.9500    0.0000  top
+Q7        IRF9610     TO-220_TH_common          74.9300  -111.7600   90.0000  top
+Q8        IRF610      TO-220_TH_common          73.6600  -123.1900  270.0000  top
+R1        1k          Resistor_TH_common        45.7200   -82.5500  270.0000  top
+R2        22          Resistor_TH_common        52.0700  -107.3150   90.0000  top
+R3        1M          Resistor_TH_common        46.9900  -113.0300  270.0000  top
+R5        1M          Resistor_TH_common        73.6600   -92.7100  270.0000  top
+R6        100k        Resistor_TH_common        69.8500   -87.6300  270.0000  top
+## End

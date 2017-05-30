@@ -1,0 +1,30 @@
+Reference, Value, Footprint, Datasheet, Caracteristic, Manufacturer, Ref Manufacturer
+R2,22,Echopen:Resistor_TH_common,,1/4W 5%,Yageo,CFR-25JR-52-22R
+C1,100p,Echopen:C_TH_common,,25V 10%,Xicon,140-50N5-101J-TB-RC
+C5,220p,Echopen:C_TH_common,,25V 10%,Vishay,K221K15X7RF5TL2
+D1,BAT48,Echopen:D_TH_common,,NA,STMicroelectronics,BAT48
+D3,1N4148,Echopen:D_TH_common,,NA,Fairchild Semiconductor,1N4148
+R6,100k,Echopen:Resistor_TH_common,,1/4W 10%,Vishay,CCF07100KJKE36
+R1,1k,Echopen:Resistor_TH_common,,1/4W 5%,Yageo,MFR-25FRF52-1K
+C2,100n,Echopen:C_TH_common,,25V 20%,Xicon,21RZ310-RC
+C4,100n,Echopen:C_TH_common,,25V 20%,Xicon,21RZ310-RC
+D5,1N4746,Echopen:D_TH_common,,Zener 18V,Vishay,1N4746A-TR
+D2,1N4746,Echopen:D_TH_common,,Zener 18V,Vishay,1N4746A-TR
+R5,1M,Echopen:Resistor_TH_common,,1/4W 5%,Yageo,MFR-25FBF52-1M
+R3,1M,Echopen:Resistor_TH_common,,1/4W 5%,Yageo,MFR-25FBF52-1M
+Q7,IRF9610,Echopen:TO-220_TH_common,,NA,Vishay,IRF9610PBF
+Q8,IRF610,Echopen:TO-220_TH_common,,NA,Vishay,IRF610PBF
+P1,CONN_01X19,Echopen:Header_pin_angled_1x19,,NA,Molex,22-28-8192
+P2,CONN_01X02,Echopen:Socket_1x02,,angled socket 1*02,Molex,22-15-2026
+P4,CONN_01X02,Echopen:Socket_1x02,,angled socket 1*02,Molex,22-15-2026
+P5,SMA,Echopen:SMA,,NA,Johnson / Cinch Connectivity Solutions,142-0701-801
+C3,33u,Echopen:CP_TH_common,,150V 20%,Lelon,REA330M2CBK-1320P
+Q1,2N2907,Echopen:TO-18_TH_common,,NA,Central Semiconductor,2N2907A
+Q2,2N2222,Echopen:TO-18_TH_common,,NA,Central Semiconductor,2N2222
+Q3,2N2222,Echopen:TO-18_TH_common,,NA,Central Semiconductor,2N2222
+Q4,2N2907,Echopen:TO-18_TH_common,,NA,Central Semiconductor,2N2907A
+Q5,2N2222,Echopen:TO-18_TH_common,,NA,Central Semiconductor,2N2222
+Q6,2N2907,Echopen:TO-18_TH_common,,NA,Central Semiconductor,2N2907A
+P6,SMA,Echopen:SMA,,NA,Johnson / Cinch Connectivity Solutions,142-0701-801
+P7,CONN_01X02,Echopen:Socket_1x02,,angle socket 1*02,Molex,22-15-2026
+P8,SMA,Echopen:SMA,,NA,Johnson / Cinch Connectivity Solutions,142-0701-801

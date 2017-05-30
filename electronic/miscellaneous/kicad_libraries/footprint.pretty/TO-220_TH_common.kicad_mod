@@ -26,4 +26,9 @@
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
   )
+  (model TO_SOT_Packages_THT.3dshapes/TO-220_Vertical.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 0))
+  )
 )

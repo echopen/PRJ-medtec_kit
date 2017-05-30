@@ -1,49 +1,39 @@
-Source,/home/echopen/Bureau/GitHub/electronic/kicad/Daugter_boards/DB_TR_switch_TGC/V1_1/DB_TRS_TGC_V1_1.sch
-Kicad Rev,Eeschema 4.0.3+e1-6302~38~ubuntu16.04.1-stable
-Generated Date,lun. 22 août 2016 19:03:33 CEST
-
-Title,Not Set
-Company,Not Set
-Revision,Not Set
-Date Issue,Not Set
-
-Reference,Value,Library,Library Ref
-U2,AD8331,echopen,AD8331
-C9,100n,device,C
-C4,18n,device,C
-C3,22p,device,C
-C2,100n,device,C
-L1,120n,device,INDUCTOR
-P1,SMA,echopen,SMA
-R1,274,device,R
-C7,100n,device,C
-L2,120n,device,INDUCTOR
-C8,100n,device,C
-C5,100n,device,C
-C10,1n,device,C
-C11,100n,device,C
-C12,100n,device,C
-SW1,SWITCH_INV,device,SWITCH_INV
-C13,100n,device,C
-L5,120n,device,INDUCTOR
-L3,120n,device,INDUCTOR
-R3,100,device,R
-L4,120n,device,INDUCTOR
-R4,100,device,R
-C14,100n,device,C
-C15,100n,device,C
-R5,237,device,R
-R6,237,device,R
-C1,10u,device,CP
-P2,CONN_01X19,conn,CONN_01X19
-P3,CONN_01X02,conn,CONN_01X02
-P4,CONN_01X19,conn,CONN_01X19
-U1,MD0100,echopen,MD0100
-D1,1N4148,device,D
-D2,1N4148,device,D
-W1,TEST_1P,conn,TEST_1P
-JP1,JUMPER,device,JUMPER
-T1,TRANSFO_6pins,echopen,TRANSFO_6pins
-C6,1n,device,C
-R2,220,device,R
-AOP1,OPA625,echopen,OPA625
+Reference, Value, Footprint, Datasheet
+U2,AD8331,Housings_SSOP:SSOP-20_5.3x7.2mm_Pitch0.65mm,
+C9,100n,Echopen:C_TH_common,
+C4,18n,Echopen:C_TH_common,
+C3,22p,Echopen:C_TH_common,
+C2,100n,Echopen:C_TH_common,
+L1,120n,Echopen:INDUCTOR_TH_common,
+P1,SMA,Echopen:SMA,
+R1,274,Echopen:Resistor_TH_common,
+C7,100n,Echopen:C_TH_common,
+L2,120n,Echopen:INDUCTOR_TH_common,
+C8,100n,Echopen:C_TH_common,
+C5,100n,Echopen:C_TH_common,
+C10,1n,Echopen:C_TH_common,
+C11,100n,Echopen:C_TH_common,
+C12,100n,Echopen:C_TH_common,
+SW1,SWITCH_INV,Buttons_Switches_ThroughHole:SW_Micro_SPST,
+C13,100n,Echopen:C_TH_common,
+L5,120n,Echopen:INDUCTOR_TH_common,
+L3,120n,Echopen:INDUCTOR_TH_common,
+R3,100,Echopen:Resistor_TH_common,
+L4,120n,Echopen:INDUCTOR_TH_common,
+R4,100,Echopen:Resistor_TH_common,
+C14,100n,Echopen:C_TH_common,
+C15,100n,Echopen:C_TH_common,
+R5,237,Echopen:Resistor_TH_common,
+R6,237,Echopen:Resistor_TH_common,
+C1,10u,Echopen:CP_TH_common,
+P2,CONN_01X19,Socket_Strips:Socket_Strip_Angled_1x19,
+P3,CONN_01X02,Socket_Strips:Socket_Strip_Angled_1x02,
+U1,MD0100,TO_SOT_Packages_SMD:SOT89-3_Housing_Handsoldering,
+D1,1N4148,Echopen:D_TH_common,
+D2,1N4148,Echopen:D_TH_common,
+W1,TEST_1P,Measurement_Points:Test_Point_Keystone_5000-5004_Miniature,
+JP1,JUMPER,Echopen:Jumper,
+T1,TRANSFO_6pins,Echopen:Transfo_6pins,
+C6,1n,Echopen:C_TH_common,
+R2,220,Echopen:Resistor_TH_common,
+AOP1,OPA625,Echopen:SOT-23-6_Handsoldering(OPA625),

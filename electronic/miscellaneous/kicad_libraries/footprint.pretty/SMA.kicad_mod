@@ -18,4 +18,9 @@
     (scale (xyz 0.9 0.9 0.9))
     (rotate (xyz 0 0 0))
   )
+  (model ../../../../../home/jerome/Github/PRJ-medtec_kit/electronic/miscellaneous/kicad_libraries/3d/sma_90_r300.124.403.wrl
+    (at (xyz 0 -0.15 0))
+    (scale (xyz 0.9 0.9 0.9))
+    (rotate (xyz 0 0 0))
+  )
 )

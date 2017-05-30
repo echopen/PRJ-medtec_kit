@@ -1,4 +1,4 @@
-**Module:** MDL_Ramp
+**Module:** MDL-Ramp
 
 **Function:** signal processing
 
@@ -14,7 +14,7 @@ date: 02/05/2016
 
 author: Jérôme
 
-hardware concerned: MDL_Ramp_V1
+hardware concerned: MDL-Ramp_V1
 
 **Source:**
 
@@ -30,7 +30,7 @@ date: 07/2016
 
 author: Joris
 
-hardware concerned: MDL_Ramp_V1
+hardware concerned: MDL-Ramp_V1
 
 **Source:**
 

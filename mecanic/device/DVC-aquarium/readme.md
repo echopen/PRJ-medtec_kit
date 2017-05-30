@@ -23,4 +23,4 @@ Due to impedance mismatch, the easiest way to make acoustic imaging is to image 
 ## uses
 The stepper motor is hanged on one face of the aquarium. With this device, the transducer sweep a given angle to do the acoustic imaging.
 
-The different mecanical parts can be 3D-printed, the size of each part must be adapted for the aquarium size.
+The different mecanical parts can be 3D-printed, the size of each part must be adapted for the aquarium size. The pieces here are designed for an aquarium 343 mm heigth, 293 mm width and 593 mm length.

@@ -11,7 +11,7 @@ Daughter board pass-band filter version 1
 * [`CTC-dubois_jerome`]()
 
 ## Modules included
-* [`MDL-filter_v1`]()
+* [`MDL-filter_v1`](../../../modules/hardware/MDL-filter/MDL-filter_v1/readme.md)
 
 ## Interfaces
 ### Input

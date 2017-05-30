@@ -43,7 +43,9 @@ Output:
 ![](./images/scheme.png)
 
 ## Remarks
-It's an [evaluation kit](./doc/ad8331_evalz.pdf), one plug input and output with SMA cables. The ramp is connected *via* test points
+It's an [evaluation kit](../../../../miscellaneous/datasheets/Amplis/AD8331_evalz.pdf), we plug input and output with SMA cables. The ramp is connected *via* test points on the board.
+
+
 
 [BOM](./src/MDL-tgc_v1.csv)
 

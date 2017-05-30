@@ -1,4 +1,4 @@
-**Module:** MDL_Ramp_Soft
+**Module:** MDL-Ramp_Soft
 
 **Function:** signal processing
 

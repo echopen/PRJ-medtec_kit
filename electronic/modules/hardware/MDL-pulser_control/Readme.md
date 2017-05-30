@@ -1,14 +1,14 @@
-# Module: oneeye
+# Module
 
-![](/electronic/modules/hardware/MDL-pulser_control/viewme.png)
+![](viewme.png)
 
 ## Name
 
-[`MDL-oneeye_controlunit`]()
+[`MDL-pulser_control`]()
 
 ## Title
 
-One-eye, the controler
+One-eye, the controler MDL - oneeye_controlunit
 
 ## Description
 
@@ -50,7 +50,7 @@ As the controler the module is at the heart of the control interfaces, and in th
 
 ### How does it work: block diagram
 
-![Block schema](/electronic/modules/hardware/MDL-pulser_control/source/blocks.png)
+![Block schema](source/blocks.png)
 
 * `ITF-B_5v`->`ArduinoTrinketPro`->`ITF-G_gain_control`
 * `ArduinoTrinketPro`->`ITF-I_pulse_on`
@@ -71,7 +71,7 @@ As the controler the module is at the heart of the control interfaces, and in th
 
 ### Layout on the motherboard
 
-![](/electronic/modules/hardware/MDL-pulser_control/images/oneeye-trinket.png)
+![](images/oneeye-trinket.png)
 
 ## Discussions
 

@@ -16,4 +16,9 @@
   (fp_circle (center 0 0) (end 1.25 0) (layer F.Fab) (width 0.15))
   (fp_circle (center 0 0) (end 1.4 0) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  (model Measurement_Points.3dshapes/Test_Point.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,0 +1,30 @@
+Reference, Value, Footprint, Datasheet, Caracteristic, Manufacturer, Ref Manufacturer
+U1,LM555N,Echopen:DIP-8(LM555),,timer,TI,LM555CN/NOPB
+C1,10n,Echopen:C_TH_common,,25V 10%,Vishay,K103K15X7RF5UH5
+R2,12k,Echopen:Resistor_TH_common,,1/4W 5%,KOA speer,MF1/4LCT52R123J
+R1,2.2k,Echopen:Resistor_TH_common,,1/4W 10%,KOA speer,MF1/4LCT52R222J
+D1,1N4001,Echopen:D_TH_common,,NA,Fairchild Semiconductor,1N4148
+C3,220u,Echopen:CP_TH_common,,25V 20%,Cornell Dubilier - CDE,227CKS025MGM
+C4,47u,Echopen:CP_TH_common,,25V 20%,Nichicon,UVR1E470MDD6
+C5,47u,Echopen:CP_TH_common,,25V 20%,Nichicon,UVR1E470MDD6
+R5,270,Echopen:Resistor_TH_common,,1/4W 10%,KOA speer,MF1/4LCT52R271J
+D2,LED,Echopen:D_TH_common,,green LED,parallax,350-00001
+R4,1.8k,Echopen:Resistor_TH_common,,1/4W 10%,KOA speer,MF1/4LCT52R182G
+C7,47u,Echopen:CP_TH_common,,25V 20%,Nichicon,UVR1E470MDD6
+D3,1N4148,Echopen:D_TH_common,,NA,Fairchild Semiconductor,1N4148
+D4,1N4001,Echopen:D_TH_common,,NA,Fairchild Semiconductor,1N4148
+C8,47u,Echopen:CP_TH_common,,25V 20%,Nichicon,UVR1E470MDD6
+C9,47u,Echopen:CP_TH_common,,25V 20%,Nichicon,UVR1E470MDD6
+R3,3.3k,Echopen:Resistor_TH_common,,1/4W 10%,KOA speer,MF1/4LCT52R332J
+C2,47n,Echopen:C_TH_common,,25V 10%,Vishay,1C10Z5U473M050B
+C10,47u,Echopen:CP_TH_common,,25V 20%,Nichicon,UVR1E470MDD6
+P1,CONN_01X19,Echopen:Header_pin_angled_1x19,,angled pin 1*19,Molex,22-28-8192
+C6,47u,Echopen:CP_TH_common,,25V 20%,Nichicon,UVR1E470MDD6
+U2,LM2940T-12.0/NOPB,Echopen:TO-220_TH_common,,12V 1A voltage regulator,TI,LM2940CT-12/NOPB
+U3,LM2940T-5.0/NOPB,Echopen:TO-220_TH_common,,5V 1A voltage regulator,TI,LM2940CT-5.0/NOPB
+U4,LM1117T-3.3/NOPB,Echopen:TO-220_TH_common,,3.3V 1A voltage regulator,TI,LM1117T-3.3/NOPB
+Q1,2N2222,Echopen:TO-18_TH_common,,NA,Central Semiconductor,2N2222
+Q2,2N2222,Echopen:TO-18_TH_common,,NA,Central Semiconductor,2N2222
+Q3,2N2907,Echopen:TO-18_TH_common,,NA,Central Semiconductor,2N2907A
+U5,LM2990T-12.0/NOPB,Echopen:TO-220_TH_common,,-12V 1A voltage regulator,TI,LM2990T-12/NOPB
+U6,LM2990T-5.0/NOPB,Echopen:TO-220_TH_common,,-5V 1A voltage regulator,TI,LM2990T-5.0/NOPB

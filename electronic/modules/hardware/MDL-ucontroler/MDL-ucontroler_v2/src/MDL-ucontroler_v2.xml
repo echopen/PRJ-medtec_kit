@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jerome/Github/PRJ-medtec_kit/electronic/modules/hardware/MDL-ucontroler/MDL-ucontroler_v2/src/MDL-ucontroler_v1.sch</source>
+    <date>mar. 23 mai 2017 16:10:16 CEST</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MDL-ucontroler_v1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SH1">
+      <value>ARDUINO_NANO</value>
+      <libsource lib="echopen" part="ARDUINO_NANO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57AAFAD2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>680</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59242B28</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1.5k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59242B6B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1.5k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59242BC6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>680</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59242C27</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N2222</value>
+      <libsource lib="echopen" part="2N2222"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59242C98</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N2222</value>
+      <libsource lib="echopen" part="2N2222"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59242CDF</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59243A2C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="echopen" part="2N2222">
+      <footprints>
+        <fp>TO-18</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2222</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="echopen" part="ARDUINO_NANO">
+      <fields>
+        <field name="Reference">SH</field>
+        <field name="Value">ARDUINO_NANO</field>
+      </fields>
+      <pins>
+        <pin num="0" name="RX" type="input"/>
+        <pin num="1" name="TX" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3_(*)" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5_(*)" type="input"/>
+        <pin num="5V" name="5V" type="input"/>
+        <pin num="6" name="6_(*)" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9_(*)" type="input"/>
+        <pin num="10" name="10_(SS/*)" type="input"/>
+        <pin num="11" name="11_(MISO/*)" type="input"/>
+        <pin num="12" name="12_(MOSI)" type="input"/>
+        <pin num="13" name="13_(SCK)" type="input"/>
+        <pin num="3V3" name="3V3" type="input"/>
+        <pin num="A0" name="A0" type="input"/>
+        <pin num="A1" name="A1" type="input"/>
+        <pin num="A2" name="A2" type="input"/>
+        <pin num="A3" name="A3" type="input"/>
+        <pin num="A4" name="A4" type="input"/>
+        <pin num="A5" name="A5" type="input"/>
+        <pin num="A6" name="A6" type="input"/>
+        <pin num="A7" name="A7" type="input"/>
+        <pin num="AREF" name="AREF" type="input"/>
+        <pin num="GND1" name="GND/1" type="input"/>
+        <pin num="GND2" name="2/GND" type="input"/>
+        <pin num="RST1" name="RESET/1" type="input"/>
+        <pin num="RST2" name="2/RESET" type="input"/>
+        <pin num="VIN" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="echopen">
+      <uri>/home/jerome/Github/PRJ-medtec_kit/electronic/miscellaneous/kicad_libraries/echopen.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q1-Pad3)">
+      <node ref="SH1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="2" name="Net-(Q1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(R4-Pad1)">
+      <node ref="SH1" pin="6"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(Q2-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="5" name="ITF-S_3_3v">
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="6" name="RP_E1_DIO7_N">
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="7" name="ITF-B_5v">
+      <node ref="C1" pin="1"/>
+      <node ref="SH1" pin="5V"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="8" name="ITF-K_pulse_redpitaya">
+      <node ref="R3" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="9" name="ITF-J_pulse_off">
+      <node ref="SH1" pin="4"/>
+    </net>
+    <net code="10" name="ITF-I_pulse_on">
+      <node ref="SH1" pin="5"/>
+    </net>
+    <net code="11" name="Net-(SH1-PadA0)">
+      <node ref="SH1" pin="A0"/>
+    </net>
+    <net code="12" name="Net-(SH1-PadA7)">
+      <node ref="SH1" pin="A7"/>
+    </net>
+    <net code="13" name="Net-(SH1-PadA6)">
+      <node ref="SH1" pin="A6"/>
+    </net>
+    <net code="14" name="Net-(SH1-PadA5)">
+      <node ref="SH1" pin="A5"/>
+    </net>
+    <net code="15" name="Net-(SH1-PadA4)">
+      <node ref="SH1" pin="A4"/>
+    </net>
+    <net code="16" name="Net-(SH1-PadA3)">
+      <node ref="SH1" pin="A3"/>
+    </net>
+    <net code="17" name="Net-(SH1-Pad13)">
+      <node ref="SH1" pin="13"/>
+    </net>
+    <net code="18" name="Net-(SH1-PadA2)">
+      <node ref="SH1" pin="A2"/>
+    </net>
+    <net code="19" name="Net-(SH1-Pad12)">
+      <node ref="SH1" pin="12"/>
+    </net>
+    <net code="20" name="Net-(SH1-PadA1)">
+      <node ref="SH1" pin="A1"/>
+    </net>
+    <net code="21" name="Net-(SH1-Pad11)">
+      <node ref="SH1" pin="11"/>
+    </net>
+    <net code="22" name="Net-(SH1-Pad10)">
+      <node ref="SH1" pin="10"/>
+    </net>
+    <net code="23" name="Net-(SH1-Pad9)">
+      <node ref="SH1" pin="9"/>
+    </net>
+    <net code="24" name="Net-(SH1-Pad8)">
+      <node ref="SH1" pin="8"/>
+    </net>
+    <net code="25" name="Net-(SH1-Pad7)">
+      <node ref="SH1" pin="7"/>
+    </net>
+    <net code="26" name="Net-(SH1-Pad3)">
+      <node ref="SH1" pin="3"/>
+    </net>
+    <net code="27" name="Net-(SH1-Pad1)">
+      <node ref="SH1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(SH1-Pad0)">
+      <node ref="SH1" pin="0"/>
+    </net>
+    <net code="29" name="Net-(SH1-PadAREF)">
+      <node ref="SH1" pin="AREF"/>
+    </net>
+    <net code="30" name="Net-(SH1-PadRST2)">
+      <node ref="SH1" pin="RST2"/>
+    </net>
+    <net code="31" name="Net-(SH1-PadRST1)">
+      <node ref="SH1" pin="RST1"/>
+    </net>
+    <net code="32" name="ITF-A_gnd">
+      <node ref="SH1" pin="GND2"/>
+      <node ref="SH1" pin="GND1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="33" name="Net-(SH1-PadVIN)">
+      <node ref="SH1" pin="VIN"/>
+    </net>
+    <net code="34" name="Net-(SH1-Pad3V3)">
+      <node ref="SH1" pin="3V3"/>
+    </net>
+  </nets>
+</export>

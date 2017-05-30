@@ -44,9 +44,9 @@
   (fp_circle (center 1.25 0) (end 1.25 -2.8) (layer F.CrtYd) (width 0.05))
   (pad 1 thru_hole rect (at 0 0) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.5 0) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask))
-  (model Capacitors_ThroughHole.3dshapes/C_Radial_D5_L6_P2.5.wrl
-    (at (xyz 0.049213 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+  (model Capacitors_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.393701 0.393701 0.393701))
+    (rotate (xyz 0 0 0))
   )
 )

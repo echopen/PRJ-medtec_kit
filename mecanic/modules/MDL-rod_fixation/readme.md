@@ -1,5 +1,5 @@
 # Module
-![](viewme.png)
+![](./images/3dview.png)
 
 ## Name
 [`MDL-rod_fixation`]()

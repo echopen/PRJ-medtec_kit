@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:echopen
 LIBS:MDL-pulser_v2-cache
 EELAYER 25 0
 EELAYER END
@@ -76,9 +75,9 @@ Wire Wire Line
 	4300 2550 4300 2250
 Wire Wire Line
 	4400 2550 4400 2250
-Text GLabel 4300 2250 0    60   Input ~ 0
-ITF-F_12v
 Text GLabel 4400 2250 2    60   Input ~ 0
+ITF-F_12v
+Text GLabel 4300 2250 0    60   Input ~ 0
 ITF-H_neg_12v
 Wire Wire Line
 	5950 2800 6150 2800

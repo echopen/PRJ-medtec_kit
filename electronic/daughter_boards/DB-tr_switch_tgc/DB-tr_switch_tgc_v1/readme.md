@@ -11,8 +11,8 @@ Daughter board T/R switch, TGC version 1
 * [`CTC-dubois_jerome`]()
 
 ## Modules included
-* [`MDL-tr_switch_v1`]()
-* [`MDL-tgc_v1`]()
+* [`MDL-tr_switch_v1`](../../../modules/hardware/MDL-tr_switch/MDL-tr_switch_v1/readme.md)
+* [`MDL-tgc_v1`](../../../modules/hardware/MDL-tgc/MDL-tgc_v1/readme.md)
 
 ## Interfaces
 ### Input
@@ -43,6 +43,8 @@ This daughter board use an AD8331_EVALZ (evaluation kit of AD8331 IC), the input
 AD8331_EVALZ need 5V supply and ramp command for the VGA.
 
 Test point W1 is here to check that the signal is clamped by the MD0100 and test point W2 is here to to check that the input of the TGC is valid (between +/- 2.5V).
+
+We add a high pass filter after the T/R switch because we had low frequency parasite signal. Impedance matching is insure by the OPA cable as a voltage follower.
 
 ## Results
 
