@@ -105,11 +105,11 @@ Later on, in december, I got it work with a [breadboard phantom](data/20161217/2
 
 #### Following unprocessed signal, 
 
-![](/silent/images/SilentOutput.JPG)
+![](https://raw.githubusercontent.com/kelu124/echomods/master/silent/images/SilentOutput.JPG)
 
 #### After enveloppe detection
 
-![](/silent/images/SilentEnveloppeFinal.JPG)
+![](https://raw.githubusercontent.com/kelu124/echomods/master/silent/images/SilentEnveloppeFinal.JPG)
 
 ## Discussions
 
