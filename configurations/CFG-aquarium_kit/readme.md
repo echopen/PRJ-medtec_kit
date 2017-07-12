@@ -6,7 +6,7 @@
 [`CFG-aquarium_kit`]()
 
 ## Title
-Kit 3.0 - Fev 201
+Kit 3.0 - Feb 2017
 
 ## About
 
