@@ -1,4 +1,4 @@
-Module: MDL_ADC_Hard
+Module: MDL-ADC_Hard
 
 Function: signal processing
 

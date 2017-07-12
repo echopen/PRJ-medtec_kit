@@ -1,4 +1,4 @@
-Module: MDL_ADC_Soft
+Module: MDL-ADC_Soft
 
 Function: signal processing
 

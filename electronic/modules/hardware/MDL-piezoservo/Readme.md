@@ -1,14 +1,14 @@
-# Module: Cletus
+# Module
 
-![](/electronic/modules/hardware/MDL-piezoservo/viewme.png)
+![](viewme.png)
 
 ## Name
 
-[`MDL-echomods_servopiezo`]()
+[`MDL-piezoservo`]()
 
 ## Title
 
-Simply the servo and transducer module
+Cletus, simply the servo and transducer module, MDL - echomods_servopiezo
 
 ## Description
 

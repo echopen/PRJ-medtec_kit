@@ -1,0 +1,43 @@
+/* 
+    Created on : 6 nov. 2016, 13:09:22
+    Author     : Benoit
+*/
+
+body, table {
+    font-size: 14px;
+}
+
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 80%;
+    margin-left:5%;
+    border: 1px solid lightgrey;
+}
+
+.icon {
+    height: 68px;
+}
+.icon img {
+    height: auto; 
+    width: auto; 
+    max-width: 192px; 
+    max-height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table .icon {
+    width: 68px; 
+    height: 68px;
+}
+table .icon img {
+    height: auto; 
+    width: auto; 
+    max-width: 64px; 
+    max-height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
