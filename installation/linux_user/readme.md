@@ -84,6 +84,15 @@ To download on your smartphone, you must follow the instructions given in the [a
 
 * Launch once again the code (by entering ./default_probe on your terminal). The motor will turn till it comes on the mechanical stop at knock on it (don't worry it's normal). Then it will turn in the other side to reach the beginning of the sweeping zone and make the sweeping movement.
 
+* The default settings are:
+    * beginning of measurement 80 mm,
+    * end of measurement 160 mm,
+    * sampling rate 125/8 Msps,
+    * angle of the sector 60°,
+    * speed of the motor 3 tour per second,
+    * amplification command at beginning of measurement 0.1 V,
+    * amplification at end of measurement 1 V.
+
 * When you want to stop press CTRL+C, to quit the ssh connection just enter exit in your terminal.
 
 ## Display
