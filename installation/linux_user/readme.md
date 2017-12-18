@@ -1,4 +1,4 @@
-# Software installation
+## Software installation
 
 In this repo there is two bash script:  
  ./echopen_light.sh that install minimal configuration if you just want to use the kit without modifying the firmware of the RedPitaya. This bash file install vim, sshpass, gnuplot and kicad. We need gnuplot when using the C software display tool on linux. Kicad is an open-source software to make electronic.   
@@ -16,11 +16,11 @@ or
 
 You also have to install arduino IDE, follow the instruction on their [website](https://www.arduino.cc/en/Guide/Linux).
 
-## kicad
+### kicad
 
 To edit a Bom, on linux we have install xsltproc with the sh file previously. Then in the schematic tool, click on the BOM icon, select Add Plugin, the plugins can be found in:
 
-    usr/lib/kicad/plugins
+    /usr/lib/kicad/plugins
 
 and select bom2csv.xsl. To edit a csv file you have to edit the command by changing "%O" to "%O.csv": 
 
@@ -40,7 +40,7 @@ Some interesting tutorial about kicad can be found on:
 
 https://www.wayneandlayne.com/blog/category/kicad-tutorials/
 
-# Prepare the RedPitaya
+## Prepare the RedPitaya
 
 RedPitaya board need a 5V, 2A supply for the RedPitya.
 
@@ -50,22 +50,22 @@ You must also plug a WIFI dongle (such as [edimax EW_7811Un dongle](http://www.e
 `ssh root@192.168.128.3`  
 `root`
 
-# Built the kit and download the android app
+## Built the kit and download the android app
 
 All step to built our kit can be found in our [prototyping gitbook section production guide](https://echopen.gitbooks.io/echopen_prototyping/content/stable/guide_hardware.html).
 
 To download on your smartphone, you must follow the instructions given in the [android app github](https://github.com/echopen/PRJ-medtec_androidapp). This procedure is quite long for the moment. A simple and quick way to download the app on your smartphone will be done soon.
 
-# How to launch the acquisition
+## How to launch the acquisition
 
-* When the kit is built, connect a 18 V power supply to it. Not power on the supply for the moment
+* When the kit is built, connect a 18 V power supply to it. Not power on the supply for the moment.
 
 * Go to [software folder](../../electronic/modules/software) and select the folder corresponding to your configuration, the latest one is actually the  [aquarium kit folder](../../electronic/modules/software/CFG-aquarium_kit).
 
 * Lauch arduino IDE and check that the right arduino board is selected by clicquing on tools:  
 ![](./images/arduino_select.png)
 
-* Open the arduino file (./arduino/MDL-pulser_v2.ino file) and it in the arduino nano:  
+* Open the arduino file (./arduino/MDL-pulser_v2.ino file) and push it in the arduino nano:  
 ![](./images/arduino_send.png)
 
 * Power up your RedPitaya and connect your computer on redpitaya WIFI network, password is redpitaya.
@@ -80,19 +80,19 @@ To download on your smartphone, you must follow the instructions given in the [a
 `ssh root@192.168.128.3`  
 `root`  
 
-* At this step, the power supply of the kit is still not power on (if you power it up, you will hear the motor whistle). Launch the code on the Redpitaya (enter ./probe or ./default_probe on you terminal) and when it write 'buffer length = 1689' (1689 is for the default_probe, if you have changed the settings, it may be another number) kill it by pressing CTRL+C. Now you can power up the kit (the motor will not whistle like this). We recommand to proceed like this because if not the motor may consume a lot of power and have a short-circuit behavior.
+* At this step, the power supply of the kit is still not power on (if you power it up, you will hear the motor whistle, turn it off). Launch the code on the Redpitaya (enter ./probe or ./default_probe on you terminal) and when it write 'buffer length = 1689' (1689 is for the default_probe, if you have changed the settings, it may be another number) kill it by pressing CTRL+C. Now you can power up the kit (the motor will not whistle like this). We recommand to proceed like this because if not the motor may consume a lot of power and have a short-circuit behavior.
 
-* Lanuch once again the code (by entering ./default_probe on your terminal). The motor will turn till it comes on the mechanical stop at knock on it (don't worry it's normal). Then it will turn in the other side to reach the beginning of the sweeping zone and make the sweeping movement.
+* Launch once again the code (by entering ./default_probe on your terminal). The motor will turn till it comes on the mechanical stop at knock on it (don't worry it's normal). Then it will turn in the other side to reach the beginning of the sweeping zone and make the sweeping movement.
 
 * When you want to stop press CTRL+C, to quit the ssh connection just enter exit in your terminal.
 
-# Display
+## Display
 
-## Android app
+### Android app
 
 Connect your smartphone to the redpitaya wireless (pass: redpitaya) and launch the echOpen app. And it's done, the echographic image must appear on your smartphone.
 
-## Computer display (for linux only)
+### Computer display (for linux only)
 
 One can also use the C software provided in ./src repo. This softs used are based on [gnuplot_i](http://ndevilla.free.fr/gnuplot/) tool, tuned for our uses. All the sources are provided here so one can modify them if desire.
 
