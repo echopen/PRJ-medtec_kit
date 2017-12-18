@@ -15,5 +15,5 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   pulse();
-  delayMicroseconds(500);
+  delayMicroseconds(2000);
 }

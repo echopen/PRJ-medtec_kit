@@ -16,12 +16,12 @@
 #define SOCKET_ERROR -1
 #define closesocket(s) close(s)
 
-extern float r0; //depth of beginning of measurement
-extern float rf; //depth of end of measurement
-extern int dec; //decimation, means that sampling rate is 125/dec Msps
-extern int Nline; //number of line per image
-extern double sector; //angle of the sector of the image
-extern int mode_RP; //mode=0 for measuring RAW data (data coded on 2 bytes), mode=1 for measuring envelope (data coded on 1 byte)
+extern float r0;
+extern float rf;
+extern int dec;
+extern int Nline;
+extern double sector;
+extern int mode_RP;
 pthread_t TCP_server_thread;
 
 typedef int SOCKET;
@@ -29,15 +29,15 @@ typedef struct sockaddr_in SOCKADDR_IN;
 typedef struct sockaddr SOCKADDR;
 typedef struct in_addr IN_ADiDR;
 typedef struct client client; //structure that contained client informations
-typedef struct server_info server_info; //structure need to make thread with server routine
+typedef struct server_info server_info; //structure need to make thread with server routinr
 
 void init_struct_client(client* client_list,unsigned int Nmax); //initialise client structure
 void clear_struct_client(client* client_list); //free malloc on struct client
 void add_client(client* client_list, SOCKET sock_server); //TCP server is initialised it add new client informations in structure client
 void clear_client(client* client_list,unsigned int id); //clear client with id_client==id form structure client and reorganize the structure
 void init_TCP_client(SOCKET* sock, const char* IP, int Port); //initialise TCP client
-int int_converter(char x); //convert data sended on 1 byte to int
-void get_RP_settings(SOCKET *sock); //receive settings sended by the RedPitaya and put them in global variable
+int int_converter(char x);
+void get_RP_settings(SOCKET *sock);
 void init_TCP_server(SOCKET* sock, int Port, client* client_list,unsigned int MaxClient); //initialise TCP server
 void *TCP_server_routine(void* p_data); //server routine function for thread, server turn in parallel to main
 void launch_server(SOCKET* sock, client* client_list); //function that launch the server in parallel to main
@@ -52,7 +52,7 @@ int receive_int16_TCP_client(SOCKET* sock, int16_t * buffer, int buff_length); /
 
 struct client
 {
-	unsigned int Nmax; //maximum number of clients that can connecte to the server
+	unsigned int Nmax;
 	unsigned int NbClient;
 	unsigned int* id_client;
 	SOCKET* sock_client;
@@ -88,16 +88,9 @@ void add_client(client* client_list, SOCKET sock_server)
 		unsigned int socklen=sizeof(SOCKADDR_IN);
 		SOCKET tmp;
 		//static unsigned int id=0;
-		int Nset=6; //number of settings sended to the client at connection
+		int Nset=6;
 		char buffer[Nset];
 		
-		buffer[0]=(char)r0;
-		buffer[1]=(char)rf;
-		buffer[2]=(char)dec;
-		buffer[3]=(char)Nline;
-		buffer[4]=(char)sector;
-		buffer[5]=(char)mode_RP;
-
 		if (client_list->NbClient<=client_list->Nmax)
 		{
 			tmp=accept(sock_server,(SOCKADDR *)&client_list->sin_client[client_list->NbClient],&socklen);
@@ -109,6 +102,13 @@ void add_client(client* client_list, SOCKET sock_server)
 			}
 			else
 			{
+				buffer[0]=(char)r0;
+		                buffer[1]=(char)rf;
+		                buffer[2]=(char)dec;
+		                buffer[3]=(char)Nline;
+		                buffer[4]=(char)sector;
+		                buffer[5]=(char)mode_RP;
+
 				send_TCP_server(client_list, buffer, Nset, client_list->NbClient);
 				client_list->NbClient+=1;
 				printf("Client number %i on %i, connected on socket = %i\n",client_list->NbClient,client_list->Nmax,client_list->sock_client[client_list->NbClient-1]);
@@ -223,6 +223,14 @@ void init_TCP_server(SOCKET* sock, int Port,client* client_list, unsigned int Ma
 	server.sin_port=htons(Port);
 	server.sin_addr.s_addr=INADDR_ANY; //allow all IP to access to the server
 
+	//Allow other sockets to bind() to this port, use to avoid Address already in use
+	int tr=1;
+	if (setsockopt((*sock),SOL_SOCKET,SO_REUSEADDR,&tr,sizeof(int)) == -1) 
+	{
+		perror("setsockopt");
+		exit(1);
+	}
+
 	//Link communication point
 	if (bind((*sock), (SOCKADDR *)&server, sizeof(SOCKADDR))==SOCKET_ERROR)
 	{
@@ -273,14 +281,37 @@ void close_TCP_server(SOCKET* sock, client* client_list)
 
 	pthread_cancel(TCP_server_thread);//close thread
 
-	for(i=0 ; i<client_list->NbClient ; i++){close(client_list->sock_client[i]);}
+	//for(i=0 ; i<client_list->NbClient ; i++){close(client_list->sock_client[i]);}
+	for(i=0 ; i<client_list->NbClient ; i++)
+        {
+        	if (shutdown(client_list->sock_client[i],SHUT_RDWR)!=0)
+		{
+			perror("shutdown server");
+			exit(1);
+		}
+        	if (close(client_list->sock_client[i])!=0)
+		{
+			perror("close");
+			exit(1);
+		}
+        }
+
 	close((*sock));
 	clear_struct_client(client_list);
 }
 
 void close_TCP_client(SOCKET* sock)
 {
-	close((*sock));
+	if (shutdown((*sock), SHUT_RDWR)!=0)
+	{
+		perror("shutdown client");
+		exit(1);
+	}
+	if (close((*sock))!=0)
+	{
+		perror("close");
+		exit(1);
+	}
 }
 
 int send_TCP_server(client* client_list, char* buffer, int buff_length, int target)

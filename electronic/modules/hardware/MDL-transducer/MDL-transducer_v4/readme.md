@@ -21,9 +21,11 @@ Frequencial impulse response of the transducer
 
 Characteristics:
 
-* Pulse duration at -6 dB: 382 ns (precision of 0.56 mm)
-* Acoustic pass-band: 2.13 MHz, from 2.21 to 4.33 MHz
-* Focal depth: 120 mm
+* Pulse duration at -6 dB: 382 ns (precision of 0.52 mm)
+* Acoustic pass-band: 2.80 MHz, from 3.37 to 6.18 MHz
+* Active diameter: 19 mm
+* Radiusof curvature: 118 mm
+* Focal depth: 92 mm
 * Excitation voltage: < -150 V
 
 ## Uses

@@ -7,15 +7,12 @@
 #include "echopenRP.h"
 
 #define PORT 7538
-#define level0 0.3
-#define levelf 1.0
-#define MotorSpeed 3.0
 
 float r0=80.0;
 float rf=160.0;
 int dec=8;
 int Nline=64;
-double sector=80.0;
+double sector=60.0;
 int mode_RP=0;
 int step=1;
 
@@ -33,18 +30,19 @@ int main (int agrc, char **argv)
 	//close server and RedPitaya if CTRL+C
 	signal(SIGINT, signal_callback_handler);
 
-	double speed=MotorSpeed; //1 for dec8 3 for dec1
+	double speed=3.0; //1 for dec8 3 for dec1
 
-	//data data_RP;
-	//float level0=0.3;
-	//float levelf=1.0;
+	float level0=0.3;
+	float levelf=1.0;
 	init_data(&data_RP, 5, PORT, level0, levelf, full);  //full_16
-	data_RP.angle=sector/((double)Nline);
+	data_RP.angle=sector/((double)Nline-1);
+	double sec;
+	sec=((double)Nline)*data_RP.angle;
 	printf("buffer length = %i\n", (int)data_RP.buffer_length);
 	//enable_stepper(&(data_RP.stepper));
 
 	int i=1;
-	int t=0000;
+	int t=0;
 	while(1)
 	{
 		for (i=0 ; i<Nline ; i++)
@@ -53,18 +51,12 @@ int main (int agrc, char **argv)
 			internal_trigger_acquisition_TCP(&data_RP, i+1);
 			usleep(t);
 		}
-		//usleep(10000);
 		for (i=Nline ; i>0 ; i--)
 		{
 			if (i!=Nline) {move(data_RP.stepper, &(data_RP.angle), &speed, sens2);}
 			internal_trigger_acquisition_TCP(&data_RP, i);
 			usleep(t);
 		}
-		//usleep(100000);
-		/*if(i>Nline){i=1;}
-		internal_trigger_acquisition_TCP(&data_RP, i);
-		i++;*/
-		//usleep(100000);
 	}
 
 	printf("close all\n");

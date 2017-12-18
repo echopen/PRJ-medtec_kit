@@ -2,10 +2,10 @@
 ![](viewme.png)
 
 ## Name
-[`DB-pulser_v1`]()
+[`DB-pulser_v2`]()
 
 ## Title
-Daughter board pulser version 1
+Daughter board pulser version 3
 
 ## Author
 * [`CTC-dubois_jerome`]()
@@ -39,11 +39,13 @@ If the cable connecting the transducer to the pulse is too long, one might have 
 
 -100V input is connected to P2 or P6 (angled socket and SMA connector respectively). Connector P4, P5, P7 and P8 are used to plugged the transducer and to connect with DB-tr_switch_tgc.
 
+A small 47 ohms resistors had to be add to have the pulse, it don't work without it.
+
 ## Results
 
 ## Pros/Cons/Constraint:
 
-**Pros:** NA
+**Pros:** cheap solution
 
 **Cons:** NA
 

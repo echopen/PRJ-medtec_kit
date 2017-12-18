@@ -2,7 +2,7 @@
 ![](viewme.png)
 
 ## Name
-[`DB-tr_switch_tgc_v1_2`]()
+[`DB-tr_switch_tgc_v2`]()
 
 ## Title
 Daughter board T/R switch, TGC version 1.2
@@ -38,9 +38,9 @@ Daughter board T/R switch, TGC version 1.2
 ## Remarks
 [BOM](./src/DB-tr_switch_tgc_v1_2.csv)
 
-This daughter board is the same than DB-tr_switch_tgc_v1_1 except that we use SMC component.
+This daughter board is made from AD8332 component wich is the same than AD8331 but with two TGC inside. The output of the first one is connect to the input of the second so we can acces 90 dB of amplification (on LO mode). 
 
-AD8331_EVALZ need 5V supply and ramp command for the VGA.
+The problem of this board is that the output of the VGA1 is connect to the input of the LNA2, but the LNA saturate with a small tension at input (around 250 mV). So if the amplification is wrong set we can have saturation of the TGC. A solution is to set the amplificition correctly or to connect output of VGA1 on input of VGA2, the maximum amplification will be reduce.
 
 Test point W1 is here to check that the signal is clamped by the MD0100. When it's good solder jumper JP1. Switch SW1 activate or desactivate the attenuator of AD8331 (HI/LO selection), if there is no noise on the signal one can desactivate the attenuator (LO side) to upper the amplification factor.
 

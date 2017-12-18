@@ -393,4 +393,19 @@ $EndComp
 Connection ~ 4800 2750
 Wire Wire Line
 	6150 5350 4300 5350
+$Comp
+L R R1
+U 1 1 59D64A31
+P 5800 4350
+F 0 "R1" V 5880 4350 50  0000 C CNN
+F 1 "47" V 5800 4350 50  0000 C CNN
+F 2 "Echopen:Resistor_TH_common" V 5730 4350 50  0001 C CNN
+F 3 "" H 5800 4350 50  0001 C CNN
+	1    5800 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 4200
+Wire Wire Line
+	5800 4500 5800 5050
+Connection ~ 5800 5050
 $EndSCHEMATC

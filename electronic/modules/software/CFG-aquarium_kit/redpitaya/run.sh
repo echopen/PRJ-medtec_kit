@@ -5,59 +5,49 @@
 # installed with install.sh.
 
 #Global variables definition
-IP=$1
-REDIRECT='/var/log/sdk_log/debug'
-EXECUTABLE=$(echo $2)
+IP=192.168.128.3
+EXE=probe
 
 usage(){
-  echo    "Usage: - Input argument 1: Red Pitaya IP address in form 192.168.128.3."
-  echo -e "       - Input argument 2: File to be copied, compiled and ran on a redpitaya system.\n"
+  echo    "Just run this run.sh file :)"
   exit 1
 }
 
-#TODO: Add timestamp to redirect output
-timeStamp(){
-  exit 1
-}
 
-if [ $# -eq 0 ] || [ $# -gt 2 ]
-  then
-     echo -e "\nWrong argument number!"
-     usage
-fi
-
-echo -e "\nEXECUTING RED PITAYA RUN SCRIPT..."
-echo -e "\nCOPYING RED PITAYA INCLUDES IF NECESSARY..."
-if [ -f "./inc/librp.so" ];then
-	echo "./inc/librp.so does exists. Not copying."
+echo "EXECUTING RED PITAYA RUN SCRIPT..."
+echo "COPYING RED PITAYA INCLUDES IF NECESSARY..."
+if [ -f "./srcbin/librp.so" ];then
+	echo "./srcbin/librp.so does exists. Not copying."
 else
-	echo "./inc/librp.so does exists. Copying..."
-	sshpass -p root scp -r root@$IP:/opt/redpitaya/lib/librp.so inc
+	echo "./srcbin/librp.so does not exists. Copying..."
+	sshpass -p root scp -r root@$IP:/opt/redpitaya/lib/librp.so srcbin
 fi
-if [ -f "./inc/rp.h" ];then
-	echo "./inc/rp.h does exists. Not copying."
+if [ -f "./srcbin/rp.h" ];then
+	echo "./srcbin/rp.h does exists. Not copying."
 else
-	echo "./inc/rp.h does not exists. Copying..."
-	sshpass -p root scp -r root@$IP:/opt/redpitaya/include/redpitaya/rp.h inc;
+	echo "./srcbin/rp.h does not exists. Copying..."
+	sshpass -p root scp -r root@$IP:/opt/redpitaya/include/redpitaya/rp.h srcbin
 fi
 
-echo -e "\nCOMPILING SOURCE FILE..."
+echo "COMPILING SOURCE FILE..."
 
-make all OBJECT=$2 TARGET=$EXECUTABLE
+if [ -e $EXE ]; then # if the file exist
+	rm $EXE
+fi
 
-#Remount red pitaya file system
-#sshpass -p root ssh root@$IP 'mount -o rw, remount /opt/redpitaya'
+arm-linux-gnueabi-gcc -g -O2 -std=gnu99 -Wall -Werror srcbin/$EXE.c -o $EXE -L./srcbin -lpthread -lrp #the dynamic library (.so) is located in srcbin so we need -L./srcbin 
 
-#Creating log directories
-sshpass -p root ssh root@$IP 'mkdir -p /var/log/sdk_log'
-sshpass -p root ssh root@$IP 'touch /var/log/sdk_log/debug'
+if [ "$?" -ne "0" ]; then
+	echo 'Failling to compile the code'
+	exit 1
+fi
 
-#Copying executable file to red pitaya
-echo -e "\nEXECUTING REMOTE FILE..."
-echo -e "\nOUTPUT: \n----------"
-sshpass -p root scp $PWD/$EXECUTABLE root@$IP:/tmp
-sshpass -p root ssh root@$IP '/tmp/'$EXECUTABLE' | tee '$REDIRECT
+sshpass -p root scp ./$EXE root@$IP:/root/
 
-#make clean
-echo -e "\n----------\nREMOVING ARTIFACTS..."
-#make clean TARGET=$EXECUTABLE
+if [ "$?" -eq "0" ]; then
+	sshpass -p root ssh root@192.168.128.3
+else
+	echo 'Error, you must connect to wifi network redpitaya,'
+	echo 'pass: redpitaya'
+	echo 'if successfull compilation, you can just make a scp to transfer the code'
+fi

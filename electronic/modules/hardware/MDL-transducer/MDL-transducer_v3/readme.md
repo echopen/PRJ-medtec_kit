@@ -13,6 +13,15 @@ Transducer version 3
 ## About
 A transducer is needed to create acoustic wave and to measure echoes.
 
+Characteristics:
+
+* Pulse duration at -6 dB: 349 ns (precision of 0.56 mm)
+* Acoustic pass-band: 2.13 MHz, from 2.21 to 4.33 MHz
+* Active diameter: 16 mm
+* Radius of curvature: 80 mm
+* Focale depth: 78 mm
+* Excitation voltage: < -150 V
+
 ## Uses
 ### Input
 * -100V pulse

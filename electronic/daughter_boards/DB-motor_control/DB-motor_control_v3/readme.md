@@ -70,7 +70,7 @@ Bottom view:
 
 ![](images/bottom_view.png)
 
-Cuts of tracks that must be done are represented by green lines and red lines with red dots represent wires that are used to link some tracks, the hole where they have to be soldering are representing by the red dots.
+Cuts of tracks that must be done are represented by green lines. Red lines with red dots represent wires that are used to link some tracks, the end of each wire (plain red dot) have to be soldered.
 
 Connectors P1 to P7 are represented in light blue and hole where to solder the different components are represented by hard blue dots.
 

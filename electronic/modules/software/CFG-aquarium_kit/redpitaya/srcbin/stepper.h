@@ -3,6 +3,7 @@
 
 #include<unistd.h>
 
+
 #define StepNumber 400 //number of step per tour of the stepper motor
 
 typedef struct stepper_motor stepper_motor; //so we can call stepper_motor and not struct stepper_motor
