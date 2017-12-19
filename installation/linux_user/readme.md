@@ -80,18 +80,18 @@ To download on your smartphone, you must follow the instructions given in the [a
 `ssh root@192.168.128.3`  
 `root`  
 
-* At this step, the power supply of the kit is still not power on (if you power it up, you will hear the motor whistle, turn it off). Launch the code on the Redpitaya (enter ./probe or ./default_probe on you terminal) and when it write 'buffer length = 1689' (1689 is for the default_probe, if you have changed the settings, it may be another number) kill it by pressing CTRL+C. Now you can power up the kit (the motor will not whistle like this). We recommand to proceed like this because if not the motor may consume a lot of power and have a short-circuit behavior.
+* At this step, the kit is still not power up (if you power it up, you will hear the motor whistle, turn it off). Launch the code on the Redpitaya (enter ./probe or ./default_probe on you terminal) and when it write 'buffer length = 1689' (1689 is for the default_probe, if you have changed the settings, it may be another number) kill it by pressing CTRL+C. Now you can power up the kit (the motor will not whistle like this). We recommand to proceed like this because if not, the motor may consume a lot of power and have a short-circuit behavior.
 
 * Launch once again the code (by entering ./default_probe on your terminal). The motor will turn till it comes on the mechanical stop at knock on it (don't worry it's normal). Then it will turn in the other side to reach the beginning of the sweeping zone and make the sweeping movement.
 
 * The default settings are:
     * beginning of measurement 80 mm,
     * end of measurement 160 mm,
-    * sampling rate 125/8 Msps,
+    * sampling rate 15.625 Msps,
     * angle of the sector 60°,
     * speed of the motor 3 tour per second,
-    * amplification command at beginning of measurement 0.1 V,
-    * amplification at end of measurement 1 V.
+    * amplification command at beginning of measurement 0.1 V (0.3 dB of amplification),
+    * amplification at end of measurement 1 V (43.5 dB of amplification).
 
 * When you want to stop press CTRL+C, to quit the ssh connection just enter exit in your terminal.
 
@@ -103,6 +103,6 @@ Connect your smartphone to the redpitaya wireless (pass: redpitaya) and launch t
 
 ### Computer display (for linux only)
 
-One can also use the C software provided in ./src repo. This softs used are based on [gnuplot_i](http://ndevilla.free.fr/gnuplot/) tool, tuned for our uses. All the sources are provided here so one can modify them if desire.
+One can also use the C software provided in ./src repo. This softs are based on [gnuplot_i](http://ndevilla.free.fr/gnuplot/) tool, tuned for our uses. All the sources are provided here so one can modify them if desire.
 
-probe_mode_A display line by line measurement such as an oscilloscope. probe_mode_B display the full image on gray scale such as an echographic machin, excepte there is no scan conversion (image display in a rectangle).
+probe_mode_A display line by line measurement such as an oscilloscope. probe_mode_B display the full image on gray scale such as an echographic machin, except there is no scan conversion (image display in a rectangle).
